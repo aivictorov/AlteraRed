@@ -1,0 +1,25 @@
+.brands-list {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	column-gap: 29px;
+	row-gap: 3px;
+	width: 806px;
+
+	li {
+		width: 138px;
+
+		a {
+			display: flex;
+			align-items: center;
+			column-gap: 10px;
+		}
+
+		span {
+			display: inline-block;
+			width: 38px;
+			height: 38px;
+			background-color: #004caf;
+		}
+	}
+}

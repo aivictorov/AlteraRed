@@ -1,0 +1,19 @@
+.section-ratings {
+	padding-top: 55px;
+	padding-bottom: 45px;
+}
+
+.section-ratings__title {
+	margin-bottom: 40px;
+}
+
+.section-ratings__site-cards {
+	margin-bottom: 54px;
+}
+
+.section-ratings__site-cards,
+.section-ratings__map-cards {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

@@ -1,0 +1,31 @@
+.section-cta {
+	position: relative;
+	width: 1400px;
+	height: 328px;
+	border-radius: 25px;
+	background-color: #262626;
+	margin: 0 auto;
+	overflow: hidden;
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: 94px;
+		left: -127px;
+		width: 881px;
+		height: 134px;
+		background-color: $accent-color;
+		filter: blur(99.5px);
+	}
+
+	&:after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 0px;
+		width: 474px;
+		height: 319px;
+		background-image: url('./../../img/section-cta/cta.png');
+		transform: translateY(-50%);
+	}
+}

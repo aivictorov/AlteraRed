@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- encoding -->
+	<meta charset="UTF-8" />
+
+	<!-- Mobile support -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Title and SEO -->
+	<title>Стартовый шаблон</title>
+	<meta name="description" content="Описание страницы" />
+	<meta name="keywords" content="ключевые слова, фразы" />
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<!-- Open Graph -->
+	<!-- <meta property="og:url" content="https://webcademy.ru/" /> -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Туристическое агентство Форест Тревел" />
+	<meta property="og:description" content="Турпоходы по дикой природе" />
+	<meta property="og:image" content="./img/opengraph.jpg" />
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="./img/favicon/safari-pinned-tab.symbol" color="#1a60cf">
+	<link rel="shortcut icon" href="./img/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#00aba9">
+	<meta name="msapplication-config" content="./img/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<svg style="display: none" xmlns="http://www.w3.org/2000/symbol">
+		<symbol id="icon-adress" viewBox="0 0 15 17">
+			<path d="M7.07143 0C8.94689 0 10.7455 0.745023 12.0717 2.07117C13.3978 3.39732 14.1429 5.19597 14.1429 7.07143C14.1429 9.999 11.9114 13.0664 7.54286 16.3429C7.40685 16.4449 7.24143 16.5 7.07143 16.5C6.90142 16.5 6.736 16.4449 6.6 16.3429C2.23143 13.0664 0 9.999 0 7.07143C0 5.19597 0.745023 3.39732 2.07117 2.07117C3.39732 0.745023 5.19597 0 7.07143 0ZM7.07143 1.57143C5.61274 1.57143 4.21379 2.15089 3.18234 3.18234C2.15089 4.21379 1.57143 5.61274 1.57143 7.07143C1.57143 9.20071 3.23557 11.6569 6.63771 14.3833L7.07143 14.7259L7.50514 14.3833C10.9073 11.6569 12.5714 9.20071 12.5714 7.07143C12.5714 5.61274 11.992 4.21379 10.9605 3.18234C9.92907 2.15089 8.53012 1.57143 7.07143 1.57143ZM7.07143 5.5C7.4882 5.5 7.8879 5.66556 8.1826 5.96026C8.4773 6.25496 8.64286 6.65466 8.64286 7.07143C8.64286 7.4882 8.4773 7.8879 8.1826 8.1826C7.8879 8.4773 7.4882 8.64286 7.07143 8.64286C6.65466 8.64286 6.25496 8.4773 5.96026 8.1826C5.66556 7.8879 5.5 7.4882 5.5 7.07143C5.5 6.65466 5.66556 6.25496 5.96026 5.96026C6.25496 5.66556 6.65466 5.5 7.07143 5.5Z" />
+		</symbol>
+		<symbol id="icon-shedule" viewBox="0 0 16 16">
+			<path d="M8 0C3.5888 0 0 3.5888 0 8C0 12.4112 3.5888 16 8 16C12.4112 16 16 12.4112 16 8C16 3.5888 12.4112 0 8 0ZM8 14.4C4.4712 14.4 1.6 11.5288 1.6 8C1.6 4.4712 4.4712 1.6 8 1.6C11.5288 1.6 14.4 4.4712 14.4 8C14.4 11.5288 11.5288 14.4 8 14.4Z" />
+			<path d="M8.79922 4H7.19922V8.8H11.9992V7.2H8.79922V4Z" />
+		</symbol>
+		<symbol id="icon-whatsapp" viewBox="0 0 20 20">
+			<path d="M18.5043 4.62488C15.5125 -0.000152887 9.40435 -1.37516 4.6674 1.49986C0.0551144 4.37488 -1.44076 10.6249 1.55099 15.25L1.80031 15.625L0.803054 19.375L4.54275 18.375L4.91672 18.625C6.53725 19.5 8.28244 20 10.0276 20C11.8975 20 13.7673 19.5 15.3879 18.5C20.0002 15.5 21.3714 9.37492 18.5043 4.62488ZM15.8865 14.25C15.3879 15 14.7646 15.5 13.892 15.625C13.3934 15.625 12.7701 15.875 10.2769 14.875C8.15779 13.875 6.4126 12.2499 5.16603 10.3749C4.41809 9.49992 4.04412 8.37491 3.91947 7.2499C3.91947 6.2499 4.29344 5.37489 4.91672 4.74988C5.16603 4.49988 5.41534 4.37488 5.66466 4.37488H6.28794C6.53725 4.37488 6.78656 4.37488 6.91122 4.87488C7.16053 5.49989 7.78382 6.9999 7.78382 7.1249C7.90847 7.2499 7.90847 7.49991 7.78382 7.62491C7.90847 7.87491 7.78382 8.12491 7.65916 8.24991C7.5345 8.37491 7.40985 8.62491 7.28519 8.74991C7.03588 8.87492 6.91122 9.12492 7.03588 9.37492C7.5345 10.1249 8.15779 10.8749 8.78107 11.4999C9.52901 12.1249 10.2769 12.6249 11.1495 12.9999C11.3989 13.1249 11.6482 13.1249 11.7728 12.8749C11.8975 12.6249 12.5208 11.9999 12.7701 11.7499C13.0194 11.4999 13.144 11.4999 13.3934 11.6249L15.3879 12.6249C15.6372 12.7499 15.8865 12.8749 16.0111 12.9999C16.1358 13.3749 16.1358 13.875 15.8865 14.25Z" />
+		</symbol>
+		<symbol id="icon-phone" viewBox="0 0 31 31">
+			<path d="M23.6889 19.7226L21.9151 18.54L20.3383 17.489C20.034 17.2865 19.625 17.3529 19.4004 17.6412L18.4247 18.8956C18.2151 19.1677 17.838 19.246 17.5375 19.0796C16.8754 18.7113 16.0925 18.3645 14.3651 16.6349C12.6377 14.9053 12.2887 14.1246 11.9204 13.4625C11.754 13.162 11.8323 12.7849 12.1044 12.5754L13.3588 11.5997C13.6471 11.375 13.7135 10.9661 13.5111 10.6617L12.4923 9.13348L11.2774 7.31112C11.0706 7.00094 10.6567 6.90781 10.337 7.09953L8.93591 7.94008C8.55726 8.16318 8.27892 8.52342 8.15855 8.94614C7.77539 10.3431 7.69814 13.4247 12.6368 18.3634C17.5755 23.3021 20.6569 23.2246 22.0538 22.8414C22.4766 22.7211 22.8368 22.4427 23.0599 22.0641L23.9004 20.663C24.0922 20.3433 23.9991 19.9294 23.6889 19.7226Z" />
+		</symbol>
+		<symbol id="icon-favourite" viewBox="0 0 26 23">
+			<path d="M2.7752 11.5622L13 22L23.2248 11.5622C24.3614 10.4019 25 8.82813 25 7.18718C25 3.7701 22.2864 1 18.9391 1C17.3316 1 15.79 1.65186 14.6534 2.81218L13 4.5L11.3466 2.81218C10.21 1.65186 8.66837 1 7.06092 1C3.71356 1 1 3.7701 1 7.18718C1 8.82813 1.63856 10.4019 2.7752 11.5622Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+		</symbol>
+		<symbol id="icon-compare" viewBox="0 0 19 23">
+			<path d="M11.7667 19C11.7667 20.6569 13.1098 22 14.7667 22H15C16.6569 22 18 20.6569 18 19V11.6364C18 9.97951 16.6569 8.63636 15 8.63636H14.7667C13.1098 8.63636 11.7667 9.97951 11.7667 11.6364V19Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+			<path d="M1 19C1 20.6569 2.34314 22 4 22H4.23333C5.89019 22 7.23333 20.6569 7.23333 19V4C7.23333 2.34315 5.89019 1 4.23333 1H4C2.34315 1 1 2.34315 1 4V19Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+		</symbol>
+		<symbol id="icon-search" viewBox="0 0 23 23">
+			<path d="M22 22L15.3397 15.3397M9.4 17.8C4.76081 17.8 1 14.0392 1 9.4C1 4.76081 4.76081 1 9.4 1C14.0392 1 17.8 4.76081 17.8 9.4C17.8 14.0392 14.0392 17.8 9.4 17.8Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+		</symbol>
+	</svg>
+
+	<header class="header">
+		<section class="header-top">
+			<div class="container">
+				<div class="header-top__row">
+					<div class="header-top__left-column">
+						<div class="header-top__adress">
+							<span>
+								<svg width="15" height="17">
+									<use href="#icon-adress"></use>
+								</svg>
+							</span>
+							Россия, Москва, 38КМ МКАД, 6Бс1
+						</div>
+						<div class="header-top__shedule">
+							<span>
+								<svg width="16" height="16">
+									<use href="#icon-shedule"></use>
+								</svg>
+							</span>
+							Время работы: c 08:00 до 21:00
+						</div>
+					</div>
+					<div class="header-top__right-column">
+						<div class="header-top__whatsapp">
+							<span>
+								<svg width="20" height="20">
+									<use href="#icon-whatsapp"></use>
+								</svg>
+							</span>
+							Whatsapp
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="header-middle">
+			<div class="container">
+				<div class="header-middle__row">
+					<div class="nav-icon">
+						<div class="nav-icon__stripe"></div>
+					</div>
+					<div class="header-middle__logo">
+						<img src="./img/header/header-middle/logo.svg" alt="logo">
+					</div>
+					<div class="header-middle__slogan">
+						<span>10 лет</span>
+						превосходим ваши ожидания
+					</div>
+					<ul class="header-middle__menu">
+						<li><a href="#!">Подбор авто</a></li>
+						<li><a href="#!">О компании</a></li>
+						<li><a href="#!">Техцентр</a></li>
+						<li><a href="#!">Отзывы</a></li>
+						<li><a href="#!">Контакты</a></li>
+					</ul>
+					<div class="header-middle__phones">
+						<div class="header-middle__phone-main">
+							<span>
+								<svg width="31" height="31">
+									<use href="#icon-phone"></use>
+								</svg>
+							</span>
+							+7 (800) 551-94-31
+						</div>
+						<div class="header-middle__phone-add">
+							+7 (495) 292-18-67
+						</div>
+					</div>
+					<div class="header-middle__button">
+						<button class="button">Обратный звонок</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="header-bottom">
+			<div class="container">
+				<div class="header-bottom__row">
+					<ul class="header-bottom__menu">
+						<li><a href="#!">Каталог авто</a></li>
+						<li><a href="#!">Авто с пробегом</a></li>
+						<li><a href="#!">Кредит и рассрочка</a></li>
+						<li><a href="#!">Спецпредложения</a></li>
+						<li><a href="#!">Такси в кредит</a></li>
+					</ul>
+					<div class="header-bottom__icons">
+						<svg width="26" height="23" stroke="#737373" fill="transparent">
+							<use href="#icon-favourite"></use>
+						</svg>
+						<svg width="19" height="23" stroke="#737373" fill="transparent">
+							<use href="#icon-compare"></use>
+						</svg>
+						<svg width="23" height="23" stroke="#737373" fill="transparent">
+							<use href="#icon-search"></use>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</section>
+	</header>
+	<section class="section-hero">
+		<div class="container">
+			<div class="section-hero__content">
+				<div class="section-hero__badge">
+					Осталось всего 10 авто!
+				</div>
+				<div class="section-hero__title">
+					<h1 class="h1">
+						Грандиозная распродажа тестового парка!
+					</h1>
+				</div>
+				<div class="section-hero__subtitle">
+					Узнай свою цену!
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<main class="main">
+		<section class="section-select">
+			<div class="section-select__row">
+				<ul class="brands-list">
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+					<li><a href="#!"><span></span>mitsubishi</a></li>
+				</ul>
+				<form class="select-form">
+					<div class="select-form__title">
+						<h3 class="h3">Быстрый подбор авто</h3>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="section-stock">
+			<div class="container">
+				<div class="section-stock__title">
+					<h2 class="h2">Автомобили в наличии с ПТС</h2>
+				</div>
+				<div class="section-stock__cards">
+					<div class="auto-card"></div>
+					<div class="auto-card"></div>
+					<div class="auto-card"></div>
+					<div class="auto-card"></div>
+					<div class="auto-card"></div>
+					<div class="auto-card"></div>
+				</div>
+				<div class="section-stock__button">
+					<button class="button button--h65">Показать еще</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-collections">
+			<div class="container">
+				<div class="section-collections__title">
+					<h2 class="h2">Наши подборки</h2>
+					<span>Все подборки</span>
+				</div>
+				<div class="section-collections__cards">
+					<div class="collection-card">
+						<img src="./img/section-collections/collection-1.jpg" alt="">
+					</div>
+					<div class="collection-card">
+						<img src="./img/section-collections/collection-2.jpg" alt="">
+					</div>
+					<div class="collection-card">
+						<img src="./img/section-collections/collection-3.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-cta">
+		</section>
+
+		<section class="section-offers">
+			<div class="container">
+				<div class="section-offers__title">
+					<h2 class="h2">Спецпредложения</h2>
+				</div>
+				<div class="section-offers__cards">
+					<div class="offer-card"></div>
+					<div class="offer-card"></div>
+					<div class="offer-card"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-loan">
+			<div class="container">
+				<div class="section-loan__title">
+					<h2 class="h2">Заявка на автокредит</h2>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-banks">
+			<div class="container">
+				<div class="section-banks__title">
+					<h2 class="h2">Банки-партнеры</h2>
+				</div>
+				<div class="section-banks__cards">
+					<div class="bank-card">
+						<div class="bank-card__logo">
+							<img src="./img/section-banks/bank-1.png" alt="bank-logo">
+						</div>
+					</div>
+					<div class="bank-card">
+						<div class="bank-card__logo">
+							<img src="./img/section-banks/bank-2.png" alt="bank-logo">
+						</div>
+					</div>
+					<div class="bank-card">
+						<div class="bank-card__logo">
+							<img src="./img/section-banks/bank-3.png" alt="bank-logo">
+						</div>
+					</div>
+					<div class="bank-card">
+						<div class="bank-card__logo">
+							<img src="./img/section-banks/bank-4.png" alt="bank-logo">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-ratings">
+			<div class="container">
+				<div class="section-ratings__title">
+					<h2 class="h2">Нам доверяют</h2>
+				</div>
+				<div class="section-ratings__site-cards">
+					<div class="rating-site-card"></div>
+					<div class="rating-site-card"></div>
+					<div class="rating-site-card"></div>
+					<div class="rating-site-card"></div>
+				</div>
+				<div class="section-ratings__map-cards">
+					<div class="rating-map-card"></div>
+					<div class="rating-map-card"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-reviews">
+			<div class="container">
+				<div class="section-reviews__title">
+					<h2 class="h2">Отзывы</h2>
+				</div>
+				<div class="section-reviews__cards">
+					<div class="review-card">
+						<div class="review-card__image"></div>
+						<div class="review-card__content"></div>
+					</div>
+					<div class="review-card">
+						<div class="review-card__image"></div>
+						<div class="review-card__content"></div>
+					</div>
+					<div class="review-card">
+						<div class="review-card__image"></div>
+						<div class="review-card__content"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-about">
+			<div class="container">
+				<div class="section-about__title">
+					<h2 class="h2">О компании</h2>
+				</div>
+				<div class="section-about__text">
+					<p>Мы располагаем огромной торговой площадкой более 5000 квадратных метров, у нас в наличии не менее 200 автомобилей как отечественного, так и иностранного производства. В штате автосалона «Альтера» работают настоящие профессионалы, которые знают особенности каждого конкретного автомобиля.</p>
+				</div>
+				<div class="section-about__video">
+					<video controls playsinline muted poster="./img/section-about/poster.jpg">
+						<source src="./img/section-about/greeting.mp4" type="video/mp4">
+					</video>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-blog">
+			<div class="container">
+				<div class="section-blog__title">
+					<h2 class="h2">Блог</h2>
+				</div>
+				<div class="section-blog__cards">
+					<div class="blog-card">
+						<div class="blog-card__image">
+							<img src="./img/section-blog/blog-1.jpg" alt="post">
+						</div>
+						<div class="blog-card__date">
+							25 октября
+						</div>
+						<div class="blog-card__title">
+							Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+						</div>
+					</div>
+					<div class="blog-card">
+						<div class="blog-card__image">
+							<img src="./img/section-blog/blog-1.jpg" alt="post">
+						</div>
+						<div class="blog-card__date">
+							25 октября
+						</div>
+						<div class="blog-card__title">
+							Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+						</div>
+					</div>
+					<div class="blog-card">
+						<div class="blog-card__image">
+							<img src="./img/section-blog/blog-1.jpg" alt="post">
+						</div>
+						<div class="blog-card__date">
+							25 октября
+						</div>
+						<div class="blog-card__title">
+							Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+						</div>
+					</div>
+					<div class="blog-card">
+						<div class="blog-card__image">
+							<img src="./img/section-blog/blog-1.jpg" alt="post">
+						</div>
+						<div class="blog-card__date">
+							25 октября
+						</div>
+						<div class="blog-card__title">
+							Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>
+
+		<section class="section-tabs">
+			<div class="container">
+				<ul class="section-tabs__list">
+					<li>Автосалон</li>
+					<li>Трейд-ин</li>
+					<li>Покупка</li>
+				</ul>
+				<div class="section-tabs__item">
+					<div class="section-tabs__item-title">
+						<h2 class="h2">Об автосалоне ABC</h2>
+					</div>
+					<div class="section-tabs__item-text">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor, eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla iaculis a orci sit amet iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-map">
+			<img src="./img/map/map.jpg" alt="map">
+		</section>
+	</main>
+
+	<footer class="footer">
+		Footer. Всегда внизу страницы
+	</footer>
+</body>
+
+</html>

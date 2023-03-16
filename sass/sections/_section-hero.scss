@@ -1,0 +1,67 @@
+.section-hero {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 38px;
+	padding-top: 81px;
+	width: 1870px;
+	height: 600px;
+	background: #EFF0F0;
+	border-radius: 25px;
+
+	&::before {
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 1222px;
+		height: 100%;
+		background-image: url("./../../img/section-hero/background.png");
+		background-repeat: no-repeat;
+		background-blend-mode: multiply;
+		opacity: 0.58;
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		right: 82px;
+		bottom: 43px;
+		width: 1037px;
+		height: 388px;
+		background-image: url("./../../img/section-hero/cars.png");
+		background-repeat: no-repeat;
+	}
+}
+
+.section-hero__content {
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	max-width: 730px;
+	z-index: 9;
+}
+
+.section-hero__badge {
+	margin-bottom: 35px;
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 29px;
+	border-radius: 15px;
+	background-color: $accent-color;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 29px;
+	color: #FFF;
+}
+
+.section-hero__title {
+	margin-bottom: 24px;
+}
+
+.section-hero__subtitle {
+	font-size: 29px;
+	line-height: 1.17;
+	color: $gray-color;
+}
