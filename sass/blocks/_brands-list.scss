@@ -16,10 +16,11 @@
 		}
 
 		span {
-			display: inline-block;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			width: 38px;
 			height: 38px;
-			background-color: #004caf;
 		}
 	}
 }

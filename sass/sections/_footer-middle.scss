@@ -1,0 +1,73 @@
+.footer-middle {
+	padding-top: 60px;
+	padding-bottom: 70px;
+	background-color: #262626;
+}
+
+.footer-middle__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.footer-middle__catalog {
+	width: 735px;
+}
+
+.footer-middle__title {
+	position: relative;
+	margin-bottom: 35px;
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: #FFF;
+
+	&::after {
+		content: "";
+		position: absolute;
+		bottom: -9px;
+		left: 0;
+		width: 34px;
+		height: 2px;
+		background-color: $accent-color;
+	}
+}
+
+.footer-middle__brands-list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	column-gap: 15px;
+	max-height: 200px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 2;
+	text-transform: capitalize;
+	
+	color: $gray-color;
+
+	li {
+		display: block;
+		width: 110px;
+
+		a {
+			text-decoration: underline;
+		}
+	}
+}
+
+.footer-middle__credit {
+	width: 210px;
+}
+
+.footer-middle__credit-menu {
+	font-size: 16px;
+	line-height: 2;
+	text-decoration-line: underline;
+	color: $gray-color;
+}
+
+.footer-middle__contacts {
+	width: 326px;
+}

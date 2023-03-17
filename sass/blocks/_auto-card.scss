@@ -1,6 +1,152 @@
 .auto-card {
+	position: relative;
+	padding: 25px;
 	width: 446px;
 	height: 449px;
-	background-color: #fff;
-	border: 1px solid #000;
+	border: 1px solid #E1E1E1;
+	border-radius: 25px;
+	background-image: url('./../../img/section-stock/background.png');
+	background-repeat: no-repeat;
+	background-position: top 34px right 0;
+
+	&::after {
+		content: "";
+		position: absolute;
+		top: 135px;
+		right: 25px;
+		width: 273px;
+		height: 152px;
+		background-image: url('./../../img/section-stock/car.png');
+		background-repeat: no-repeat;
+	}
+}
+
+.auto-card__title {
+	margin-bottom: 20px;
+	max-width: 230px;
+	font-weight: 700;
+	font-size: 27px;
+	line-height: 1.19;
+	text-transform: capitalize;
+}
+
+
+
+.auto-card__badge-row {
+	display: flex;
+	align-items: center;
+	column-gap: 15px;
+	margin-bottom: 11px;
+
+	.auto-card__badge {
+		padding-left: 15px;
+		padding-right: 15px;
+		height: 28px;
+		background-color: $accent-color;
+		border-radius: 4px;
+		font-size: 13px;
+		line-height: 28px;
+		color: #FFF;
+	}
+
+	.auto-card__badge-notice {
+		max-width: 75px;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 1.17;
+		color: $accent-color;
+	}
+
+}
+
+
+
+.auto-card__bonus-list {
+	margin-bottom: 20px;
+
+	li {
+		position: relative;
+		padding-left: 41px;
+		max-width: 140px;
+		font-size: 13px;
+		line-height: 1.15;
+
+		span {
+			display: block;
+			color: $accent-color;
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 10px;
+		}
+
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 32px;
+			height: 32px;
+			border-radius: 50%;
+			background-color: #262626;
+		}
+	}
+}
+
+.auto-card__price-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 10px;
+
+	.auto-card__price {
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 1.18;
+	}
+
+	.auto-card__loan {
+		font-size: 16px;
+		line-height: 1;
+
+		span {
+			font-weight: 700;
+		}
+	}
+}
+
+.auto-card__params {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	font-size: 12px;
+	line-height: 1.17;
+
+	li {
+		width: 94px;
+		height: 31px;
+		border-radius: 16px;
+		border: 1px solid rgba(194, 194, 196, 0.57);
+		text-align: center;
+		line-height: 29px;
+	}
+}
+
+.auto-card__buttons-row {
+
+	display: flex;
+	align-items: center;
+
+	button {
+		width: 132px;
+		height: 50px;
+		// background-color: $accent-color;
+		// border-radius: 6px;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 50px;
+		// color: #FFF;
+	}
 }

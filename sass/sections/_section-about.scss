@@ -22,15 +22,7 @@
 	height: 573px;
 
 	&::after {
-		content: "";
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		width: 67px;
-		height: 67px;
-		border-radius: 50%;
-		background-color: $accent-color;
+		@include play-icon;
 	}
 
 	video {
