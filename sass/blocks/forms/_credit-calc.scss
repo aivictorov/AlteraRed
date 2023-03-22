@@ -1,0 +1,145 @@
+.credit-calc {
+	width: 923px;
+
+	@media (max-width: 1899px) {
+		width: 875px;
+	}
+}
+
+.credit-calc__first-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 25px;
+	padding: 23px;
+	height: 92px;
+	background: rgba(194, 194, 196, 0.5);
+	border-radius: 25px;
+
+	& .dropdown {
+		width: calc((100% - 36px) / 3);
+	}
+}
+
+.credit-calc__second-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	column-gap: 52px;
+	margin-bottom: 25px;
+
+	@media (max-width: 1899px) {
+		column-gap: 28px;
+	}
+}
+
+.credit-calc__img {
+	margin-bottom: 25px;
+	width: 424px;
+
+	@media (max-width: 1899px) {
+		width: 400px;
+	}
+
+	img {
+		width: 100%;
+		height: 243px;
+		object-fit: cover;
+
+		@media (max-width: 1899px) {
+			height: 229px;
+		}
+	}
+}
+
+.credit-calc__inputs {
+	width: 446px;
+}
+
+.credit-calc__third-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	column-gap: 52px;
+
+	@media (max-width: 1899px) {
+		column-gap: 28px;
+	}
+}
+
+.credit-calc__progress-bar {
+	width: 424px;
+
+	@media (max-width: 1899px) {
+		width: 400px;
+	}
+}
+
+.progress-bar {
+	width: 100%;
+}
+
+.progress-bar__values {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 18px;
+
+	span {
+		display: inline-block;
+		width: 78px;
+		height: 23px;
+		background-color: #ADADB0;
+		border-radius: 30px;
+		font-weight: 900;
+		font-size: 16px;
+		line-height: 23px;
+		text-align: center;
+		color: #FFF;
+	}
+}
+
+.progress-bar__track {
+	width: 100%;
+	height: 6px;
+	background-color: #E1E1E1;
+}
+
+.progress-bar__labels {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 10px;
+	padding-bottom: 14px;
+
+	span {
+		font-size: 16px;
+		line-height: 1.19;
+		color: #ADADB0;
+
+		&:first-child {
+			text-align-last: left;
+		}
+
+		&:last-child {
+			text-align-last: right;
+		}
+	}
+}
+
+.credit-calc__fee {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 446px;
+
+	label {
+		max-width: 150px;
+		font-size: 16px;
+		line-height: 1.19;
+	}
+
+	input {
+		width: 250px;
+	}
+}

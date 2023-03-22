@@ -1,0 +1,78 @@
+.header-middle {
+	padding-top: 22px;
+	padding-bottom: 13px;
+}
+
+.header-middle__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 20px;
+}
+
+.header-middle__logo {
+	width: 198px;
+	height: 58px;
+	object-fit: cover;
+}
+
+.header-middle__slogan {
+	padding-left: 20px;
+	border-left: 1px solid #C2C2C4;
+	max-width: 190px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.header-middle__menu {
+	display: flex;
+	align-items: center;
+	column-gap: 16px;
+	font-size: 14px;
+	line-height: 1.14;
+
+	li {
+		transition: color .2s ease-in;
+	}
+
+	li:hover,
+	li:active {
+		color: $accent-color;
+		text-decoration: underline !important;
+	}
+}
+
+.header-middle__phones {
+	text-align: right;
+}
+
+.header-middle__phone-main {
+	display: flex;
+	align-items: center;
+	column-gap: 12px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.17;
+
+	span {
+		display: inline-block;
+		width: 31px;
+		height: 31px;
+		border-radius: 50%;
+		background-color: $accent-color;
+	}
+
+	svg {
+		fill: #FFF;
+	}
+}
+
+.header-middle__phone-add {
+	font-size: 16px;
+	line-height: 1.19;
+}
+
+.header-middle__button {
+	width: 210px;
+}

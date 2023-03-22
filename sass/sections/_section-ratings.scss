@@ -1,6 +1,5 @@
 .section-ratings {
-	padding-top: 55px;
-	padding-bottom: 45px;
+	padding-top: 110px;
 }
 
 .section-ratings__title {
@@ -9,9 +8,13 @@
 
 .section-ratings__site-cards {
 	margin-bottom: 54px;
+
+	.owl-carousel .owl-stage-outer {
+		margin: -20px;
+		padding: 20px;
+	}
 }
 
-.section-ratings__site-cards,
 .section-ratings__map-cards {
 	display: flex;
 	justify-content: space-between;

@@ -1,0 +1,31 @@
+// .footer-top {}
+
+.footer-top__bg {
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #262626;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	z-index: 0;
+}
+
+.footer-top__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.19;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+	li {
+		transition: color .2s ease-in;
+	}
+
+	li:hover {
+		color: $accent-color;
+	}
+}

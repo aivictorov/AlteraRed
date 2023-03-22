@@ -1,11 +1,13 @@
 .section-cta {
+	padding-top: 90px;
+}
+
+.section-cta__bg {
 	position: relative;
-	padding: 66px 150px 50px 477px;
-	width: 1400px;
-	height: 328px;
-	border-radius: 25px;
 	background-color: #262626;
-	margin: 0 auto;
+	border-radius: 25px;
+	padding: 66px 150px 50px 477px;
+	min-height: 328px;
 	overflow: hidden;
 
 	&:before {
@@ -26,7 +28,7 @@
 		left: 0px;
 		width: 474px;
 		height: 319px;
-		background-image: url('./../../img/section-cta/cta.png');
+		background-image: url('./../img/section-cta/cta.png');
 		transform: translateY(-50%);
 	}
 }
@@ -58,24 +60,16 @@
 
 .cta-form__row {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	column-gap: 38px;
 	margin-bottom: 22px;
 }
 
-.cta-form__input {
-	padding: 25px 20px;
-	width: 369px;
-	height: 65px;
-	background-color: #FFF;
-	border: 1px solid #EFF0F0;
-	border-radius: 6px;
+.cta-form__item {
+	width: calc(50% - 38px / 2)
 }
 
-.cta-form__button {
-	width: 369px;
-	height: 65px;
-}
 
 .cta-form__notice {
 	font-size: 13px;

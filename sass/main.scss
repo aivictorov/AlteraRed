@@ -5,31 +5,45 @@
 @import "./base/base";
 
 // Blocks
-@import "./blocks/logo";
-@import "./blocks/nav-icon";
+@import "./blocks/badges";
+@import "./blocks/icons";
 @import "./blocks/buttons";
+@import "./blocks/double-range";
+@import "./blocks/dropdowns";
+@import "./blocks/header-dropdown";
+@import "./blocks/inputs";
+@import "./blocks/nav-icon";
+@import "./blocks/play-icon";
+@import "./blocks/single-range";
+@import "./blocks/slider";
 @import "./blocks/titles";
-@import "./blocks/brands-list";
-@import "./blocks/select-form";
-@import "./blocks/auto-card";
-@import "./blocks/collection-card";
-@import "./blocks/offer-card";
-@import "./blocks/bank-card";
-@import "./blocks/rating-cards";
-@import "./blocks/review-card";
-@import "./blocks/blog-card";
+
+@import "./blocks/cards/auto-card";
+@import "./blocks/cards/collection-card";
+@import "./blocks/cards/offer-card";
+@import "./blocks/cards/bank-card";
+@import "./blocks/cards/rating-cards";
+@import "./blocks/cards/review-card";
+@import "./blocks/cards/blog-card";
+
+@import "./blocks/forms/select-form";
+@import "./blocks/forms/credit-calc";
+@import "./blocks/forms/credit-offer";
+
+@import "./blocks/popups/order-popup";
 
 // Sections
-@import "./sections/header-top";
-@import "./sections/header-middle";
-@import "./sections/header-bottom";
-@import "./sections/section-hero";
+@import "./sections/header/header-top";
+@import "./sections/header/header-middle";
+@import "./sections/header/header-bottom";
+
+@import "./sections/section-slider";
 @import "./sections/section-select";
 @import "./sections/section-stock";
 @import "./sections/section-collections";
 @import "./sections/section-cta";
 @import "./sections/section-offers";
-@import "./sections/section-loan";
+@import "./sections/section-credit";
 @import "./sections/section-banks";
 @import "./sections/section-ratings";
 @import "./sections/section-reviews";
@@ -37,6 +51,7 @@
 @import "./sections/section-blog";
 @import "./sections/section-tabs";
 @import "./sections/section-map";
-@import "./sections/footer-top";
-@import "./sections/footer-middle";
-@import "./sections/footer-bottom";
+
+@import "./sections/footer/footer-top";
+@import "./sections/footer/footer-middle";
+@import "./sections/footer/footer-bottom";

@@ -19,6 +19,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
 	<!-- Styles -->
+	<link rel="stylesheet" href="./libs/owl-carousel2/owl.carousel.min.css">
 	<link rel="stylesheet" href="./css/main.css" />
 
 	<!-- Open Graph -->
@@ -41,18 +42,18 @@
 </head>
 
 <body>
-	<svg style="display: none" xmlns="http://www.w3.org/2000/symbol">
-		<symbol id="icon-adress" viewBox="0 0 15 17">
+	<svg style="display: none" xmlns="http://www.w3.org/2000/svg">
+		<symbol id="icon-header-adress" viewBox="0 0 15 17">
 			<path d="M7.07143 0C8.94689 0 10.7455 0.745023 12.0717 2.07117C13.3978 3.39732 14.1429 5.19597 14.1429 7.07143C14.1429 9.999 11.9114 13.0664 7.54286 16.3429C7.40685 16.4449 7.24143 16.5 7.07143 16.5C6.90142 16.5 6.736 16.4449 6.6 16.3429C2.23143 13.0664 0 9.999 0 7.07143C0 5.19597 0.745023 3.39732 2.07117 2.07117C3.39732 0.745023 5.19597 0 7.07143 0ZM7.07143 1.57143C5.61274 1.57143 4.21379 2.15089 3.18234 3.18234C2.15089 4.21379 1.57143 5.61274 1.57143 7.07143C1.57143 9.20071 3.23557 11.6569 6.63771 14.3833L7.07143 14.7259L7.50514 14.3833C10.9073 11.6569 12.5714 9.20071 12.5714 7.07143C12.5714 5.61274 11.992 4.21379 10.9605 3.18234C9.92907 2.15089 8.53012 1.57143 7.07143 1.57143ZM7.07143 5.5C7.4882 5.5 7.8879 5.66556 8.1826 5.96026C8.4773 6.25496 8.64286 6.65466 8.64286 7.07143C8.64286 7.4882 8.4773 7.8879 8.1826 8.1826C7.8879 8.4773 7.4882 8.64286 7.07143 8.64286C6.65466 8.64286 6.25496 8.4773 5.96026 8.1826C5.66556 7.8879 5.5 7.4882 5.5 7.07143C5.5 6.65466 5.66556 6.25496 5.96026 5.96026C6.25496 5.66556 6.65466 5.5 7.07143 5.5Z" />
 		</symbol>
-		<symbol id="icon-shedule" viewBox="0 0 16 16">
+		<symbol id="icon-header-shedule" viewBox="0 0 16 16">
 			<path d="M8 0C3.5888 0 0 3.5888 0 8C0 12.4112 3.5888 16 8 16C12.4112 16 16 12.4112 16 8C16 3.5888 12.4112 0 8 0ZM8 14.4C4.4712 14.4 1.6 11.5288 1.6 8C1.6 4.4712 4.4712 1.6 8 1.6C11.5288 1.6 14.4 4.4712 14.4 8C14.4 11.5288 11.5288 14.4 8 14.4Z" />
 			<path d="M8.79922 4H7.19922V8.8H11.9992V7.2H8.79922V4Z" />
 		</symbol>
-		<symbol id="icon-whatsapp" viewBox="0 0 20 20">
+		<symbol id="icon-header-whatsapp" viewBox="0 0 20 20">
 			<path d="M18.5043 4.62488C15.5125 -0.000152887 9.40435 -1.37516 4.6674 1.49986C0.0551144 4.37488 -1.44076 10.6249 1.55099 15.25L1.80031 15.625L0.803054 19.375L4.54275 18.375L4.91672 18.625C6.53725 19.5 8.28244 20 10.0276 20C11.8975 20 13.7673 19.5 15.3879 18.5C20.0002 15.5 21.3714 9.37492 18.5043 4.62488ZM15.8865 14.25C15.3879 15 14.7646 15.5 13.892 15.625C13.3934 15.625 12.7701 15.875 10.2769 14.875C8.15779 13.875 6.4126 12.2499 5.16603 10.3749C4.41809 9.49992 4.04412 8.37491 3.91947 7.2499C3.91947 6.2499 4.29344 5.37489 4.91672 4.74988C5.16603 4.49988 5.41534 4.37488 5.66466 4.37488H6.28794C6.53725 4.37488 6.78656 4.37488 6.91122 4.87488C7.16053 5.49989 7.78382 6.9999 7.78382 7.1249C7.90847 7.2499 7.90847 7.49991 7.78382 7.62491C7.90847 7.87491 7.78382 8.12491 7.65916 8.24991C7.5345 8.37491 7.40985 8.62491 7.28519 8.74991C7.03588 8.87492 6.91122 9.12492 7.03588 9.37492C7.5345 10.1249 8.15779 10.8749 8.78107 11.4999C9.52901 12.1249 10.2769 12.6249 11.1495 12.9999C11.3989 13.1249 11.6482 13.1249 11.7728 12.8749C11.8975 12.6249 12.5208 11.9999 12.7701 11.7499C13.0194 11.4999 13.144 11.4999 13.3934 11.6249L15.3879 12.6249C15.6372 12.7499 15.8865 12.8749 16.0111 12.9999C16.1358 13.3749 16.1358 13.875 15.8865 14.25Z" />
 		</symbol>
-		<symbol id="icon-phone" viewBox="0 0 31 31">
+		<symbol id="icon-header-phone" viewBox="0 0 31 31">
 			<path d="M23.6889 19.7226L21.9151 18.54L20.3383 17.489C20.034 17.2865 19.625 17.3529 19.4004 17.6412L18.4247 18.8956C18.2151 19.1677 17.838 19.246 17.5375 19.0796C16.8754 18.7113 16.0925 18.3645 14.3651 16.6349C12.6377 14.9053 12.2887 14.1246 11.9204 13.4625C11.754 13.162 11.8323 12.7849 12.1044 12.5754L13.3588 11.5997C13.6471 11.375 13.7135 10.9661 13.5111 10.6617L12.4923 9.13348L11.2774 7.31112C11.0706 7.00094 10.6567 6.90781 10.337 7.09953L8.93591 7.94008C8.55726 8.16318 8.27892 8.52342 8.15855 8.94614C7.77539 10.3431 7.69814 13.4247 12.6368 18.3634C17.5755 23.3021 20.6569 23.2246 22.0538 22.8414C22.4766 22.7211 22.8368 22.4427 23.0599 22.0641L23.9004 20.663C24.0922 20.3433 23.9991 19.9294 23.6889 19.7226Z" />
 		</symbol>
 		<symbol id="icon-favourite" viewBox="0 0 26 23">
@@ -65,10 +66,49 @@
 		<symbol id="icon-search" viewBox="0 0 23 23">
 			<path d="M22 22L15.3397 15.3397M9.4 17.8C4.76081 17.8 1 14.0392 1 9.4C1 4.76081 4.76081 1 9.4 1C14.0392 1 17.8 4.76081 17.8 9.4C17.8 14.0392 14.0392 17.8 9.4 17.8Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 		</symbol>
+		<symbol id="icon-arrow-left" viewBox="0 0 8 12">
+			<path d="M0.827523 5.40594L5.98735 0.246294C6.31557 -0.0820914 6.84774 -0.0820914 7.17581 0.246294C7.5039 0.574387 7.5039 1.10652 7.17581 1.43459L2.61016 6.00009L7.17567 10.5654C7.50377 10.8937 7.50377 11.4257 7.17567 11.7538C6.84758 12.0821 6.31544 12.0821 5.98721 11.7538L0.82739 6.5941C0.663343 6.42998 0.581412 6.2151 0.581412 6.00011C0.581412 5.78502 0.663503 5.56999 0.827523 5.40594Z" />
+		</symbol>
+		<symbol id="icon-arrow-right" viewBox="0 0 8 12">
+			<path d="M7.17248 6.59406L2.01265 11.7537C1.68443 12.0821 1.15226 12.0821 0.824194 11.7537C0.496099 11.4256 0.4961 10.8935 0.824194 10.5654L5.38984 5.99991L0.824328 1.43457C0.496234 1.10635 0.496234 0.574263 0.824328 0.24617C1.15242 -0.0820564 1.68456 -0.0820563 2.01279 0.24617L7.17261 5.4059C7.33666 5.57002 7.41859 5.7849 7.41859 5.99989C7.41859 6.21498 7.3365 6.43001 7.17248 6.59406Z" />
+		</symbol>
+		<symbol id="icon-adress" viewBox="0 0 9 12">
+			<path d="M4.49941 0.015625C2.30274 0.015625 0.515625 1.80301 0.515625 4C0.515625 6.72652 4.08072 10.7292 4.23251 10.8983C4.37508 11.0571 4.624 11.0568 4.76631 10.8983C4.9181 10.7292 8.48319 6.72652 8.48319 4C8.48315 1.80301 6.69606 0.015625 4.49941 0.015625ZM4.49941 6.00464C3.39421 6.00464 2.49509 5.10536 2.49509 4C2.49509 2.89463 3.39423 1.99537 4.49941 1.99537C5.60459 1.99537 6.50371 2.89465 6.50371 4.00002C6.50371 5.10539 5.60459 6.00464 4.49941 6.00464Z" />
+		</symbol>
+		<symbol id="icon-phone" viewBox="0 0 9 10">
+			<path d="M8.79822 8.02141L7.40832 6.63135C7.13147 6.35562 6.67301 6.36399 6.38653 6.65058L5.68628 7.35067C5.64204 7.32629 5.59625 7.30082 5.54811 7.2738C5.10591 7.02878 4.50069 6.69296 3.86383 6.05563C3.22507 5.41695 2.88894 4.8108 2.64317 4.36832C2.61724 4.32144 2.59239 4.27625 2.56785 4.23333L3.03782 3.76406L3.26887 3.53272C3.5558 3.24572 3.56371 2.78739 3.28751 2.51085L1.89761 1.12064C1.62141 0.84449 1.16274 0.852867 0.875815 1.13987L0.484091 1.53385L0.494796 1.54447C0.363446 1.71207 0.253686 1.90538 0.172005 2.11383C0.0967117 2.31225 0.0498342 2.5016 0.0283993 2.69133C-0.155129 4.21282 0.540148 5.60335 2.42704 7.49027C5.0353 10.0983 7.13721 9.90132 7.22789 9.8917C7.42538 9.8681 7.61465 9.82091 7.807 9.74621C8.01364 9.66549 8.20681 9.55588 8.37431 9.42481L8.38287 9.43242L8.77971 9.04382C9.06604 8.75687 9.07429 8.29838 8.79822 8.02141Z" />
+		</symbol>
+		<symbol id="icon-time" viewBox="0 0 11 12">
+			<path d="M5.5 0.00927734C2.46718 0.00927734 0 2.47683 0 5.51012C0 8.5434 2.46718 11.011 5.5 11.011C8.53282 11.011 11 8.5434 11 5.51012C11 2.47683 8.53282 0.00927734 5.5 0.00927734ZM8.11572 8.35539C8.02634 8.44478 7.90902 8.48977 7.79169 8.48977C7.67437 8.48977 7.55696 8.44478 7.46767 8.35539L5.17597 6.06343C5.08978 5.97773 5.04169 5.86122 5.04169 5.73935V2.7597C5.04169 2.50621 5.24697 2.30132 5.5 2.30132C5.75303 2.30132 5.95831 2.50621 5.95831 2.7597V5.54957L8.11572 7.70723C8.2949 7.88652 8.2949 8.17618 8.11572 8.35539Z" />
+		</symbol>
 	</svg>
 
-	<header class="header">
+	<div id="popups">
+		<div class="order-popup-overlay none">
+			<div class="order-popup">
+				<form class="order-popup-form">
+					<div class="order-popup-form__title">
+						<h3 class="popup-title">%title%</h3>
+					</div>
+					<div class="order-popup-form__row">
+						<input type="text" class="input h50 bg-gray wmax" placeholder="Ваше имя">
+					</div>
+					<div class="order-popup-form__row">
+						<input type="tel" class="input h50 bg-gray wmax" placeholder="Ваш телефон">
+					</div>
+					<div class="order-popup-form__row">
+						<button class="button wmax order-popup-form__button" type="button">%btnText%</button>
+					</div>
+					<div class="order-popup-form__notice">
+						%notice%
+					</div>
+				</form>
+				<div class="order-popup__close-icon"></div>
+			</div>
+		</div>
+	</div>
 
+	<header class="header">
 		<section class="header-top">
 			<div class="container">
 				<div class="header-top__row">
@@ -76,7 +116,7 @@
 						<div class="header-top__adress">
 							<span>
 								<svg width="15" height="17">
-									<use href="#icon-adress"></use>
+									<use href="#icon-header-adress"></use>
 								</svg>
 							</span>
 							Россия, Москва, 38КМ МКАД, 6Бс1
@@ -84,7 +124,7 @@
 						<div class="header-top__shedule">
 							<span>
 								<svg width="16" height="16">
-									<use href="#icon-shedule"></use>
+									<use href="#icon-header-shedule"></use>
 								</svg>
 							</span>
 							Время работы: c 08:00 до 21:00
@@ -94,7 +134,7 @@
 						<div class="header-top__whatsapp">
 							<span>
 								<svg width="20" height="20">
-									<use href="#icon-whatsapp"></use>
+									<use href="#icon-header-whatsapp"></use>
 								</svg>
 							</span>
 							Whatsapp
@@ -114,7 +154,7 @@
 						<img src="./img/header/header-middle/logo.svg" alt="logo">
 					</div>
 					<div class="header-middle__slogan">
-						<span>10 лет</span>
+						<span class="badge-round middle">10 лет</span>
 						превосходим ваши ожидания
 					</div>
 					<ul class="header-middle__menu">
@@ -128,7 +168,7 @@
 						<div class="header-middle__phone-main">
 							<span>
 								<svg width="31" height="31">
-									<use href="#icon-phone"></use>
+									<use href="#icon-header-phone"></use>
 								</svg>
 							</span>
 							+7 (800) 551-94-31
@@ -138,7 +178,7 @@
 						</div>
 					</div>
 					<div class="header-middle__button">
-						<button class="button">Обратный звонок</button>
+						<button class="button h50 callback-button" type="button">Обратный звонок</button>
 					</div>
 				</div>
 			</div>
@@ -154,374 +194,432 @@
 						<li><a href="#!">Спецпредложения</a></li>
 						<li><a href="#!">Такси в кредит</a></li>
 					</ul>
-					<div class="header-bottom__icons">
-						<svg width="26" height="23" stroke="#737373" fill="transparent">
-							<use href="#icon-favourite"></use>
-						</svg>
-						<svg width="19" height="23" stroke="#737373" fill="transparent">
-							<use href="#icon-compare"></use>
-						</svg>
-						<svg width="23" height="23" stroke="#737373" fill="transparent">
-							<use href="#icon-search"></use>
-						</svg>
+					<ul class="header-bottom__icons">
+						<li>
+							<svg class="icon-favourite" width="26" height="23">
+								<use href="#icon-favourite"></use>
+							</svg>
+							<div class="badge-round small">10</div>
+						</li>
+						<li>
+							<svg class="icon-compare" width="19" height="23">
+								<use href="#icon-compare"></use>
+							</svg>
+							<div class="badge-round small">12</div>
+						</li>
+						<li>
+							<button type="button" id="search-button">
+								<svg class="icon-search" width="23" height="23">
+									<use href="#icon-search"></use>
+								</svg>
+							</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<div class="header-dropdown">
+			<div class="container">
+				<form class="search-form">
+					<div class="search-form__group">
+						<div class="search-form__icon"></div>
+						<div class="search-form__input">
+							<input id="search-input" class="input wmax" type="text" placeholder="Поиск">
+						</div>
+						<div class="search-form__button">
+							<button class="button h40 p20" type="button">Найти</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="slider">
+			<div class="bg-wrapper">
+				<div class="slider__bg">
+					<div class="container">
+						<div class="slider__content">
+							<div class="slider__badge">
+								<div class="badge-round">Осталось всего 10 авто!</div>
+							</div>
+							<div class="slider__title">
+								<h1 class="h1">
+									Грандиозная распродажа тестового парка!
+								</h1>
+							</div>
+							<div class="slider__subtitle">
+								Узнай свою цену!
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-	</header>
 
-	<section class="section-hero">
-		<div class="container">
-			<div class="section-hero__content">
-				<div class="section-hero__badge">
-					Осталось всего 10 авто!
-				</div>
-				<div class="section-hero__title">
-					<h1 class="h1">
-						Грандиозная распродажа тестового парка!
-					</h1>
-				</div>
-				<div class="section-hero__subtitle">
-					Узнай свою цену!
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<main class="main">
 		<section class="section-select">
-			<div class="section-select__row">
-				<ul class="brands-list">
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/fav/kia.png" alt="Kia">
-							</span>
-							Kia
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/fav/hyundai.png" alt="Hyundai">
-							</span>
-							Hyundai
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/fav/skoda.png" alt="Skoda">
-							</span>
-							Skoda
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/fav/volkswagen.png" alt="Volkswagen">
-							</span>
-							Volkswagen
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/fav/toyota.png" alt="Toyota">
-							</span>
-							Toyota
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/brilliance.png" alt="Brilliance">
-							</span>
-							Brilliance
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/changan.png" alt="Changan">
-							</span>
-							Changan
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/chery.png" alt="Chery">
-							</span>
-							Chery
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/chery-exeed.png" alt="Chery-Exeed">
-							</span>
-							Chery-Exeed
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/chevrolet.png" alt="Chevrolet">
-							</span>
-							Chevrolet
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/citroen.png" alt="Citroen">
-							</span>
-							Citroen
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/datsun.png" alt="Datsun">
-							</span>
-							Datsun
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/dongfeng.png" alt="Dongfeng">
-							</span>
-							Dongfeng
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/dw-hover.png" alt="DW-Hover">
-							</span>
-							DW-Hover
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/faw.png" alt="Faw">
-							</span>
-							Faw
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/ford.png" alt="Ford">
-							</span>
-							Ford
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/foton.png" alt="Foton">
-							</span>
-							Foton
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Gac.png" alt="Gac">
-							</span>
-							Gac
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/geely.png" alt="Geely">
-							</span>
-							Geely
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/great-wall.png" alt="Great-Wall">
-							</span>
-							Great-Wall
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/haima.png" alt="Haima">
-							</span>
-							Haima
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/haval.png" alt="Haval">
-							</span>
-							Haval
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Honda.png" alt="Honda">
-							</span>
-							Honda
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Jac.png" alt="Jac">
-							</span>
-							Jac
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Lada.png" alt="Lada">
-							</span>
-							Lada
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Lifan.png" alt="Lifan">
-							</span>
-							Lifan
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Mazda.png" alt="Mazda">
-							</span>
-							Mazda
-						</a>
-					</li>
-
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Mitsubishi.png" alt="Mitsubishi">
-							</span>
-							Mitsubishi
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Nissan.png" alt="Nissan">
-							</span>
-							Nissan
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Opel.png" alt="Opel">
-							</span>
-							Opel
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Peugeot.png" alt="Peugeot">
-							</span>
-							Peugeot
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Ravon.png" alt="Ravon">
-							</span>
-							Ravon
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Renault.png" alt="Renault">
-							</span>
-							Renault
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Ssang-Young.png" alt="SsangYoung">
-							</span>
-							SsangYoung
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Suzuki.png" alt="Suzuki">
-							</span>
-							Suzuki
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Uaz.png" alt="Uaz">
-							</span>
-							Uaz
-						</a>
-					</li>
-					<li>
-						<a href="#!">
-							<span>
-								<img src="./img/brands/Zotye.png" alt="Zotye">
-							</span>
-							Zotye
-						</a>
-					</li>
-				</ul>
-				<form class="select-form">
-					<div class="select-form__title">
-						<h3 class="h3">Быстрый подбор авто</h3>
+			<div class="container">
+				<div class="section-select__bg">
+					<div class="section-select__row">
+						<ul class="section-select__brands-list">
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/fav/kia.png" alt="Kia">
+									</span>
+									Kia
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/fav/hyundai.png" alt="Hyundai">
+									</span>
+									Hyundai
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/fav/skoda.png" alt="Skoda">
+									</span>
+									Skoda
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/fav/volkswagen.png" alt="Volkswagen">
+									</span>
+									Volkswagen
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/fav/toyota.png" alt="Toyota">
+									</span>
+									Toyota
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/brilliance.png" alt="Brilliance">
+									</span>
+									Brilliance
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/changan.png" alt="Changan">
+									</span>
+									Changan
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/chery.png" alt="Chery">
+									</span>
+									Chery
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/chery-exeed.png" alt="Chery-Exeed">
+									</span>
+									Chery-Exeed
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/chevrolet.png" alt="Chevrolet">
+									</span>
+									Chevrolet
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/citroen.png" alt="Citroen">
+									</span>
+									Citroen
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/datsun.png" alt="Datsun">
+									</span>
+									Datsun
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/dongfeng.png" alt="Dongfeng">
+									</span>
+									Dongfeng
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/dw-hover.png" alt="DW-Hover">
+									</span>
+									DW-Hover
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/faw.png" alt="Faw">
+									</span>
+									Faw
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/ford.png" alt="Ford">
+									</span>
+									Ford
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/foton.png" alt="Foton">
+									</span>
+									Foton
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/gac.png" alt="Gac">
+									</span>
+									Gac
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/geely.png" alt="Geely">
+									</span>
+									Geely
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/great-wall.png" alt="Great-Wall">
+									</span>
+									Great-Wall
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/haima.png" alt="Haima">
+									</span>
+									Haima
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/haval.png" alt="Haval">
+									</span>
+									Haval
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/honda.png" alt="Honda">
+									</span>
+									Honda
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/jac.png" alt="Jac">
+									</span>
+									Jac
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/lada.png" alt="Lada">
+									</span>
+									Lada
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/lifan.png" alt="Lifan">
+									</span>
+									Lifan
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/mazda.png" alt="Mazda">
+									</span>
+									Mazda
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/mitsubishi.png" alt="Mitsubishi">
+									</span>
+									Mitsubishi
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/nissan.png" alt="Nissan">
+									</span>
+									Nissan
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/opel.png" alt="Opel">
+									</span>
+									Opel
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/peugeot.png" alt="Peugeot">
+									</span>
+									Peugeot
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/ravon.png" alt="Ravon">
+									</span>
+									Ravon
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/renault.png" alt="Renault">
+									</span>
+									Renault
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/ssang-young.png" alt="SsangYoung">
+									</span>
+									SsangYoung
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/suzuki.png" alt="Suzuki">
+									</span>
+									Suzuki
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/uaz.png" alt="Uaz">
+									</span>
+									Uaz
+								</a>
+							</li>
+							<li>
+								<a href="#!">
+									<span>
+										<img src="./img/brands/zotye.png" alt="Zotye">
+									</span>
+									Zotye
+								</a>
+							</li>
+						</ul>
+						<form class="select-form">
+							<div class="select-form__title">
+								<h3 class="h3">Быстрый подбор авто</h3>
+							</div>
+							<div class="select-form__row">
+								<div class="double-range-input">
+									<div class="double-range-input__values-wrapper">
+										<div class="double-range-input__dimension">Цена</div>
+										<div class="double-range-input__values">
+											<span data-name="value-1">0</span>
+											<span>&dash;</span>
+											<span data-name="value-2">500</span>
+										</div>
+									</div>
+									<div class="double-range-input__track-wrapper">
+										<div data-name="track" class="double-range-input__track"></div>
+										<input data-name="range-1" type="range" min="0" max="3000000" value="0" step="10000" onInput="slideOne()" />
+										<input data-name="range-2" type="range" min="0" max="3000000" value="3000000" step="10000" onInput="slideTwo()" />
+									</div>
+									<ul class="double-range-input__scale">
+										<li>0</li>
+										<li>300т</li>
+										<li>650т</li>
+										<li>1,0м</li>
+										<li>1,35м</li>
+										<li>1,7м</li>
+										<li>2м</li>
+										<li>2,35м</li>
+										<li>2,7м</li>
+										<li>3м</li>
+									</ul>
+								</div>
+							</div>
+							<div class="select-form__row">
+								<div class="dropdown">
+									<button class="dropdown__button" type="button">Тип кузова</button>
+									<ul class="dropdown__list">
+										<li data-value="manual ">Седан</li>
+										<li data-value="robot">Хэтчбэк</li>
+										<li data-value="automatic">Универсал</li>
+									</ul>
+									<input class="dropdown__input-hidden" type="text" name="select-category" value="">
+								</div>
+								<div class="dropdown">
+									<button class="dropdown__button" type="button">Коробка</button>
+									<ul class="dropdown__list">
+										<li data-value="manual ">Механическая</li>
+										<li data-value="robot">Робот</li>
+										<li data-value="automatic">Автомат</li>
+									</ul>
+									<input class="dropdown__input-hidden" type="text" name="select-category" value="">
+								</div>
+							</div>
+							<div class="select-form__row">
+								<button class="button wmax" type="button">Показать 73</button>
+							</div>
+						</form>
 					</div>
-
-					<div class="select-form__input-range">
-						<div class="select-form__input-range-label">
-							<span>Цена</span>
-							<span>0 - 500т</span>
-						</div>
-						<div class="select-form__input-range-strip"></div>
-						<div class="select-form__input-range-scale">
-							<ul class="select-form__input-range-scale-list">
-								<li>0</li>
-								<li>500т</li>
-								<li>800т</li>
-								<li>1,1м</li>
-								<li>1,4м</li>
-								<li>1,7м</li>
-								<li>2м</li>
-								<li>2,3м</li>
-								<li>2,7м</li>
-								<li>3м</li>
-							</ul>
-						</div>
-					</div>
-					<div class="select-form__inputs-row">
-						<button class="select-form__select" type="button">Тип кузова</button>
-						<button class="select-form__select" type="button">Коробка</button>
-					</div>
-					<button class="button select-form__button" type="button">Показать 73</button>
-				</form>
+				</div>
 			</div>
 		</section>
 
@@ -531,42 +629,184 @@
 					<h2 class="h2">Автомобили в наличии с ПТС</h2>
 				</div>
 				<div class="section-stock__cards">
+					<svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+						<symbol id="auto-card-btn-red" viewBox="0 0 132 50">
+							<path d="M0 6C0 2.68629 2.68629 0 6 0H115.398C117.64 0 119.695 1.24952 120.726 3.23983L130.57 22.2398C131.467 23.9707 131.467 26.0293 130.57 27.7602L120.726 46.7602C119.695 48.7505 117.64 50 115.398 50H6C2.68629 50 0 47.3137 0 44V6Z" />
+						</symbol>
+						<symbol id="auto-card-btn-black" viewBox="0 0 159 50">
+							<path d="M0.601562 6C0.601562 2.68629 3.28785 0 6.60156 0L142.4 0C144.642 0 146.696 1.24952 147.727 3.23982L157.571 22.2398C158.468 23.9707 158.468 26.0293 157.571 27.7602L147.727 46.7602C146.696 48.7505 144.642 50 142.4 50H6.60157C3.28786 50 0.601562 47.3137 0.601562 44V6Z" />
+						</symbol>
+						<symbol id="auto-card-btn-gray" viewBox="0 0 165 50">
+							<path d="M0 6C0 2.68629 2.68629 0 6 0H148.398C150.64 0 152.695 1.24952 153.726 3.23982L163.57 22.2398C164.467 23.9707 164.467 26.0293 163.57 27.7602L153.726 46.7602C152.695 48.7505 150.64 50 148.398 50H6C2.68629 50 0 47.3137 0 44V6Z" />
+						</symbol>
+					</svg>
+					<!-- auto-card -->
+					<div class="auto-card">
+						<div class="auto-card__content">
+							<div class="auto-card__title-row">
+								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
+								<ul class="auto-card__icons">
+									<li>
+										<svg class="icon-favourite" width="26" height="23">
+											<use href="#icon-favourite"></use>
+										</svg>
+									</li>
+									<li>
+										<svg class="icon-compare" width="19" height="23">
+											<use href="#icon-compare"></use>
+										</svg>
+									</li>
+								</ul>
+							</div>
+							<div class="auto-card__badge-row">
+								<div class="auto-card__badge">Предложение дня</div>
+								<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
+							</div>
+						</div>
+						<ul class="auto-card__bonus-list">
+							<li>Оборудование <span>в подарок</span> </li>
+							<li>КАСКО <span>в подарок</span> </li>
+							<li>Комплект резины <span>в подарок</span> </li>
+						</ul>
+						<div class="auto-card__price-row">
+							<div class="auto-card__price">от 1 615 000 ₽</div>
+							<div class="auto-card__loan">Кредит <b>от 115 000 ₽/мес.</b></div>
+						</div>
+						<ul class="auto-card__params">
+							<li>
+								<img src="./img/section-stock/power.svg" alt="power-icon">
+								115 л.с.
+							</li>
+							<li>
+								<img src="./img/section-stock/fuel.svg" alt="power-icon">
+								5.3 л/км
+							</li>
+							<li>
+								<img src="./img/section-stock/speed.svg" alt="power-icon">
+								189 км/ч
+							</li>
+							<li>
+								<img src="./img/section-stock/acceleration.svg" alt="power-icon">
+								10,3 c.
+							</li>
+						</ul>
+						<div class="auto-card__buttons-row">
+							<button class="auto-card__button red" type="button">
+								<svg class="auto-card-btn-red" width="132" height="50">
+									<use href="#auto-card-btn-red"></use>
+								</svg>
+								<span>Резерв онлайн</span>
+							</button>
+							<button class="auto-card__button black" type="button">
+								<svg class="auto-card-btn-black" width="159" height="50">
+									<use href="#auto-card-btn-black"></use>
+								</svg>
+								<span>Купить</span>
+							</button>
+							<button class="auto-card__button gray" type="button">
+								<svg class="auto-card-btn-gray" width="165" height="50">
+									<use href="#auto-card-btn-gray"></use>
+								</svg>
+								<span>Подробнее</span>
+							</button>
+						</div>
+					</div>
+					<!-- //auto-card -->
+					<!-- auto-card -->
+					<div class="auto-card">
+						<div class="auto-card__content">
+							<div class="auto-card__title-row">
+								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
+								<ul class="auto-card__icons">
+									<li>
+										<svg class="icon-favourite" width="26" height="23">
+											<use href="#icon-favourite"></use>
+										</svg>
+									</li>
+									<li>
+										<svg class="icon-compare" width="19" height="23">
+											<use href="#icon-compare"></use>
+										</svg>
+									</li>
+								</ul>
+							</div>
+							<div class="auto-card__badge-row">
+								<div class="auto-card__badge">Предложение дня</div>
+								<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
+							</div>
+						</div>
+						<ul class="auto-card__bonus-list">
+							<li>Оборудование <span>в подарок</span> </li>
+							<li>КАСКО <span>в подарок</span> </li>
+							<li>Комплект резины <span>в подарок</span> </li>
+						</ul>
+						<div class="auto-card__price-row">
+							<div class="auto-card__price">от 1 615 000 ₽</div>
+							<div class="auto-card__loan">Кредит <b>от 115 000 ₽/мес.</b></div>
+						</div>
 
-					<!-- auto-card -->
-					<div class="auto-card">
-						<div class="auto-card__title">Skoda Octavia 1.6 MPI MT Active</div>
-						<div class="auto-card__badge-row">
-							<div class="auto-card__badge">Предложение дня</div>
-							<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
-						</div>
-						<ul class="auto-card__bonus-list">
-							<li>Оборудование <span>в подарок</span> </li>
-							<li>КАСКО <span>в подарок</span> </li>
-							<li>Комплект резины <span>в подарок</span> </li>
-						</ul>
-						<div class="auto-card__price-row">
-							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <span>от 115 000 ₽/мес.</span></div>
-						</div>
 						<ul class="auto-card__params">
-							<li>115 л.с.</li>
-							<li>5.3 л/км</li>
-							<li>189 км/ч</li>
-							<li>10,3 c.</li>
+							<li>
+								<img src="./img/section-stock/power.svg" alt="power-icon">
+								115 л.с.
+							</li>
+							<li>
+								<img src="./img/section-stock/fuel.svg" alt="power-icon">
+								5.3 л/км
+							</li>
+							<li>
+								<img src="./img/section-stock/speed.svg" alt="power-icon">
+								189 км/ч
+							</li>
+							<li>
+								<img src="./img/section-stock/acceleration.svg" alt="power-icon">
+								10,3 c.
+							</li>
 						</ul>
 						<div class="auto-card__buttons-row">
-							<button>Резерв онлайн</button>
-							<button>Купить</button>
-							<button>Подробнее</button>
+							<button class="auto-card__button red" type="button">
+								<svg class="auto-card-btn-red" width="132" height="50">
+									<use href="#auto-card-btn-red"></use>
+								</svg>
+								<span>Резерв онлайн</span>
+							</button>
+							<button class="auto-card__button black" type="button">
+								<svg class="auto-card-btn-black" width="159" height="50">
+									<use href="#auto-card-btn-black"></use>
+								</svg>
+								<span>Купить</span>
+							</button>
+							<button class="auto-card__button gray" type="button">
+								<svg class="auto-card-btn-gray" width="165" height="50">
+									<use href="#auto-card-btn-gray"></use>
+								</svg>
+								<span>Подробнее</span>
+							</button>
 						</div>
 					</div>
 					<!-- //auto-card -->
 					<!-- auto-card -->
 					<div class="auto-card">
-						<div class="auto-card__title">Skoda Octavia 1.6 MPI MT Active</div>
-						<div class="auto-card__badge-row">
-							<div class="auto-card__badge">Предложение дня</div>
-							<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
+						<div class="auto-card__content">
+							<div class="auto-card__title-row">
+								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
+								<ul class="auto-card__icons">
+									<li>
+										<svg class="icon-favourite" width="26" height="23">
+											<use href="#icon-favourite"></use>
+										</svg>
+									</li>
+									<li>
+										<svg class="icon-compare" width="19" height="23">
+											<use href="#icon-compare"></use>
+										</svg>
+									</li>
+								</ul>
+							</div>
+							<div class="auto-card__badge-row">
+								<div class="auto-card__badge">Предложение дня</div>
+								<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
+							</div>
 						</div>
 						<ul class="auto-card__bonus-list">
 							<li>Оборудование <span>в подарок</span> </li>
@@ -575,27 +815,71 @@
 						</ul>
 						<div class="auto-card__price-row">
 							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <span>от 115 000 ₽/мес.</span></div>
+							<div class="auto-card__loan">Кредит <b>от 115 000 ₽/мес.</b></div>
 						</div>
+
 						<ul class="auto-card__params">
-							<li>115 л.с.</li>
-							<li>5.3 л/км</li>
-							<li>189 км/ч</li>
-							<li>10,3 c.</li>
+							<li>
+								<img src="./img/section-stock/power.svg" alt="power-icon">
+								115 л.с.
+							</li>
+							<li>
+								<img src="./img/section-stock/fuel.svg" alt="power-icon">
+								5.3 л/км
+							</li>
+							<li>
+								<img src="./img/section-stock/speed.svg" alt="power-icon">
+								189 км/ч
+							</li>
+							<li>
+								<img src="./img/section-stock/acceleration.svg" alt="power-icon">
+								10,3 c.
+							</li>
 						</ul>
 						<div class="auto-card__buttons-row">
-							<button>Резерв онлайн</button>
-							<button>Купить</button>
-							<button>Подробнее</button>
+							<button class="auto-card__button red" type="button">
+								<svg class="auto-card-btn-red" width="132" height="50">
+									<use href="#auto-card-btn-red"></use>
+								</svg>
+								<span>Резерв онлайн</span>
+							</button>
+							<button class="auto-card__button black" type="button">
+								<svg class="auto-card-btn-black" width="159" height="50">
+									<use href="#auto-card-btn-black"></use>
+								</svg>
+								<span>Купить</span>
+							</button>
+							<button class="auto-card__button gray" type="button">
+								<svg class="auto-card-btn-gray" width="165" height="50">
+									<use href="#auto-card-btn-gray"></use>
+								</svg>
+								<span>Подробнее</span>
+							</button>
 						</div>
 					</div>
 					<!-- //auto-card -->
 					<!-- auto-card -->
 					<div class="auto-card">
-						<div class="auto-card__title">Skoda Octavia 1.6 MPI MT Active</div>
-						<div class="auto-card__badge-row">
-							<div class="auto-card__badge">Предложение дня</div>
-							<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
+						<div class="auto-card__content">
+							<div class="auto-card__title-row">
+								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
+								<ul class="auto-card__icons">
+									<li>
+										<svg class="icon-favourite" width="26" height="23">
+											<use href="#icon-favourite"></use>
+										</svg>
+									</li>
+									<li>
+										<svg class="icon-compare" width="19" height="23">
+											<use href="#icon-compare"></use>
+										</svg>
+									</li>
+								</ul>
+							</div>
+							<div class="auto-card__badge-row">
+								<div class="auto-card__badge">Предложение дня</div>
+								<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
+							</div>
 						</div>
 						<ul class="auto-card__bonus-list">
 							<li>Оборудование <span>в подарок</span> </li>
@@ -604,27 +888,71 @@
 						</ul>
 						<div class="auto-card__price-row">
 							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <span>от 115 000 ₽/мес.</span></div>
+							<div class="auto-card__loan">Кредит <b>от 115 000 ₽/мес.</b></div>
 						</div>
+
 						<ul class="auto-card__params">
-							<li>115 л.с.</li>
-							<li>5.3 л/км</li>
-							<li>189 км/ч</li>
-							<li>10,3 c.</li>
+							<li>
+								<img src="./img/section-stock/power.svg" alt="power-icon">
+								115 л.с.
+							</li>
+							<li>
+								<img src="./img/section-stock/fuel.svg" alt="power-icon">
+								5.3 л/км
+							</li>
+							<li>
+								<img src="./img/section-stock/speed.svg" alt="power-icon">
+								189 км/ч
+							</li>
+							<li>
+								<img src="./img/section-stock/acceleration.svg" alt="power-icon">
+								10,3 c.
+							</li>
 						</ul>
 						<div class="auto-card__buttons-row">
-							<button>Резерв онлайн</button>
-							<button>Купить</button>
-							<button>Подробнее</button>
+							<button class="auto-card__button red" type="button">
+								<svg class="auto-card-btn-red" width="132" height="50">
+									<use href="#auto-card-btn-red"></use>
+								</svg>
+								<span>Резерв онлайн</span>
+							</button>
+							<button class="auto-card__button black" type="button">
+								<svg class="auto-card-btn-black" width="159" height="50">
+									<use href="#auto-card-btn-black"></use>
+								</svg>
+								<span>Купить</span>
+							</button>
+							<button class="auto-card__button gray" type="button">
+								<svg class="auto-card-btn-gray" width="165" height="50">
+									<use href="#auto-card-btn-gray"></use>
+								</svg>
+								<span>Подробнее</span>
+							</button>
 						</div>
 					</div>
 					<!-- //auto-card -->
 					<!-- auto-card -->
 					<div class="auto-card">
-						<div class="auto-card__title">Skoda Octavia 1.6 MPI MT Active</div>
-						<div class="auto-card__badge-row">
-							<div class="auto-card__badge">Предложение дня</div>
-							<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
+						<div class="auto-card__content">
+							<div class="auto-card__title-row">
+								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
+								<ul class="auto-card__icons">
+									<li>
+										<svg class="icon-favourite" width="26" height="23">
+											<use href="#icon-favourite"></use>
+										</svg>
+									</li>
+									<li>
+										<svg class="icon-compare" width="19" height="23">
+											<use href="#icon-compare"></use>
+										</svg>
+									</li>
+								</ul>
+							</div>
+							<div class="auto-card__badge-row">
+								<div class="auto-card__badge">Предложение дня</div>
+								<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
+							</div>
 						</div>
 						<ul class="auto-card__bonus-list">
 							<li>Оборудование <span>в подарок</span> </li>
@@ -633,27 +961,71 @@
 						</ul>
 						<div class="auto-card__price-row">
 							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <span>от 115 000 ₽/мес.</span></div>
+							<div class="auto-card__loan">Кредит <b>от 115 000 ₽/мес.</b></div>
 						</div>
+
 						<ul class="auto-card__params">
-							<li>115 л.с.</li>
-							<li>5.3 л/км</li>
-							<li>189 км/ч</li>
-							<li>10,3 c.</li>
+							<li>
+								<img src="./img/section-stock/power.svg" alt="power-icon">
+								115 л.с.
+							</li>
+							<li>
+								<img src="./img/section-stock/fuel.svg" alt="power-icon">
+								5.3 л/км
+							</li>
+							<li>
+								<img src="./img/section-stock/speed.svg" alt="power-icon">
+								189 км/ч
+							</li>
+							<li>
+								<img src="./img/section-stock/acceleration.svg" alt="power-icon">
+								10,3 c.
+							</li>
 						</ul>
 						<div class="auto-card__buttons-row">
-							<button>Резерв онлайн</button>
-							<button>Купить</button>
-							<button>Подробнее</button>
+							<button class="auto-card__button red" type="button">
+								<svg class="auto-card-btn-red" width="132" height="50">
+									<use href="#auto-card-btn-red"></use>
+								</svg>
+								<span>Резерв онлайн</span>
+							</button>
+							<button class="auto-card__button black" type="button">
+								<svg class="auto-card-btn-black" width="159" height="50">
+									<use href="#auto-card-btn-black"></use>
+								</svg>
+								<span>Купить</span>
+							</button>
+							<button class="auto-card__button gray" type="button">
+								<svg class="auto-card-btn-gray" width="165" height="50">
+									<use href="#auto-card-btn-gray"></use>
+								</svg>
+								<span>Подробнее</span>
+							</button>
 						</div>
 					</div>
 					<!-- //auto-card -->
 					<!-- auto-card -->
 					<div class="auto-card">
-						<div class="auto-card__title">Skoda Octavia 1.6 MPI MT Active</div>
-						<div class="auto-card__badge-row">
-							<div class="auto-card__badge">Предложение дня</div>
-							<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
+						<div class="auto-card__content">
+							<div class="auto-card__title-row">
+								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
+								<ul class="auto-card__icons">
+									<li>
+										<svg class="icon-favourite" width="26" height="23">
+											<use href="#icon-favourite"></use>
+										</svg>
+									</li>
+									<li>
+										<svg class="icon-compare" width="19" height="23">
+											<use href="#icon-compare"></use>
+										</svg>
+									</li>
+								</ul>
+							</div>
+							<div class="auto-card__badge-row">
+								<div class="auto-card__badge">Предложение дня</div>
+								<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
+							</div>
 						</div>
 						<ul class="auto-card__bonus-list">
 							<li>Оборудование <span>в подарок</span> </li>
@@ -662,53 +1034,52 @@
 						</ul>
 						<div class="auto-card__price-row">
 							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <span>от 115 000 ₽/мес.</span></div>
+							<div class="auto-card__loan">Кредит <b>от 115 000 ₽/мес.</b></div>
 						</div>
+
 						<ul class="auto-card__params">
-							<li>115 л.с.</li>
-							<li>5.3 л/км</li>
-							<li>189 км/ч</li>
-							<li>10,3 c.</li>
+							<li>
+								<img src="./img/section-stock/power.svg" alt="power-icon">
+								115 л.с.
+							</li>
+							<li>
+								<img src="./img/section-stock/fuel.svg" alt="power-icon">
+								5.3 л/км
+							</li>
+							<li>
+								<img src="./img/section-stock/speed.svg" alt="power-icon">
+								189 км/ч
+							</li>
+							<li>
+								<img src="./img/section-stock/acceleration.svg" alt="power-icon">
+								10,3 c.
+							</li>
 						</ul>
 						<div class="auto-card__buttons-row">
-							<button>Резерв онлайн</button>
-							<button>Купить</button>
-							<button>Подробнее</button>
-						</div>
-					</div>
-					<!-- //auto-card -->
-					<!-- auto-card -->
-					<div class="auto-card">
-						<div class="auto-card__title">Skoda Octavia 1.6 MPI MT Active</div>
-						<div class="auto-card__badge-row">
-							<div class="auto-card__badge">Предложение дня</div>
-							<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
-						</div>
-						<ul class="auto-card__bonus-list">
-							<li>Оборудование <span>в подарок</span> </li>
-							<li>КАСКО <span>в подарок</span> </li>
-							<li>Комплект резины <span>в подарок</span> </li>
-						</ul>
-						<div class="auto-card__price-row">
-							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <span>от 115 000 ₽/мес.</span></div>
-						</div>
-						<ul class="auto-card__params">
-							<li>115 л.с.</li>
-							<li>5.3 л/км</li>
-							<li>189 км/ч</li>
-							<li>10,3 c.</li>
-						</ul>
-						<div class="auto-card__buttons-row">
-							<button>Резерв онлайн</button>
-							<button>Купить</button>
-							<button>Подробнее</button>
+							<button class="auto-card__button red" type="button">
+								<svg class="auto-card-btn-red" width="132" height="50">
+									<use href="#auto-card-btn-red"></use>
+								</svg>
+								<span>Резерв онлайн</span>
+							</button>
+							<button class="auto-card__button black" type="button">
+								<svg class="auto-card-btn-black" width="159" height="50">
+									<use href="#auto-card-btn-black"></use>
+								</svg>
+								<span>Купить</span>
+							</button>
+							<button class="auto-card__button gray" type="button">
+								<svg class="auto-card-btn-gray" width="165" height="50">
+									<use href="#auto-card-btn-gray"></use>
+								</svg>
+								<span>Подробнее</span>
+							</button>
 						</div>
 					</div>
 					<!-- //auto-card -->
 				</div>
 				<div class="section-stock__button">
-					<button class="button button--h65">Показать еще</button>
+					<button class="button p95" type="button">Показать еще</button>
 				</div>
 			</div>
 		</section>
@@ -717,50 +1088,76 @@
 			<div class="container">
 				<div class="section-collections__title">
 					<h2 class="h2">Наши подборки</h2>
-					<span>Все подборки</span>
+					<button class="badge-button p15" type="button">Все подборки</button>
 				</div>
-				<div class="section-collections__cards">
-					<!-- collection-card -->
-					<div class="collection-card">
-						<div class="collection-card__row">
-							<div class="collection-card__title">Семейные автомобили</div>
-							<button class="collection-card__button">Посмотреть</button>
+				<!-- owl-carousel slider -->
+				<div class="section-collections__cards slider">
+					<div class="slider__main">
+						<div class="owl-carousel owl-theme">
+							<!-- collection-card -->
+							<div class="collection-card">
+								<div class="collection-card__row">
+									<div class="collection-card__title">Семейные автомобили</div>
+									<button class="button h40" type="button">Посмотреть</button>
+								</div>
+								<img src="./img/section-collections/collection-1.jpg" alt="">
+							</div>
+							<!-- //collection-card -->
+							<!-- collection-card -->
+							<div class="collection-card">
+								<div class="collection-card__row">
+									<div class="collection-card__title">Автомобили для путешествий</div>
+									<button class="button h40" type="button">Посмотреть</button>
+								</div>
+								<img src="./img/section-collections/collection-2.jpg" alt="">
+							</div>
+							<!-- //collection-card -->
+							<!-- collection-card -->
+							<div class="collection-card">
+								<div class="collection-card__row">
+									<div class="collection-card__title">Городские автомобили</div>
+									<button class="button h40" type="button">Посмотреть</button>
+								</div>
+								<img src="./img/section-collections/collection-3.jpg" alt="">
+							</div>
+							<!-- //collection-card -->
 						</div>
-						<img src="./img/section-collections/collection-1.jpg" alt="">
 					</div>
-					<!-- //collection-card -->
-					<!-- collection-card -->
-					<div class="collection-card">
-						<div class="collection-card__row">
-							<div class="collection-card__title">Автомобили для путешествий</div>
-							<button class="collection-card__button">Посмотреть</button>
-						</div>
-						<img src="./img/section-collections/collection-2.jpg" alt="">
+					<div class="slider__controls">
+						<button class="slider__btn slider__btn--left" type="button">
+							<svg class="icon-arrow-left" width="8" height="12">
+								<use href="#icon-arrow-left"></use>
+							</svg>
+						</button>
+						<button class="slider__btn slider__btn--right" type="button">
+							<svg class="icon-arrow-right" width="8" height="12">
+								<use href="#icon-arrow-right"></use>
+							</svg>
+						</button>
 					</div>
-					<!-- //collection-card -->
-					<!-- collection-card -->
-					<div class="collection-card">
-						<div class="collection-card__row">
-							<div class="collection-card__title">Городские автомобили</div>
-							<button class="collection-card__button">Посмотреть</button>
-						</div>
-						<img src="./img/section-collections/collection-3.jpg" alt="">
-					</div>
-					<!-- //collection-card -->
 				</div>
+				<!-- //owl-carousel slider -->
 			</div>
 		</section>
 
 		<section class="section-cta">
-			<form class="cta-form">
-				<div class="cta-form__title">Перебьем предложения от конкурентов!</div>
-				<div class="cta-form__subtitle">Скидки <span>от 10 до 25%</span> на стоимость автомобиля</div>
-				<div class="cta-form__row">
-					<input class="cta-form__input" type="phone" placeholder="Ваш телефон">
-					<button class="button cta-form__button">Получить предложение</button>
+			<div class="container">
+				<div class="section-cta__bg">
+					<form class="cta-form">
+						<div class="cta-form__title">Перебьем предложения от конкурентов!</div>
+						<div class="cta-form__subtitle">Скидки <span>от 10 до 25%</span> на стоимость автомобиля</div>
+						<div class="cta-form__row">
+							<div class="cta-form__item">
+								<input class="input wmax" type="tel" placeholder="Ваш телефон">
+							</div>
+							<div class="cta-form__item">
+								<button class="button wmax" type="button">Получить предложение</button>
+							</div>
+						</div>
+						<div class="cta-form__notice">Нажимая кнопку “Отправить” Вы даете согласие на обработку своих персональных данных</div>
+					</form>
 				</div>
-				<div class="cta-form__notice">Нажимая кнопку “Отправить” Вы даете согласие на обработку своих персональных данных</div>
-			</form>
+			</div>
 		</section>
 
 		<section class="section-offers">
@@ -768,147 +1165,221 @@
 				<div class="section-offers__title">
 					<h2 class="h2">Спецпредложения</h2>
 				</div>
-				<div class="section-offers__cards">
-					<!-- offer-card -->
-					<div class="offer-card">
-						<div class="offer-card__background">
-							<img src="./img/section-offers/offer-1.png" alt="background">
-						</div>
-						<div class="offer-card__content">
-							<div class="offer-card__title">
-								Первый автомобиль
+				<!-- owl-carousel slider -->
+				<div class="section-offers__cards slider">
+					<div class="slider__main">
+						<div class="owl-carousel owl-theme">
+							<!-- offer-card -->
+							<div class="offer-card">
+								<div class="offer-card__background">
+									<img src="./img/section-offers/offer-1.png" alt="background">
+								</div>
+								<div class="offer-card__content">
+									<div class="offer-card__title">
+										Первый автомобиль
+									</div>
+									<div class="offer-card__description">
+										1,9% по льготной ставке
+									</div>
+									<div class="offer-card__button">
+										<button class="button h40 bg-gray" type="button">Узнать больше</button>
+									</div>
+								</div>
 							</div>
-							<div class="offer-card__description">
-								1,9% по льготной ставке
+							<!-- //offer-card -->
+							<!-- offer-card -->
+							<div class="offer-card">
+								<div class="offer-card__background">
+									<img src="./img/section-offers/offer-2.png" alt="background">
+								</div>
+								<div class="offer-card__content">
+									<div class="offer-card__title">
+										Семейный автомобиль
+									</div>
+									<div class="offer-card__description">
+										1,9% по льготной ставке
+									</div>
+									<div class="offer-card__button">
+										<button class="button h40 bg-gray" type="button">Узнать больше</button>
+									</div>
+								</div>
 							</div>
+							<!-- //offer-card -->
+							<!-- offer-card -->
+							<div class="offer-card">
+								<div class="offer-card__background">
+									<img src="./img/section-offers/offer-3.png" alt="background">
+								</div>
+								<div class="offer-card__content">
+									<div class="offer-card__title">
+										Экспресс-кредит"
+									</div>
+									<div class="offer-card__description">
+										1,9% по льготной ставке
+									</div>
+									<div class="offer-card__button">
+										<button class="button h40 bg-gray" type="button">Узнать больше</button>
+									</div>
+								</div>
+							</div>
+							<!-- //offer-card -->
 						</div>
-						<button class="offer-card__button">Узнать больше</button>
 					</div>
-					<!-- //offer-card -->
-					<!-- offer-card -->
-					<div class="offer-card">
-						<div class="offer-card__background">
-							<img src="./img/section-offers/offer-2.png" alt="background">
-						</div>
-						<div class="offer-card__content">
-							<div class="offer-card__title">
-								Первый автомобиль
-							</div>
-							<div class="offer-card__description">
-								1,9% по льготной ставке
-							</div>
-						</div>
-						<button class="offer-card__button">Узнать больше</button>
+					<div class="slider__controls">
+						<button class="slider__btn slider__btn--left" type="button">
+							<svg class="icon-arrow-left" width="8" height="12">
+								<use href="#icon-arrow-left"></use>
+							</svg>
+						</button>
+						<button class="slider__btn slider__btn--right" type="button">
+							<svg class="icon-arrow-right" width="8" height="12">
+								<use href="#icon-arrow-right"></use>
+							</svg>
+						</button>
 					</div>
-					<!-- //offer-card -->
-					<!-- offer-card -->
-					<div class="offer-card">
-						<div class="offer-card__background">
-							<img src="./img/section-offers/offer-3.png" alt="background">
-						</div>
-						<div class="offer-card__content">
-							<div class="offer-card__title">
-								Первый автомобиль
-							</div>
-							<div class="offer-card__description">
-								1,9% по льготной ставке
-							</div>
-						</div>
-						<button class="offer-card__button">Узнать больше</button>
-					</div>
-					<!-- //offer-card -->
 				</div>
+				<!-- //owl-carousel slider -->
 			</div>
 		</section>
 
-		<section class="section-loan">
-			<div class="container">
-				<div class="section-loan__title">
-					<h2 class="h2">Заявка на автокредит</h2>
-				</div>
-				<div class="section-loan__row">
-					<div class="credit-calc">
-						<div class="credit-calc__inputs">
-							<button class="credit-calc__input">Марка</button>
-							<button class="credit-calc__input">Модель</button>
-							<button class="credit-calc__input">Комплектация</button>
+		<section class="section-credit">
+			<div class="bg-wrapper">
+				<div class="section-credit__bg">
+					<div class="container">
+						<div class="section-credit__title">
+							<h2 class="h2">Заявка на автокредит</h2>
 						</div>
-						<div class="credit-calc__row">
-							<div class="credit-calc__left-column">
-								<div class="credit-calc__img">
-									<img src="./img/section-loan/credit-calc.png" alt="credit calculator">
+						<div class="section-credit__row">
+							<!-- credit-calc -->
+							<div class="credit-calc">
+								<div class="credit-calc__first-row">
+									<div class="dropdown">
+										<button class="dropdown__button dropdown__button--medium" type="button">Марка</button>
+										<ul class="dropdown__list dropdown__list--medium">
+											<li data-value="manual ">Toyota</li>
+											<li data-value="robot">Audi</li>
+											<li data-value="automatic">Mazda</li>
+										</ul>
+										<input class="dropdown__input-hidden" type="text" name="select-category" value="">
+									</div>
+									<div class="dropdown">
+										<button class="dropdown__button dropdown__button--medium" type="button">Модель</button>
+										<ul class="dropdown__list dropdown__list--medium">
+											<li data-value="manual ">Corolla</li>
+											<li data-value="robot">Camry</li>
+											<li data-value="automatic">Land Cruiser</li>
+										</ul>
+										<input class="dropdown__input-hidden" type="text" name="select-category" value="">
+									</div>
+									<div class="dropdown">
+										<button class="dropdown__button dropdown__button--medium" type="button">Комплектация</button>
+										<ul class="dropdown__list dropdown__list--medium">
+											<li data-value="manual ">Стандарт</li>
+											<li data-value="robot">Комфорт</li>
+											<li data-value="automatic">Люкс</li>
+										</ul>
+										<input class="dropdown__input-hidden" type="text" name="select-category" value="">
+									</div>
 								</div>
-								<div class="credit-calc__range">
-									<div class="credit-calc__range-values">
-										<span>0</span>
-										<span>0</span>
+								<div class="credit-calc__second-row">
+									<div class="credit-calc__img">
+										<img src="./img/section-credit/credit-calc.png" alt="credit calculator">
 									</div>
-									<div class="credit-calc__range-strip"></div>
-									<div class="credit-calc__range-labels">
-										<span>Первоначальный <br>взнос</span>
-										<span>Остаток <br>по кредиту</span>
+									<div class="credit-calc__inputs">
+										<!-- single-range-input -->
+										<div class="single-range-input">
+											<div class="single-range-input__value-wrapper">
+												<span class="single-range-input__dimension">Сумма кредита, руб.</span>
+												<span class="single-range-input__value" data-name="value">0</span>
+											</div>
+											<div class="single-range-input__track-wrapper">
+												<div data-name="track" class="single-range-input__track"></div>
+												<input data-name="range" type="range" min="0" max="3000000" value="0" step="10000" />
+											</div>
+											<ul class="single-range-input__scale">
+												<li>0</li>
+												<li>300т</li>
+												<li>650т</li>
+												<li>1,0м</li>
+												<li>1,35м</li>
+												<li>1,7м</li>
+												<li>2м</li>
+												<li>2,35м</li>
+												<li>2,7м</li>
+												<li>3м</li>
+											</ul>
+										</div>
+										<!-- //single-range-input -->
+										<!-- single-range-input -->
+										<div class="single-range-input">
+											<div class="single-range-input__value-wrapper">
+												<span class="single-range-input__dimension">Срок кредита, мес.</span>
+												<span class="single-range-input__value" data-name="value">6</span>
+											</div>
+											<div class="single-range-input__track-wrapper">
+												<div data-name="track" class="single-range-input__track"></div>
+												<input data-name="range" type="range" min="6" max="84" value="6" step="1" />
+											</div>
+											<ul class="single-range-input__scale">
+												<li>6</li>
+												<li>12</li>
+												<li>24</li>
+												<li>36</li>
+												<li>48</li>
+												<li>60</li>
+												<li>72</li>
+												<li>84</li>
+											</ul>
+										</div>
+										<!-- //single-range-input -->
 									</div>
+								</div>
+								<div class="credit-calc__third-row">
+									<!-- credit-calc progress bar -->
+									<div class="credit-calc__progress-bar">
+										<div class="progress-bar">
+											<div class="progress-bar__values">
+												<span data-name="value-1">0</span>
+												<span data-name="value-2">0</span>
+											</div>
+											<div class="progress-bar__track"></div>
+											<div class="progress-bar__labels">
+												<span>Первоначальный <br>взнос</span>
+												<span>Остаток <br>по кредиту</span>
+											</div>
+										</div>
+									</div>
+									<!-- //credit-calc progress bar -->
+									<!-- credit-calc fee -->
+									<div class="credit-calc__fee">
+										<label for="credit-calc__fee">Первоначальный взнос, руб</label>
+										<input id="credit-calc__fee" class="input" type="text" placeholder="0">
+									</div>
+									<!-- //credit-calc fee -->
 								</div>
 							</div>
-							<div class="credit-calc__right-column">
-								<div class="credit-calc__range">
-									<div class="credit-calc__range-label">
-										<span>Сумма кредита, руб</span>
-										<span>0</span>
-									</div>
-									<div class="credit-calc__range-strip"></div>
-									<div class="credit-calc__range-scale">
-										<ul class="credit-calc__range-scale-list">
-											<li>0</li>
-											<li>500т</li>
-											<li>800т</li>
-											<li>1,1м</li>
-											<li>1,4м</li>
-											<li>1,7м</li>
-											<li>2м</li>
-											<li>2,3м</li>
-											<li>2,7м</li>
-											<li>3м</li>
-										</ul>
-									</div>
+							<!-- //credit-calc -->
+							<!-- credit-offer -->
+							<form class="credit-offer">
+								<div class="credit-offer__title">
+									Получить выгоду <span>300 000 ₽</span>
 								</div>
-								<div class="credit-calc__range">
-									<div class="credit-calc__range-label">
-										<span>Срок кредита, мес.</span>
-										<span>6 мес</span>
-									</div>
-									<div class="credit-calc__range-strip"></div>
-									<div class="credit-calc__range-scale">
-										<ul class="credit-calc__range-scale-list">
-											<li>6</li>
-											<li>12</li>
-											<li>24</li>
-											<li>36</li>
-											<li>48</li>
-											<li>60</li>
-											<li>72</li>
-											<li>84</li>
-										</ul>
-									</div>
+								<div class="credit-offer__row">
+									<input class="input bg-gray wmax" type="text" placeholder="Ваше имя">
 								</div>
-								<div class="credit-calc__fee">
-									<label for="">Первоначальный взнос, руб</label>
-									<input type="text" placeholder="0">
+								<div class="credit-offer__row">
+									<input class="input bg-gray wmax" type="tel" placeholder="Ваш телефон">
 								</div>
-							</div>
+								<div class="credit-offer__row">
+									<button class="button wmax" type="button">Получить предложение</button>
+								</div>
+								<div class="credit-offer__notice">
+									Нажимая кнопку “Получить скидку” Вы даете согласие на обработку своих персональных данных
+								</div>
+							</form>
+							<!-- //credit-offer -->
 						</div>
 					</div>
-					<form class="credit-form">
-						<div class="credit-form__title">
-							Получить выгоду <span>300 000 ₽</span>
-						</div>
-						<input class="credit-form__input" type="text" placeholder="Ваше имя">
-						<input class="credit-form__input" type="phone" placeholder="Ваш телефон">
-						<button class="button">Получить предложение</button>
-						<div class="credit-form__notice">
-							Нажимая кнопку “Получить скидку” Вы даете согласие на обработку своих персональных данных
-						</div>
-					</form>
 				</div>
 			</div>
 		</section>
@@ -918,28 +1389,41 @@
 				<div class="section-banks__title">
 					<h2 class="h2">Банки-партнеры</h2>
 				</div>
-				<div class="section-banks__cards">
-					<div class="bank-card">
-						<div class="bank-card__logo">
-							<img src="./img/section-banks/bank-1.png" alt="bank-logo">
+				<!-- owl-carousel slider -->
+				<div class="section-banks__slider slider">
+					<div class="slider__main">
+						<div class="owl-carousel owl-theme">
+							<div class="bank-card">
+								<img src="./img/section-banks/bank-1.png" alt="bank-logo">
+							</div>
+							<div class="bank-card">
+								<img src="./img/section-banks/bank-2.png" alt="bank-logo">
+							</div>
+							<div class="bank-card">
+								<img src="./img/section-banks/bank-3.png" alt="bank-logo">
+							</div>
+							<div class="bank-card">
+								<img src="./img/section-banks/bank-4.png" alt="bank-logo">
+							</div>
+							<div class="bank-card">
+								<img src="./img/section-banks/bank-1.png" alt="bank-logo">
+							</div>
 						</div>
 					</div>
-					<div class="bank-card">
-						<div class="bank-card__logo">
-							<img src="./img/section-banks/bank-2.png" alt="bank-logo">
-						</div>
-					</div>
-					<div class="bank-card">
-						<div class="bank-card__logo">
-							<img src="./img/section-banks/bank-3.png" alt="bank-logo">
-						</div>
-					</div>
-					<div class="bank-card">
-						<div class="bank-card__logo">
-							<img src="./img/section-banks/bank-4.png" alt="bank-logo">
-						</div>
+					<div class="slider__controls">
+						<button class="slider__btn slider__btn--left" type="button">
+							<svg class="icon-arrow-left" width="8" height="12">
+								<use href="#icon-arrow-left"></use>
+							</svg>
+						</button>
+						<button class="slider__btn slider__btn--right" type="button">
+							<svg class="icon-arrow-right" width="8" height="12">
+								<use href="#icon-arrow-right"></use>
+							</svg>
+						</button>
 					</div>
 				</div>
+				<!-- //owl-carousel slider -->
 			</div>
 		</section>
 
@@ -948,126 +1432,144 @@
 				<div class="section-ratings__title">
 					<h2 class="h2">Нам доверяют</h2>
 				</div>
-				<div class="section-ratings__site-cards">
-					<!-- site-card -->
-					<div class="rating-site-card">
-						<div class="rating-site-card__header">
-							<div class="rating-site-card__title">
-								Сайт отзовик
-							</div>
-							<div class="rating-site-card__subtitle">
-								Название автосалона
-							</div>
-						</div>
-						<div class="rating-site-card__rating">
-							<div class="rating-site-card__stars">
-								<span class="rating-text">Рекомендуют 90%</span>
-								<div class="rating-stars">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
+				<!-- owl-carousel slider -->
+				<div class="section-ratings__site-cards slider">
+					<div class="slider__main">
+						<div class="owl-carousel owl-theme">
+							<!-- site-card -->
+							<div class="rating-site-card">
+								<div class="rating-site-card__header">
+									<a href="#!" class="rating-site-card__title">
+										Сайт отзовик
+									</a>
+									<a href="#!" class="rating-site-card__link">
+										Название автосалона
+									</a>
+								</div>
+								<div class="rating-site-card__rating">
+									<div class="rating-site-card__stars">
+										<span class="rating-text">Рекомендуют 90%</span>
+										<div class="rating-stars">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+										</div>
+									</div>
+									<div class="rating-badge rating-badge--small">
+										4.5
+									</div>
 								</div>
 							</div>
-							<div class="rating-badge rating-badge--small">
-								4.5
-							</div>
-						</div>
-					</div>
-					<!-- //site-card -->
-					<!-- site-card -->
-					<div class="rating-site-card">
-						<div class="rating-site-card__header">
-							<div class="rating-site-card__title">
-								Сайт отзовик
-							</div>
-							<div class="rating-site-card__subtitle">
-								Название автосалона
-							</div>
-						</div>
-						<div class="rating-site-card__rating">
-							<div class="rating-site-card__stars">
-								<span class="rating-text">Рекомендуют 90%</span>
-								<div class="rating-stars">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
+							<!-- //site-card -->
+							<!-- site-card -->
+							<div class="rating-site-card">
+								<div class="rating-site-card__header">
+									<a href="#!" class="rating-site-card__title">
+										Сайт отзовик
+									</a>
+									<a href="#!" class="rating-site-card__link">
+										Название автосалона
+									</a>
+								</div>
+								<div class="rating-site-card__rating">
+									<div class="rating-site-card__stars">
+										<span class="rating-text">Рекомендуют 90%</span>
+										<div class="rating-stars">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+										</div>
+									</div>
+									<div class="rating-badge rating-badge--small">
+										4.5
+									</div>
 								</div>
 							</div>
-							<div class="rating-badge rating-badge--small">
-								4.5
-							</div>
-						</div>
-					</div>
-					<!-- //site-card -->
-					<!-- site-card -->
-					<div class="rating-site-card">
-						<div class="rating-site-card__header">
-							<div class="rating-site-card__title">
-								Сайт отзовик
-							</div>
-							<div class="rating-site-card__subtitle">
-								Название автосалона
-							</div>
-						</div>
-						<div class="rating-site-card__rating">
-							<div class="rating-site-card__stars">
-								<span class="rating-text">Рекомендуют 90%</span>
-								<div class="rating-stars">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
+							<!-- //site-card -->
+							<!-- site-card -->
+							<div class="rating-site-card">
+								<div class="rating-site-card__header">
+									<a href="#!" class="rating-site-card__title">
+										Сайт отзовик
+									</a>
+									<a href="#!" class="rating-site-card__link">
+										Название автосалона
+									</a>
+								</div>
+								<div class="rating-site-card__rating">
+									<div class="rating-site-card__stars">
+										<span class="rating-text">Рекомендуют 90%</span>
+										<div class="rating-stars">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+										</div>
+									</div>
+									<div class="rating-badge rating-badge--small">
+										4.5
+									</div>
 								</div>
 							</div>
-							<div class="rating-badge rating-badge--small">
-								4.5
-							</div>
-						</div>
-					</div>
-					<!-- //site-card -->
-					<!-- site-card -->
-					<div class="rating-site-card">
-						<div class="rating-site-card__header">
-							<div class="rating-site-card__title">
-								Сайт отзовик
-							</div>
-							<div class="rating-site-card__subtitle">
-								Название автосалона
-							</div>
-						</div>
-						<div class="rating-site-card__rating">
-							<div class="rating-site-card__stars">
-								<span class="rating-text">Рекомендуют 90%</span>
-								<div class="rating-stars">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
-									<img src="./img/section-ratings/star.svg" alt="star">
+							<!-- //site-card -->
+							<!-- site-card -->
+							<div class="rating-site-card">
+								<div class="rating-site-card__header">
+									<a href="#!" class="rating-site-card__title">
+										Сайт отзовик
+									</a>
+									<a href="#!" class="rating-site-card__link">
+										Название автосалона
+									</a>
+								</div>
+								<div class="rating-site-card__rating">
+									<div class="rating-site-card__stars">
+										<span class="rating-text">Рекомендуют 90%</span>
+										<div class="rating-stars">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+											<img src="./img/section-ratings/star.svg" alt="star">
+										</div>
+									</div>
+									<div class="rating-badge rating-badge--small">
+										4.5
+									</div>
 								</div>
 							</div>
-							<div class="rating-badge rating-badge--small">
-								4.5
-							</div>
+							<!-- //site-card -->
 						</div>
 					</div>
-					<!-- //site-card -->
+					<div class="slider__controls">
+						<button class="slider__btn slider__btn--left" type="button">
+							<svg class="icon-arrow-left" width="8" height="12">
+								<use href="#icon-arrow-left"></use>
+							</svg>
+						</button>
+						<button class="slider__btn slider__btn--right" type="button">
+							<svg class="icon-arrow-right" width="8" height="12">
+								<use href="#icon-arrow-right"></use>
+							</svg>
+						</button>
+					</div>
 				</div>
+				<!-- //owl-carousel slider -->
 				<div class="section-ratings__map-cards">
 					<!-- map-card -->
 					<div class="rating-map-card">
 						<div class="rating-map-card__header">
-							<div class="rating-map-card__logo">
-								<img src="./img/section-ratings/google.png" alt="google maps">
-							</div>
-							<div class="rating-map-card__subtitle">
+							<a href="#!" class="rating-map-card__logo">
+								<img src="./img/section-ratings/yandex.png" alt="google maps">
+							</a>
+							<a href="#!" class="rating-map-card__link">
 								Название автосалона
-							</div>
+							</a>
 						</div>
 						<div class="rating-map-card__rating">
 							<div class="rating-map-card__stars">
@@ -1087,12 +1589,12 @@
 					<!-- map-card -->
 					<div class="rating-map-card">
 						<div class="rating-map-card__header">
-							<div class="rating-map-card__logo">
+							<a href="#!" class="rating-map-card__logo">
 								<img src="./img/section-ratings/google.png" alt="google maps">
-							</div>
-							<div class="rating-map-card__subtitle">
+							</a>
+							<a href="#!" class="rating-map-card__link">
 								Название автосалона
-							</div>
+							</a>
 						</div>
 						<div class="rating-map-card__rating">
 							<div class="rating-map-card__stars">
@@ -1119,48 +1621,84 @@
 					<h2 class="h2">Отзывы</h2>
 				</div>
 				<div class="section-reviews__cards">
+					<!-- review card -->
 					<div class="review-card">
-						<div class="review-card__image"></div>
+						<div class="review-card__video">
+							<video controls playsinline muted poster="./img/section-reviews/gray-bg.jpg">
+								<source src="./img/section-about/greeting.mp4" type="video/mp4">
+							</video>
+							<div class="play-icon">
+								<img src="./img/general/play.svg" alt="play-icon">
+							</div>
+						</div>
 						<div class="review-card__content">
 							<div class="review-card__name">
 								Сергей Васильев
 							</div>
 							<div class="review-card__text">
-								«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...
+								<p class="review-card__text-short"></p>
+								<p class="review-card__text-full">
+									«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA, и нас встретил менеджер, Андрей его зовут, очень приятный молодой человек, вникся во все наши проблемы.... Профессионально давал рекомендации всякие, объяснения, нам это очень понравилось, и, в конце концов, с его усилиями совместно с нашими претензиями мы выбрали автомобиль.»
+								</p>
 							</div>
-							<button class="review-card__readmore">
+							<button class="review-card__readmore" type="button">
 								Подробнее
 							</button>
 						</div>
 					</div>
+					<!-- //review-card -->
+					<!-- review card -->
 					<div class="review-card">
-						<div class="review-card__image"></div>
+						<div class="review-card__video">
+							<video controls playsinline muted poster="./img/section-reviews/gray-bg.jpg">
+								<source src="./img/section-about/greeting.mp4" type="video/mp4">
+							</video>
+							<div class="play-icon">
+								<img src="./img/general/play.svg" alt="play-icon">
+							</div>
+						</div>
 						<div class="review-card__content">
 							<div class="review-card__name">
 								Сергей Васильев
 							</div>
 							<div class="review-card__text">
-								«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...
+								<p class="review-card__text-short"></p>
+								<p class="review-card__text-full">
+									«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA, и нас встретил менеджер, Андрей его зовут, очень приятный молодой человек, вникся во все наши проблемы.... Профессионально давал рекомендации всякие, объяснения, нам это очень понравилось, и, в конце концов, с его усилиями совместно с нашими претензиями мы выбрали автомобиль.»
+								</p>
 							</div>
-							<button class="review-card__readmore">
+							<button class="review-card__readmore" type="button">
 								Подробнее
 							</button>
 						</div>
 					</div>
+					<!-- //review-card -->
+					<!-- review card -->
 					<div class="review-card">
-						<div class="review-card__image"></div>
+						<div class="review-card__video">
+							<video controls playsinline muted poster="./img/section-reviews/gray-bg.jpg">
+								<source src="./img/section-about/greeting.mp4" type="video/mp4">
+							</video>
+							<div class="play-icon">
+								<img src="./img/general/play.svg" alt="play-icon">
+							</div>
+						</div>
 						<div class="review-card__content">
 							<div class="review-card__name">
 								Сергей Васильев
 							</div>
 							<div class="review-card__text">
-								«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...
+								<p class="review-card__text-short"></p>
+								<p class="review-card__text-full">
+									«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA, и нас встретил менеджер, Андрей его зовут, очень приятный молодой человек, вникся во все наши проблемы.... Профессионально давал рекомендации всякие, объяснения, нам это очень понравилось, и, в конце концов, с его усилиями совместно с нашими претензиями мы выбрали автомобиль.»
+								</p>
 							</div>
-							<button class="review-card__readmore">
+							<button class="review-card__readmore" type="button">
 								Подробнее
 							</button>
 						</div>
 					</div>
+					<!-- //review-card -->
 				</div>
 			</div>
 		</section>
@@ -1177,6 +1715,9 @@
 					<video controls playsinline muted poster="./img/section-about/poster.jpg">
 						<source src="./img/section-about/greeting.mp4" type="video/mp4">
 					</video>
+					<div class="play-icon">
+						<img src="./img/general/play.svg" alt="play-icon">
+					</div>
 				</div>
 			</div>
 		</section>
@@ -1185,64 +1726,92 @@
 			<div class="container">
 				<div class="section-blog__title">
 					<h2 class="h2">Блог</h2>
+					<button class="badge-button p25" type="button">Все статьи</button>
 				</div>
-				<div class="section-blog__cards">
-					<div class="blog-card">
-						<div class="blog-card__image">
-							<img src="./img/section-blog/blog-1.jpg" alt="post">
-						</div>
-						<div class="blog-card__date">
-							25 октября
-						</div>
-						<div class="blog-card__title">
-							Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+				<!-- owl-carousel slider -->
+				<div class="section-blog__cards slider">
+					<div class="slider__main">
+						<div class="owl-carousel owl-theme">
+							<!-- blog-card -->
+							<div class="blog-card">
+								<div class="blog-card__image">
+									<img src="./img/section-blog/blog-1.jpg" alt="post">
+								</div>
+								<div class="blog-card__date">
+									25 октября
+								</div>
+								<a href="#!" class="blog-card__title">
+									Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+								</a>
+							</div>
+							<!-- blog-card -->
+							<!-- //blog-card -->
+							<div class="blog-card">
+								<div class="blog-card__image">
+									<img src="./img/section-blog/blog-1.jpg" alt="post">
+								</div>
+								<div class="blog-card__date">
+									25 октября
+								</div>
+								<a href="#!" class="blog-card__title">
+									Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+								</a>
+							</div>
+							<!-- //blog-card -->
+							<!-- blog-card -->
+							<div class="blog-card">
+								<div class="blog-card__image">
+									<img src="./img/section-blog/blog-1.jpg" alt="post">
+								</div>
+								<div class="blog-card__date">
+									25 октября
+								</div>
+								<a href="#!" class="blog-card__title">
+									Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+								</a>
+							</div>
+							<!-- //blog-card -->
+							<!-- blog-card -->
+							<div class="blog-card">
+								<div class="blog-card__image">
+									<img src="./img/section-blog/blog-1.jpg" alt="post">
+								</div>
+								<div class="blog-card__date">
+									25 октября
+								</div>
+								<a href="#!" class="blog-card__title">
+									Тест Skoda Karoq Scout - городской карлик или настоящий скаут
+								</a>
+							</div>
+							<!-- //blog-card -->
 						</div>
 					</div>
-					<div class="blog-card">
-						<div class="blog-card__image">
-							<img src="./img/section-blog/blog-1.jpg" alt="post">
-						</div>
-						<div class="blog-card__date">
-							25 октября
-						</div>
-						<div class="blog-card__title">
-							Тест Skoda Karoq Scout - городской карлик или настоящий скаут
-						</div>
-					</div>
-					<div class="blog-card">
-						<div class="blog-card__image">
-							<img src="./img/section-blog/blog-1.jpg" alt="post">
-						</div>
-						<div class="blog-card__date">
-							25 октября
-						</div>
-						<div class="blog-card__title">
-							Тест Skoda Karoq Scout - городской карлик или настоящий скаут
-						</div>
-					</div>
-					<div class="blog-card">
-						<div class="blog-card__image">
-							<img src="./img/section-blog/blog-1.jpg" alt="post">
-						</div>
-						<div class="blog-card__date">
-							25 октября
-						</div>
-						<div class="blog-card__title">
-							Тест Skoda Karoq Scout - городской карлик или настоящий скаут
-						</div>
+					<div class="slider__controls">
+						<button class="slider__btn slider__btn--left" type="button">
+							<svg class="icon-arrow-left" width="8" height="12">
+								<use href="#icon-arrow-left"></use>
+							</svg>
+						</button>
+						<button class="slider__btn slider__btn--right" type="button">
+							<svg class="icon-arrow-right" width="8" height="12">
+								<use href="#icon-arrow-right"></use>
+							</svg>
+						</button>
 					</div>
 				</div>
+				<!-- //owl-carousel slider -->
 			</div>
 		</section>
 
 		<section class="section-tabs">
 			<div class="container">
 				<ul class="section-tabs__list">
-					<li>Автосалон</li>
-					<li>Трейд-ин</li>
-					<li>Покупка</li>
+					<li class="active" data-tab="tab-1">Автосалон</li>
+					<li data-tab="tab-2">Трейд-ин</li>
+					<li data-tab="tab-3">Покупка</li>
 				</ul>
-				<div class="section-tabs__item">
+				<!-- tab-1 -->
+				<div class="section-tabs__item" data-tab-content="tab-1">
 					<div class="section-tabs__item-title">
 						<h2 class="h2">Об автосалоне ABC</h2>
 					</div>
@@ -1252,278 +1821,375 @@
 						</p>
 					</div>
 				</div>
+				<!-- //tab-1 -->
+				<!-- tab-2 -->
+				<div class="section-tabs__item none" data-tab-content="tab-2">
+					<div class="section-tabs__item-title">
+						<h2 class="h2">Трейд-ин</h2>
+					</div>
+					<div class="section-tabs__item-text">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor, eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla iaculis a orci sit amet iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.
+						</p>
+					</div>
+				</div>
+				<!-- //tab-2 -->
+				<!-- tab-3 -->
+				<div class="section-tabs__item none" data-tab-content="tab-3">
+					<div class="section-tabs__item-title">
+						<h2 class="h2">Покупка</h2>
+					</div>
+					<div class="section-tabs__item-text">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui dictum vitae. Sed ac mauris nisi. Maecenas quis sollicitudin dolor, eget molestie dolor. Vivamus sed magna euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio sit amet laoreet vulputate. Suspendisse vitae vestibulum quam. Vivamus lectus justo, bibendum at laoreet vel, rhoncus nec sem. Phasellus at mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla iaculis a orci sit amet iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.
+						</p>
+					</div>
+				</div>
+				<!-- //tab-3 -->
 			</div>
 		</section>
 
 		<section class="section-map">
-			<div class="section-map__map-wrapper">
-				<img src="./img/section-map/map.jpg" alt="map">
-				<div class="section-map__info"></div>
+			<div class="bg-wrapper">
+				<div id="map">
+					<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A53a64ead64792b31aa8898329836eec02b9754ab90d26c7d0866e175bdeda183&amp;source=constructor" width="1870" height="570" frameborder="0"></iframe>
+					<div class="map-info">
+						<ul class="map-info__content">
+							<li>
+								<div class="icon-round-red-wrapper">
+									<svg width="9" height="10">
+										<use href="#icon-phone"></use>
+									</svg>
+								</div>
+								+7 (800) 551-94-31<br>+7 (495) 292-18-67
+							</li>
+							<li>
+								<div class="icon-round-red-wrapper">
+									<svg width="11" height="12">
+										<use href="#icon-time"></use>
+									</svg>
+								</div>
+								Ежедневно с 08:00 до 21:00
+							</li>
+							<li>
+								<div class="icon-round-red-wrapper">
+									<svg width="9" height="12">
+										<use href="#icon-adress"></use>
+									</svg>
+								</div>
+								Россия, Москва, 38КМ МКАД, 6Бс1
+							</li>
+						</ul>
+						<div class="map-info__button">
+							<button class="button h50" type="button">Как до нас добраться</button>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 	</main>
 
 	<footer class="footer">
 		<section class="footer-top">
-			<div class="container">
-				<ul class="footer-top__menu">
-					<li>Каталог авто</li>
-					<li>Авто с пробегом</li>
-					<li>Кредит и рассрочка</li>
-					<li>Спецпредложения</li>
-					<li>Такси в кредит</li>
-				</ul>
+			<div class="bg-wrapper">
+				<div class="footer-top__bg">
+					<div class="container">
+						<ul class="footer-top__menu">
+							<li><a href="#!">Каталог авто</a></li>
+							<li><a href="#!">Авто с пробегом</a></li>
+							<li><a href="#!">Кредит и рассрочка</a></li>
+							<li><a href="#!">Спецпредложения</a></li>
+							<li><a href="#!">Такси в кредит</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</section>
 
 		<section class="footer-middle">
-			<div class="container">
-				<div class="footer-middle__row">
+			<div class="bg-wrapper">
+				<div class="footer-middle__bg">
+					<div class="container">
+						<div class="footer-middle__row">
+							<div class="footer-middle__catalog">
+								<div class="footer-middle__title">
+									Каталог авто
+								</div>
+								<ul class="footer-middle__brands-list">
+									<li>
+										<a href="#!">
+											Kia
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Hyundai
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Skoda
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Volkswagen
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Toyota
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Brilliance
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Changan
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Chery
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Chery-Exeed
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Chevrolet
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Citroen
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Datsun
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Dongfeng
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											DW-Hover
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Faw
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Ford
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Foton
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Gac
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Geely
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Great-Wall
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Haima
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Haval
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Honda
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Jac
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Lada
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Lifan
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Mazda
+										</a>
+									</li>
 
-					<div class="footer-middle__catalog">
-						<div class="footer-middle__title">
-							Каталог авто
+									<li>
+										<a href="#!">
+											Mitsubishi
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Nissan
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Opel
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Peugeot
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Ravon
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Renault
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											SsangYoung
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Suzuki
+										</a>
+									</li>
+									<li>
+										<a href="#!">
+											Uaz
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer-middle__credit">
+								<div class="footer-middle__title">
+									Кредит и рассрочка
+								</div>
+								<ul class="footer-middle__credit-menu">
+									<li><a href="#!">Экспресс-кредит</a></li>
+									<li><a href="#!">Семейный автомобиль</a></li>
+									<li><a href="#!">Первый автомобиль</a></li>
+									<li><a href="#!">Работникам медицины</a></li>
+									<li><a href="#!">Рассрочка</a></li>
+									<li><a href="#!">Trade-in</a></li>
+								</ul>
+							</div>
+							<div class="footer-middle__contacts">
+								<div class="footer-middle__title">
+									Контакты
+								</div>
+								<ul class="footer-middle__contacts-list">
+									<li>
+										<div class="icon-round-red-wrapper">
+											<svg width="9" height="10">
+												<use href="#icon-phone"></use>
+											</svg>
+										</div>
+										+7 (800) 551-94-31<br>+7 (495) 292-18-67
+									</li>
+									<li>
+										<div class="icon-round-red-wrapper">
+											<svg width="11" height="12">
+												<use href="#icon-time"></use>
+											</svg>
+										</div>
+										Ежедневно с 08:00 до 21:00
+									</li>
+									<li>
+										<div class="icon-round-red-wrapper">
+											<svg width="9" height="12">
+												<use href="#icon-adress"></use>
+											</svg>
+										</div>
+										Россия, Москва, 38КМ МКАД, 6Бс1
+									</li>
+								</ul>
+								<div class="dropdown">
+									<button class="dropdown__button dropdown__button--small  dropdown__button--dark" type="button">Москва</button>
+									<ul class="dropdown__list">
+										<li data-value="Moscow ">Москва</li>
+										<li data-value="Saint-Petersurg ">Санкт-Петербург</li>
+									</ul>
+									<input class="dropdown__input-hidden" type="text" name="select-category" value="">
+								</div>
+							</div>
 						</div>
-						<ul class="footer-middle__brands-list">
-							<li>
-								<a href="#!">
-									Kia
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Hyundai
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Skoda
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Volkswagen
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Toyota
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Brilliance
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Changan
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Chery
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Chery-Exeed
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Chevrolet
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Citroen
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Datsun
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Dongfeng
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									DW-Hover
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Faw
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Ford
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Foton
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Gac
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Geely
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Great-Wall
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Haima
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Haval
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Honda
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Jac
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Lada
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Lifan
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Mazda
-								</a>
-							</li>
-		
-							<li>
-								<a href="#!">
-									Mitsubishi
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Nissan
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Opel
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Peugeot
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Ravon
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Renault
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									SsangYoung
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Suzuki
-								</a>
-							</li>
-							<li>
-								<a href="#!">
-									Uaz
-								</a>
-							</li>
-						</ul>
 					</div>
-
-					<div class="footer-middle__credit">
-						<div class="footer-middle__title">
-							Кредит и рассрочка
-						</div>
-						<ul class="footer-middle__credit-menu">
-							<li>Экспресс-кредит</li>
-							<li>Семейный автомобиль</li>
-							<li>Первый автомобиль</li>
-							<li>Работникам медицины</li>
-							<li>Рассрочка</li>
-							<li>Trade-in</li>
-						</ul>
-					</div>
-
-					<div class="footer-middle__contacts">
-						<div class="footer-middle__title">
-							Контакты
-						</div>
-						<ul class="footer-middle__credit-menu">
-							<li>Экспресс-кредит</li>
-							<li>Семейный автомобиль</li>
-							<li>Первый автомобиль</li>
-							<li>Работникам медицины</li>
-							<li>Рассрочка</li>
-							<li>Trade-in</li>
-						</ul>
-					</div>
-
 				</div>
 			</div>
 		</section>
 
 		<section class="footer-bottom">
-			<div class="container">
-				<div class="footer-bottom__row">
-					<div class="footer-bottom__copyright">
-						<span>© 2021 Автосалон "ABC AUTO". Официальный дилер</span>
-						<div class="footer-bottom__links">
-							<a href="#!">Политика конфиденциальности</a>
-							<a href="#!">Пользовательское соглашение</a>
+			<div class="bg-wrapper">
+				<div class="footer-bottom__bg">
+					<div class="container">
+						<div class="footer-bottom__row">
+							<div class="footer-bottom__copyright">
+								<span>© 2021 Автосалон "ABC AUTO". Официальный дилер</span>
+								<div class="footer-bottom__links">
+									<a href="#!">Политика конфиденциальности</a>
+									<a href="#!">Пользовательское соглашение</a>
+								</div>
+							</div>
+							<div class="footer-bottom__notice">
+								Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.
+							</div>
+							<div class="footer-bottom__image">
+								<img src="./img/footer/footer-bottom/yandex.jpg" alt="yandex">
+							</div>
 						</div>
 					</div>
-					<div class="footer-bottom__notice">
-						Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации.
-					</div>
-					<div class="footer-bottom__image">
-						<img src="./img/footer/footer-bottom/yandex.jpg" alt="yandex">
-					</div>
 				</div>
-
-
-
 			</div>
 		</section>
 	</footer>
+
+	<!-- jQuery lib -->
+	<script src="./libs/jquery/jquery-3.6.4.min.js"></script>
+
+	<!-- owl-carousel2 -->
+	<script src="./libs/owl-carousel2/owl.carousel.min.js"></script>
+
+	<!-- Custom scripts -->
+	<script src="./js/main.js"></script>
 </body>
 
 </html>

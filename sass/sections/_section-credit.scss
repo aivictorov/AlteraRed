@@ -1,0 +1,21 @@
+.section-credit {
+	padding-top: 53px;
+}
+
+.section-credit__bg {
+	padding-top: 81px;
+	padding-bottom: 135px;
+	background: rgba(239, 240, 240, 0.432);
+	border-radius: 25px;
+}
+
+.section-credit__title {
+	margin-bottom: 37px;
+}
+
+.section-credit__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	column-gap: 30px;
+}

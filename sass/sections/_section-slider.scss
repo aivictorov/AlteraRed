@@ -1,0 +1,62 @@
+.slider__bg {
+	position: relative;
+	min-height: 600px;
+	background: #EFF0F0;
+	border-radius: 25px;
+	overflow: hidden;
+
+	&::before {
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 1222px;
+		height: 100%;
+		background-image: url("./../img/section-slider/background.png");
+		background-repeat: no-repeat;
+		opacity: 0.58;
+
+		@media (max-width: 1899px) {
+			right: -235px;
+		}
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		right: 82px;
+		bottom: 35px;
+		width: 1037px;
+		height: 388px;
+		background-image: url("./../img/section-slider/cars.png");
+		background-repeat: no-repeat;
+
+		@media (max-width: 1899px) {
+			right: calc(82px - 135px);
+		}
+	}
+}
+
+.slider__content {
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	padding-top: 81px;
+	max-width: 730px;
+	z-index: 9;
+}
+
+.slider__badge {
+	margin-bottom: 35px;
+}
+
+.slider__title {
+	margin-bottom: 24px;
+}
+
+.slider__subtitle {
+	font-size: 29px;
+	line-height: 1.17;
+	color: $gray-color;
+}

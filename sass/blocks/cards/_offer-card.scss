@@ -1,0 +1,41 @@
+.offer-card {
+	position: relative;
+	padding: 29px 25px 25px;
+	width: 447px;
+	height: 196px;
+	border-radius: 25px;
+	background: #EFF0F0;
+	overflow: hidden;
+}
+
+.offer-card__background {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.offer-card__content {
+	position: relative;
+	height: 100%;
+	z-index: 9;
+
+	.offer-card__title {
+		margin-bottom: 4px;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 1.15;
+	}
+
+	.offer-card__description {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.14;
+		color: $gray-color;
+	}
+
+	.offer-card__button {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+}

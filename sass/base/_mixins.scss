@@ -4,16 +4,3 @@
 	border-radius: 2px;
 	background-color: $black-color;
 }
-
-@mixin play-icon {
-	content: "";
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 67px;
-	height: 67px;
-	border-radius: 50%;
-	background-image: url('./../../img/icons/play.svg');
-	background-size: contain;
-}

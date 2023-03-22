@@ -1,6 +1,5 @@
 .section-about {
-	padding-top: 55px;
-	padding-bottom: 58px;
+	padding-top: 110px;
 	text-align: center;
 }
 
@@ -19,14 +18,10 @@
 
 .section-about__video {
 	position: relative;
-	height: 573px;
-
-	&::after {
-		@include play-icon;
-	}
 
 	video {
-		height: 100%;
-		width: auto;
+		width: 924px;
+		height: 573px;
+		object-fit: cover;
 	}
 }

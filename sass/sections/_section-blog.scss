@@ -1,15 +1,10 @@
 .section-blog {
-	padding-top: 58px;
-	padding-bottom: 58px;
+	padding-top: 110px;
 }
 
 .section-blog__title {
-	margin-bottom: 51px;
-}
-
-.section-blog__cards {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	column-gap: 30px;
+	column-gap: 25px;
+	margin-bottom: 51px;
 }

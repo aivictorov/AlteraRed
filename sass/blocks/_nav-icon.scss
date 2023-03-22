@@ -5,28 +5,47 @@
 	width: 28px;
 	height: 22px;
 	cursor: pointer;
-}
 
-.nav-icon__stripe {
-	position: relative;
-	@include nav-icon-stripe;
-	transition: background-color 0s linear .2s;
-
-	&::before,
-	&::after {
-		content: "";
+	.nav-icon__stripe {
+		position: relative;
 		@include nav-icon-stripe;
-		position: absolute;
-		left: 0;
-		transition: top .2s ease-in .2s, transform .2s ease-in;
+		transition: background-color 0s linear .2s;
+
+		&::before,
+		&::after {
+			content: "";
+			@include nav-icon-stripe;
+			position: absolute;
+			left: 0;
+			transition: transform .2s ease-in, top .2s ease-in .2s;
+		}
+
+		&::before {
+			top: -10px;
+		}
+
+		&::after {
+			top: 10px;
+		}
 	}
 
-	&::before {
-		top: -10px;
-	}
+	&.active {
+		.nav-icon__stripe {
+			background-color: transparent;
 
-	&::after {
-		top: 10px;
+			&::before,
+			&::after {
+				top: 0px;
+				transition: top .2s ease-in, transform .2s ease-in .2s;
+			}
+
+			&::before {
+				transform: rotate(45deg);
+			}
+
+			&::after {
+				transform: rotate(-45deg);
+			}
+		}
 	}
 }
-

@@ -1,6 +1,5 @@
 .section-stock {
 	padding-top: 64px;
-	padding-bottom: 35px;
 }
 
 .section-stock__title {
@@ -11,8 +10,7 @@
 .section-stock__cards {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	// column-gap: 35px;
+	column-gap: 30px;
 	row-gap: 30px;
 	margin-bottom: 31px;
 }

@@ -1,0 +1,46 @@
+.icon-favourite,
+.icon-compare {
+	fill: #FFF;
+	stroke: $gray-color;
+	cursor: pointer;
+	transition: fill .2s ease-in, stroke .2s ease-in;
+
+	&:hover {
+		fill: $accent-color;
+		stroke: $accent-color;
+	}
+
+	&:active {
+		fill: #750000;
+		stroke: #750000;
+	}
+}
+
+.icon-search {
+	fill: #FFF;
+	stroke: $gray-color;
+	transition: stroke .2s ease-in;
+
+	&:hover {
+		stroke: $accent-color;
+	}
+
+	&:active {
+		stroke: #750000;
+	}
+}
+
+.icon-round-red-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	width: 23px;
+	height: 23px;
+	border-radius: 50%;
+	background-color: $accent-color;
+
+	svg {
+		fill: #FFF;
+	}
+}

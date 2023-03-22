@@ -1,6 +1,5 @@
 .section-reviews {
-	padding-top: 45px;
-	padding-bottom: 55px;
+	padding-top: 90px;
 }
 
 .section-reviews__title {
@@ -10,5 +9,5 @@
 .section-reviews__cards {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 }

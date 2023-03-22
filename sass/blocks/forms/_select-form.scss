@@ -1,0 +1,22 @@
+.select-form {
+	width: 490px;
+}
+
+.select-form__title {
+	margin-bottom: 22px;
+}
+
+.select-form__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 15px;
+
+	>.dropdown {
+		width: calc(50% - 15px / 2);
+	}
+
+	&+.select-form__row {
+		margin-bottom: 25px;
+	}
+}

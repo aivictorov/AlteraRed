@@ -1,0 +1,47 @@
+.header-top {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #EFF0F0;
+	font-size: 14px;
+	line-height: 1.14;
+	color: $gray-color;
+
+	svg {
+		fill: #737373;
+	}
+}
+
+.header-top__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-top__left-column {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 50%;
+}
+
+.header-top__adress,
+.header-top__shedule,
+.header-top__whatsapp {
+	display: flex;
+	align-items: center;
+	column-gap: 7px;
+}
+
+.header-top__whatsapp {
+	cursor: pointer;
+
+	svg {
+		transition: fill .2s ease-in;
+	}
+
+	&:hover {
+		svg {
+			fill: #39BF4C;
+		}
+	}
+}

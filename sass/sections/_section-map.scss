@@ -1,29 +1,35 @@
 .section-map {
+	padding-top: 105px;
 	margin-bottom: -100px;
 }
 
-.section-map__map-wrapper {
+#map {
 	position: relative;
-	width: 1870px;
-	height: 570px;
+	width: 100%;
+	height: 100%;
 	border-radius: 25px;
 	overflow: hidden;
-	z-index: -1;
-
-	img {
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
 }
 
-.section-map__info {
+.map-info {
 	position: absolute;
 	top: 107px;
 	right: 235px;
-	width: 401px;
-	height: 258px;
+	padding: 40px 30px;
+	width: 400px;
 	border-radius: 15px;
 	background-color: #FFF;
 	box-shadow: 0px 0px 30px rgba(38, 38, 38, 0.15);
+}
+
+.map-info__content {
+	font-size: 16px;
+	line-height: 1.19;
+
+	li {
+		display: flex;
+		align-items: flex-start;
+		column-gap: 12px;
+		margin-bottom: 12px;
+	}
 }
