@@ -166,6 +166,9 @@ function doubleRangeInput() {
 	slideOne();
 	slideTwo();
 
+	rangeOne.addEventListener('input', slideOne);
+	rangeTwo.addEventListener('input', slideTwo);
+
 	function slideOne() {
 		if (parseInt(rangeTwo.value) - parseInt(rangeOne.value) <= minGap) {
 			rangeOne.value = parseInt(rangeTwo.value) - minGap;
