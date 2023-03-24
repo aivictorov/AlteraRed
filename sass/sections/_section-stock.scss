@@ -5,6 +5,11 @@
 .section-stock__title {
 	margin-bottom: 64px;
 	text-align: center;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		margin-bottom: 25px;
+	}
 }
 
 .section-stock__cards {
@@ -12,7 +17,13 @@
 	flex-wrap: wrap;
 	column-gap: 30px;
 	row-gap: 30px;
-	margin-bottom: 31px;
+	margin-bottom: 30px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		column-gap: 14px;
+		row-gap: 14px;
+	}
 }
 
 .section-stock__button {

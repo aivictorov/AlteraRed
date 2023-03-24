@@ -9,6 +9,11 @@
 		display: flex;
 		justify-content: space-between;
 		column-gap: 12px;
+		
+		/* Tablet */
+		@media (max-width: 1429px) {
+			display: none;
+		}
 	}
 
 	.slider__btn {

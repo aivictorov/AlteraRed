@@ -1,13 +1,18 @@
 .auto-card {
 	position: relative;
 	padding: 25px;
-	width: 446px;
+	width: calc((1400px - 2 * 30px) / 3);
 	height: 449px;
 	border: 1px solid #E1E1E1;
 	border-radius: 25px;
 	background-image: url('./../img/section-stock/background.png');
 	background-repeat: no-repeat;
 	background-position: top 34px right 0;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		width: calc((708px - 14px) / 2);
+	}
 
 	&::after {
 		content: "";
@@ -175,7 +180,7 @@
 
 		svg {
 			fill: $accent-color;
-			transition: fill .2s ease-in; 
+			transition: fill .2s ease-in;
 		}
 
 		&:hover,
@@ -193,7 +198,7 @@
 
 		svg {
 			fill: $black-color;
-			transition: fill .2s ease-in; 
+			transition: fill .2s ease-in;
 		}
 
 		&:hover,
@@ -211,7 +216,7 @@
 
 		svg {
 			fill: $gray-color;
-			transition: fill .2s ease-in; 
+			transition: fill .2s ease-in;
 		}
 
 		&:hover,

@@ -293,9 +293,26 @@ function sectionCollectionsCarousel() {
 			loop: true,
 			nav: false,
 			dots: false,
-			items: 3,
+			// items: 3,
 			autoWidth: true,
-			margin: 30,
+
+			responsiveClass: true,
+			responsive: {
+				// от 0 и больше
+				0: {
+					items: 1,
+				},
+				// от 768 и больше
+				768: {
+					items: 2,
+					margin: 14,
+				},
+				// от 1430 и больше
+				1430: {
+					items: 2,
+					margin: 30,
+				}
+			}
 		}
 	);
 

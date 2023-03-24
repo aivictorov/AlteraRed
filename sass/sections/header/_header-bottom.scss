@@ -1,6 +1,11 @@
 .header-bottom {
 	padding-top: 13px;
 	padding-bottom: 29px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		display: none;
+	}
 }
 
 .header-bottom__row {

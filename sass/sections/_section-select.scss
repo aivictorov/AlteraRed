@@ -1,11 +1,21 @@
 .section-select {
 	padding-top: 38px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding-top: 28px;
+	}
 }
 
 .section-select__bg {
 	padding: 20px 30px;
 	border-radius: 10px;
 	background-color: rgba(239, 240, 240, 0.5);
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding: 35px;
+	}
 }
 
 .section-select__row {
@@ -14,32 +24,10 @@
 }
 
 .section-select__brands-list {
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	column-gap: 29px;
-	row-gap: 3px;
 	width: 806px;
-
-	li {
-		width: 138px;
-
-		a {
-			display: flex;
-			align-items: center;
-			column-gap: 10px;
-
-			&:hover {
-				text-decoration: underline;
-			}
-		}
-
-		span {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			width: 38px;
-			height: 38px;
-		}
+	
+	/* Tablet */
+	@media (max-width: 1429px) {
+		display: none;
 	}
 }

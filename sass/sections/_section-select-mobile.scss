@@ -1,0 +1,15 @@
+.section-select-mobile {
+	display: none;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		display: block;
+		padding-top: 28px;
+
+		.brands-list {
+			column-gap: 4px;
+		}
+	}
+}
+
+.section-select-mobile__brands-list {}

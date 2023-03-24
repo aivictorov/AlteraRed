@@ -6,6 +6,11 @@
 	line-height: 1.14;
 	color: $gray-color;
 
+	/* Tablet */
+	@media (max-width: 1429px) {
+		display: none;
+	}
+
 	svg {
 		fill: #737373;
 	}

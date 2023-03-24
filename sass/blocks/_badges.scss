@@ -10,6 +10,16 @@
 	line-height: 29px;
 	color: #FFF;
 
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding-left: 8px;
+		padding-right: 8px;
+		height: 22px;
+		border-radius: 11px;
+		font-size: 12px;
+		line-height: 22px;
+	}
+
 	&.middle {
 		padding-left: 6px;
 		padding-right: 6px;

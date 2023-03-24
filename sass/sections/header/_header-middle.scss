@@ -7,6 +7,12 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.header-middle__left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	column-gap: 20px;
 }
 
@@ -23,6 +29,11 @@
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 19px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		display: none;
+	}
 }
 
 .header-middle__menu {
@@ -31,6 +42,11 @@
 	column-gap: 16px;
 	font-size: 14px;
 	line-height: 1.14;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		display: none;
+	}
 
 	li {
 		transition: color .2s ease-in;
@@ -41,6 +57,13 @@
 			text-decoration: underline;
 		}
 	}
+}
+
+.header-middle__right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 20px;
 }
 
 .header-middle__phones {
@@ -76,4 +99,9 @@
 
 .header-middle__button {
 	width: 210px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		display: none;
+	}
 }

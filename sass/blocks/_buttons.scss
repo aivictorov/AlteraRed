@@ -33,6 +33,15 @@
 		font-size: 14px;
 		line-height: 40px;
 		text-transform: none;
+
+		/* Tablet */
+		@media (max-width: 1429px) {
+			padding-left: 10px;
+			padding-right: 10px;
+			height: 31px;
+			line-height: 31px;
+			font-size: 12px;
+		}
 	}
 
 	&.p95 {
@@ -88,7 +97,7 @@
 		padding-left: 25px;
 		padding-right: 25px;
 	}
-	
+
 	&:hover {
 		background-color: #A90100;
 	}
