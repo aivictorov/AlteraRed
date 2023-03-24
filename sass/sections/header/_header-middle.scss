@@ -34,17 +34,18 @@
 
 	li {
 		transition: color .2s ease-in;
-	}
 
-	li:hover,
-	li:active {
-		color: $accent-color;
-		text-decoration: underline !important;
+		& a:hover,
+		& a:active {
+			color: $accent-color;
+			text-decoration: underline;
+		}
 	}
 }
 
 .header-middle__phones {
 	text-align: right;
+	flex-shrink: 0;
 }
 
 .header-middle__phone-main {

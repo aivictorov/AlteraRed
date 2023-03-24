@@ -1,13 +1,13 @@
-.header-dropdown {
-	opacity: 0;
-	transform: translateY(-1000px);
+.header-dropdown-search {
 	position: absolute;
 	padding-top: 28px;
 	padding-bottom: 28px;
 	width: 100%;
 	background-color: #fff;
 	z-index: 99;
-	transition: opacity .8s ease-in;
+	opacity: 0;
+	transform: translateY(-10000px);
+	transition: opacity .3s ease-in;
 
 	&--visible {
 		transform: unset;
@@ -32,7 +32,7 @@
 	background-repeat: no-repeat;
 }
 
-.search-form__input input{
+.search-form__input input {
 	padding-left: 70px;
 	padding-right: 110px;
 }

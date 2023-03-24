@@ -40,12 +40,10 @@
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		appearance: none;
-
 		position: absolute;
 		top: 0;
 		bottom: 0;
 		margin: auto;
-
 		width: 100%;
 		background-color: transparent;
 		outline: none;
@@ -59,33 +57,29 @@
 
 		&::-moz-range-track {
 			-moz-appearance: none;
-			height: 6px;
 		}
 
 		// thumb 
 		
 		&::-webkit-slider-thumb {
 			-webkit-appearance: none;
-			
 			height: 14px;
 			width: 14px;
-			border-radius: 10px;
+			border: none;
+			border-radius: 7px;
 			background-color: $accent-color;
 			transform: translateY(calc((6px - 14px) / 2));
-
 			pointer-events: auto;
 			cursor: pointer;
 		}
 
 		&::-moz-range-thumb {
 			-moz-appearance: none;
-
 			height: 14px;
 			width: 14px;
-			border-radius: 10px;
+			border: none;
+			border-radius: 7px;
 			background-color: $accent-color;
-			transform: translateY(calc((6px - 14px) / 2));
-
 			pointer-events: auto;
 			cursor: pointer;
 		}

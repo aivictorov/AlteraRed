@@ -10,7 +10,6 @@
 @import "./blocks/buttons";
 @import "./blocks/double-range";
 @import "./blocks/dropdowns";
-@import "./blocks/header-dropdown";
 @import "./blocks/inputs";
 @import "./blocks/nav-icon";
 @import "./blocks/play-icon";
@@ -30,13 +29,15 @@
 @import "./blocks/forms/credit-calc";
 @import "./blocks/forms/credit-offer";
 
+@import "./blocks/header-dropdowns/search";
+@import "./blocks/header-dropdowns/mobile-nav"; 
+
 @import "./blocks/popups/order-popup";
 
 // Sections
 @import "./sections/header/header-top";
 @import "./sections/header/header-middle";
 @import "./sections/header/header-bottom";
-
 @import "./sections/section-slider";
 @import "./sections/section-select";
 @import "./sections/section-stock";
@@ -51,7 +52,6 @@
 @import "./sections/section-blog";
 @import "./sections/section-tabs";
 @import "./sections/section-map";
-
 @import "./sections/footer/footer-top";
 @import "./sections/footer/footer-middle";
 @import "./sections/footer/footer-bottom";

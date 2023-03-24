@@ -1,4 +1,4 @@
-.slider__bg {
+.section-slider__bg {
 	position: relative;
 	min-height: 600px;
 	background: #EFF0F0;
@@ -37,7 +37,7 @@
 	}
 }
 
-.slider__content {
+.section-slider__content {
 	position: relative;
 	display: flex;
 	align-items: flex-start;
@@ -47,15 +47,15 @@
 	z-index: 9;
 }
 
-.slider__badge {
+.section-slider__badge {
 	margin-bottom: 35px;
 }
 
-.slider__title {
+.section-slider__title {
 	margin-bottom: 24px;
 }
 
-.slider__subtitle {
+.section-slider__subtitle {
 	font-size: 29px;
 	line-height: 1.17;
 	color: $gray-color;
