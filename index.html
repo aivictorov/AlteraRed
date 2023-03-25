@@ -80,6 +80,9 @@
 		<symbol id="icon-time" viewBox="0 0 11 12">
 			<path d="M5.5 0.00927734C2.46718 0.00927734 0 2.47683 0 5.51012C0 8.5434 2.46718 11.011 5.5 11.011C8.53282 11.011 11 8.5434 11 5.51012C11 2.47683 8.53282 0.00927734 5.5 0.00927734ZM8.11572 8.35539C8.02634 8.44478 7.90902 8.48977 7.79169 8.48977C7.67437 8.48977 7.55696 8.44478 7.46767 8.35539L5.17597 6.06343C5.08978 5.97773 5.04169 5.86122 5.04169 5.73935V2.7597C5.04169 2.50621 5.24697 2.30132 5.5 2.30132C5.75303 2.30132 5.95831 2.50621 5.95831 2.7597V5.54957L8.11572 7.70723C8.2949 7.88652 8.2949 8.17618 8.11572 8.35539Z" />
 		</symbol>
+		<symbol id="auto-card-btn-arrow" viewBox="0 0 18 50">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M0 50H1.39848C3.64006 50 5.69471 48.7505 6.7259 46.7602L16.5699 27.7602C17.4667 26.0293 17.4667 23.9707 16.5699 22.2398L6.7259 3.23982C5.69471 1.24952 3.64006 0 1.39848 0H0V50Z" />
+		</symbol>
 	</svg>
 
 	<div id="popups">
@@ -1335,17 +1338,6 @@
 					<h2 class="h2">Автомобили в наличии с ПТС</h2>
 				</div>
 				<div class="section-stock__cards">
-					<svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
-						<symbol id="auto-card-btn-red" viewBox="0 0 132 50">
-							<path d="M0 6C0 2.68629 2.68629 0 6 0H115.398C117.64 0 119.695 1.24952 120.726 3.23983L130.57 22.2398C131.467 23.9707 131.467 26.0293 130.57 27.7602L120.726 46.7602C119.695 48.7505 117.64 50 115.398 50H6C2.68629 50 0 47.3137 0 44V6Z" />
-						</symbol>
-						<symbol id="auto-card-btn-black" viewBox="0 0 159 50">
-							<path d="M0.601562 6C0.601562 2.68629 3.28785 0 6.60156 0L142.4 0C144.642 0 146.696 1.24952 147.727 3.23982L157.571 22.2398C158.468 23.9707 158.468 26.0293 157.571 27.7602L147.727 46.7602C146.696 48.7505 144.642 50 142.4 50H6.60157C3.28786 50 0.601562 47.3137 0.601562 44V6Z" />
-						</symbol>
-						<symbol id="auto-card-btn-gray" viewBox="0 0 165 50">
-							<path d="M0 6C0 2.68629 2.68629 0 6 0H148.398C150.64 0 152.695 1.24952 153.726 3.23982L163.57 22.2398C164.467 23.9707 164.467 26.0293 163.57 27.7602L153.726 46.7602C152.695 48.7505 150.64 50 148.398 50H6C2.68629 50 0 47.3137 0 44V6Z" />
-						</symbol>
-					</svg>
 					<!-- auto-card -->
 					<div class="auto-card">
 						<div class="auto-card__content">
@@ -1365,7 +1357,12 @@
 								</ul>
 							</div>
 							<div class="auto-card__badge-row">
-								<div class="auto-card__badge">Предложение дня</div>
+								<div class="auto-card__badge">
+									<svg width="10" height="28">
+										<use href="#auto-card-btn-arrow"></use>
+									</svg>
+									<span>Предложение дня</span>
+								</div>
 								<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
 							</div>
 						</div>
@@ -1376,7 +1373,7 @@
 						</ul>
 						<div class="auto-card__price-row">
 							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <b>от 115 000 ₽/мес.</b></div>
+							<div class="auto-card__loan">Кредит <b>от&nbsp;115&nbsp;000&nbsp;₽/мес.</b></div>
 						</div>
 						<ul class="auto-card__params">
 							<li>
@@ -1398,20 +1395,20 @@
 						</ul>
 						<div class="auto-card__buttons-row">
 							<button class="auto-card__button red" type="button">
-								<svg class="auto-card-btn-red" width="132" height="50">
-									<use href="#auto-card-btn-red"></use>
+								<svg class="auto-card-btn-red" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Резерв онлайн</span>
 							</button>
 							<button class="auto-card__button black" type="button">
-								<svg class="auto-card-btn-black" width="159" height="50">
-									<use href="#auto-card-btn-black"></use>
+								<svg class="auto-card-btn-black" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Купить</span>
 							</button>
 							<button class="auto-card__button gray" type="button">
-								<svg class="auto-card-btn-gray" width="165" height="50">
-									<use href="#auto-card-btn-gray"></use>
+								<svg class="auto-card-btn-gray" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Подробнее</span>
 							</button>
@@ -1437,7 +1434,12 @@
 								</ul>
 							</div>
 							<div class="auto-card__badge-row">
-								<div class="auto-card__badge">Предложение дня</div>
+								<div class="auto-card__badge">
+									<svg width="10" height="28">
+										<use href="#auto-card-btn-arrow"></use>
+									</svg>
+									<span>Предложение дня</span>
+								</div>
 								<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
 							</div>
 						</div>
@@ -1448,7 +1450,7 @@
 						</ul>
 						<div class="auto-card__price-row">
 							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <b>от 115 000 ₽/мес.</b></div>
+							<div class="auto-card__loan">Кредит <b>от&nbsp;115&nbsp;000&nbsp;₽/мес.</b></div>
 						</div>
 
 						<ul class="auto-card__params">
@@ -1471,20 +1473,20 @@
 						</ul>
 						<div class="auto-card__buttons-row">
 							<button class="auto-card__button red" type="button">
-								<svg class="auto-card-btn-red" width="132" height="50">
-									<use href="#auto-card-btn-red"></use>
+								<svg class="auto-card-btn-red" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Резерв онлайн</span>
 							</button>
 							<button class="auto-card__button black" type="button">
-								<svg class="auto-card-btn-black" width="159" height="50">
-									<use href="#auto-card-btn-black"></use>
+								<svg class="auto-card-btn-black" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Купить</span>
 							</button>
 							<button class="auto-card__button gray" type="button">
-								<svg class="auto-card-btn-gray" width="165" height="50">
-									<use href="#auto-card-btn-gray"></use>
+								<svg class="auto-card-btn-gray" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Подробнее</span>
 							</button>
@@ -1510,7 +1512,12 @@
 								</ul>
 							</div>
 							<div class="auto-card__badge-row">
-								<div class="auto-card__badge">Предложение дня</div>
+								<div class="auto-card__badge">
+									<svg width="10" height="28">
+										<use href="#auto-card-btn-arrow"></use>
+									</svg>
+									<span>Предложение дня</span>
+								</div>
 								<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
 							</div>
 						</div>
@@ -1521,7 +1528,7 @@
 						</ul>
 						<div class="auto-card__price-row">
 							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <b>от 115 000 ₽/мес.</b></div>
+							<div class="auto-card__loan">Кредит <b>от&nbsp;115&nbsp;000&nbsp;₽/мес.</b></div>
 						</div>
 
 						<ul class="auto-card__params">
@@ -1544,20 +1551,20 @@
 						</ul>
 						<div class="auto-card__buttons-row">
 							<button class="auto-card__button red" type="button">
-								<svg class="auto-card-btn-red" width="132" height="50">
-									<use href="#auto-card-btn-red"></use>
+								<svg class="auto-card-btn-red" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Резерв онлайн</span>
 							</button>
 							<button class="auto-card__button black" type="button">
-								<svg class="auto-card-btn-black" width="159" height="50">
-									<use href="#auto-card-btn-black"></use>
+								<svg class="auto-card-btn-black" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Купить</span>
 							</button>
 							<button class="auto-card__button gray" type="button">
-								<svg class="auto-card-btn-gray" width="165" height="50">
-									<use href="#auto-card-btn-gray"></use>
+								<svg class="auto-card-btn-gray" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Подробнее</span>
 							</button>
@@ -1583,7 +1590,12 @@
 								</ul>
 							</div>
 							<div class="auto-card__badge-row">
-								<div class="auto-card__badge">Предложение дня</div>
+								<div class="auto-card__badge">
+									<svg width="10" height="28">
+										<use href="#auto-card-btn-arrow"></use>
+									</svg>
+									<span>Предложение дня</span>
+								</div>
 								<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
 							</div>
 						</div>
@@ -1594,7 +1606,7 @@
 						</ul>
 						<div class="auto-card__price-row">
 							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <b>от 115 000 ₽/мес.</b></div>
+							<div class="auto-card__loan">Кредит <b>от&nbsp;115&nbsp;000&nbsp;₽/мес.</b></div>
 						</div>
 
 						<ul class="auto-card__params">
@@ -1617,20 +1629,20 @@
 						</ul>
 						<div class="auto-card__buttons-row">
 							<button class="auto-card__button red" type="button">
-								<svg class="auto-card-btn-red" width="132" height="50">
-									<use href="#auto-card-btn-red"></use>
+								<svg class="auto-card-btn-red" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Резерв онлайн</span>
 							</button>
 							<button class="auto-card__button black" type="button">
-								<svg class="auto-card-btn-black" width="159" height="50">
-									<use href="#auto-card-btn-black"></use>
+								<svg class="auto-card-btn-black" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Купить</span>
 							</button>
 							<button class="auto-card__button gray" type="button">
-								<svg class="auto-card-btn-gray" width="165" height="50">
-									<use href="#auto-card-btn-gray"></use>
+								<svg class="auto-card-btn-gray" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Подробнее</span>
 							</button>
@@ -1656,7 +1668,12 @@
 								</ul>
 							</div>
 							<div class="auto-card__badge-row">
-								<div class="auto-card__badge">Предложение дня</div>
+								<div class="auto-card__badge">
+									<svg width="10" height="28">
+										<use href="#auto-card-btn-arrow"></use>
+									</svg>
+									<span>Предложение дня</span>
+								</div>
 								<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
 							</div>
 						</div>
@@ -1667,7 +1684,7 @@
 						</ul>
 						<div class="auto-card__price-row">
 							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <b>от 115 000 ₽/мес.</b></div>
+							<div class="auto-card__loan">Кредит <b>от&nbsp;115&nbsp;000&nbsp;₽/мес.</b></div>
 						</div>
 
 						<ul class="auto-card__params">
@@ -1690,20 +1707,20 @@
 						</ul>
 						<div class="auto-card__buttons-row">
 							<button class="auto-card__button red" type="button">
-								<svg class="auto-card-btn-red" width="132" height="50">
-									<use href="#auto-card-btn-red"></use>
+								<svg class="auto-card-btn-red" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Резерв онлайн</span>
 							</button>
 							<button class="auto-card__button black" type="button">
-								<svg class="auto-card-btn-black" width="159" height="50">
-									<use href="#auto-card-btn-black"></use>
+								<svg class="auto-card-btn-black" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Купить</span>
 							</button>
 							<button class="auto-card__button gray" type="button">
-								<svg class="auto-card-btn-gray" width="165" height="50">
-									<use href="#auto-card-btn-gray"></use>
+								<svg class="auto-card-btn-gray" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Подробнее</span>
 							</button>
@@ -1729,7 +1746,12 @@
 								</ul>
 							</div>
 							<div class="auto-card__badge-row">
-								<div class="auto-card__badge">Предложение дня</div>
+								<div class="auto-card__badge">
+									<svg width="10" height="28">
+										<use href="#auto-card-btn-arrow"></use>
+									</svg>
+									<span>Предложение дня</span>
+								</div>
 								<div class="auto-card__badge-notice">Выгода до 300 000 ₽</div>
 							</div>
 						</div>
@@ -1740,7 +1762,7 @@
 						</ul>
 						<div class="auto-card__price-row">
 							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <b>от 115 000 ₽/мес.</b></div>
+							<div class="auto-card__loan">Кредит <b>от&nbsp;115&nbsp;000&nbsp;₽/мес.</b></div>
 						</div>
 
 						<ul class="auto-card__params">
@@ -1763,20 +1785,20 @@
 						</ul>
 						<div class="auto-card__buttons-row">
 							<button class="auto-card__button red" type="button">
-								<svg class="auto-card-btn-red" width="132" height="50">
-									<use href="#auto-card-btn-red"></use>
+								<svg class="auto-card-btn-red" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Резерв онлайн</span>
 							</button>
 							<button class="auto-card__button black" type="button">
-								<svg class="auto-card-btn-black" width="159" height="50">
-									<use href="#auto-card-btn-black"></use>
+								<svg class="auto-card-btn-black" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Купить</span>
 							</button>
 							<button class="auto-card__button gray" type="button">
-								<svg class="auto-card-btn-gray" width="165" height="50">
-									<use href="#auto-card-btn-gray"></use>
+								<svg class="auto-card-btn-gray" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
 								</svg>
 								<span>Подробнее</span>
 							</button>
@@ -1958,7 +1980,7 @@
 						<div class="section-credit__row">
 							<!-- credit-calc -->
 							<div class="credit-calc">
-								<div class="credit-calc__first-row">
+								<div class="credit-calc__dropdowns">
 									<div class="dropdown">
 										<button class="dropdown__button dropdown__button--medium" type="button">Марка</button>
 										<ul class="dropdown__list dropdown__list--medium">
@@ -1987,81 +2009,85 @@
 										<input class="dropdown__input-hidden" type="text" name="select-category" value="">
 									</div>
 								</div>
-								<div class="credit-calc__second-row">
-									<div class="credit-calc__img">
-										<img src="./img/section-credit/credit-calc.png" alt="credit calculator">
-									</div>
-									<div class="credit-calc__inputs">
-										<!-- single-range-input -->
-										<div class="single-range-input">
-											<div class="single-range-input__value-wrapper">
-												<span class="single-range-input__dimension">Сумма кредита, руб.</span>
-												<span class="single-range-input__value" data-name="value">0</span>
-											</div>
-											<div class="single-range-input__track-wrapper">
-												<div data-name="track" class="single-range-input__track"></div>
-												<input data-name="range" type="range" min="0" max="3000000" value="0" step="10000" />
-											</div>
-											<ul class="single-range-input__scale">
-												<li>0</li>
-												<li>300т</li>
-												<li>650т</li>
-												<li>1,0м</li>
-												<li>1,35м</li>
-												<li>1,7м</li>
-												<li>2м</li>
-												<li>2,35м</li>
-												<li>2,7м</li>
-												<li>3м</li>
-											</ul>
+								<div class="credit-calc__row">
+									<div class="credit-calc__left">
+										<div class="credit-calc__img">
+											<img src="./img/section-credit/credit-calc.png" alt="credit calculator">
 										</div>
-										<!-- //single-range-input -->
-										<!-- single-range-input -->
-										<div class="single-range-input">
-											<div class="single-range-input__value-wrapper">
-												<span class="single-range-input__dimension">Срок кредита, мес.</span>
-												<span class="single-range-input__value" data-name="value">6</span>
-											</div>
-											<div class="single-range-input__track-wrapper">
-												<div data-name="track" class="single-range-input__track"></div>
-												<input data-name="range" type="range" min="6" max="84" value="6" step="1" />
-											</div>
-											<ul class="single-range-input__scale">
-												<li>6</li>
-												<li>12</li>
-												<li>24</li>
-												<li>36</li>
-												<li>48</li>
-												<li>60</li>
-												<li>72</li>
-												<li>84</li>
-											</ul>
-										</div>
-										<!-- //single-range-input -->
-									</div>
-								</div>
-								<div class="credit-calc__third-row">
-									<!-- credit-calc progress bar -->
-									<div class="credit-calc__progress-bar">
-										<div class="progress-bar">
-											<div class="progress-bar__values">
-												<span data-name="value-1">0</span>
-												<span data-name="value-2">0</span>
-											</div>
-											<div class="progress-bar__track"></div>
-											<div class="progress-bar__labels">
-												<span>Первоначальный <br>взнос</span>
-												<span>Остаток <br>по кредиту</span>
+										<!-- credit-calc progress bar -->
+										<div class="credit-calc__progress-bar">
+											<div class="progress-bar">
+												<div class="progress-bar__values">
+													<span data-name="value-1">0</span>
+													<span data-name="value-2">0</span>
+												</div>
+												<div class="progress-bar__track"></div>
+												<div class="progress-bar__labels">
+													<span>Первоначальный <br>взнос</span>
+													<span>Остаток <br>по кредиту</span>
+												</div>
 											</div>
 										</div>
+										<!-- //credit-calc progress bar -->
 									</div>
-									<!-- //credit-calc progress bar -->
-									<!-- credit-calc fee -->
-									<div class="credit-calc__fee">
-										<label for="credit-calc__fee">Первоначальный взнос, руб</label>
-										<input id="credit-calc__fee" class="input" type="text" placeholder="0">
+									<div class="credit-calc__right">
+										<!-- credit calc inputs -->
+										<div class="credit-calc__inputs">
+											<!-- single-range-input -->
+											<div class="single-range-input">
+												<div class="single-range-input__value-wrapper">
+													<span class="single-range-input__dimension">Сумма кредита, руб.</span>
+													<span class="single-range-input__value" data-name="value">0</span>
+												</div>
+												<div class="single-range-input__track-wrapper">
+													<div data-name="track" class="single-range-input__track"></div>
+													<input data-name="range" type="range" min="0" max="3000000" value="0" step="10000" />
+												</div>
+												<ul class="single-range-input__scale">
+													<li>0</li>
+													<li>300т</li>
+													<li>650т</li>
+													<li>1,0м</li>
+													<li>1,35м</li>
+													<li>1,7м</li>
+													<li>2м</li>
+													<li>2,35м</li>
+													<li>2,7м</li>
+													<li>3м</li>
+												</ul>
+											</div>
+											<!-- //single-range-input -->
+											<!-- single-range-input -->
+											<div class="single-range-input">
+												<div class="single-range-input__value-wrapper">
+													<span class="single-range-input__dimension">Срок кредита, мес.</span>
+													<span class="single-range-input__value" data-name="value">6</span>
+												</div>
+												<div class="single-range-input__track-wrapper">
+													<div data-name="track" class="single-range-input__track"></div>
+													<input data-name="range" type="range" min="6" max="84" value="6" step="1" />
+												</div>
+												<ul class="single-range-input__scale">
+													<li>6</li>
+													<li>12</li>
+													<li>24</li>
+													<li>36</li>
+													<li>48</li>
+													<li>60</li>
+													<li>72</li>
+													<li>84</li>
+												</ul>
+											</div>
+											<!-- //single-range-input -->
+										</div>
+										<!-- //credit calc inputs -->
+										<!-- credit-calc fee -->
+										<div class="credit-calc__fee">
+											<label for="credit-calc__fee">Первоначальный взнос, руб</label>
+											<input id="credit-calc__fee" class="input" type="text" placeholder="0">
+										</div>
+										<!-- //credit-calc fee -->
 									</div>
-									<!-- //credit-calc fee -->
 								</div>
 							</div>
 							<!-- //credit-calc -->
@@ -2070,14 +2096,16 @@
 								<div class="credit-offer__title">
 									Получить выгоду <span>300 000 ₽</span>
 								</div>
-								<div class="credit-offer__row">
-									<input class="input bg-gray wmax" type="text" placeholder="Ваше имя">
-								</div>
-								<div class="credit-offer__row">
-									<input class="input bg-gray wmax" type="tel" placeholder="Ваш телефон">
-								</div>
-								<div class="credit-offer__row">
-									<button class="button wmax" type="button">Получить предложение</button>
+								<div class="credit-offer__group">
+									<div class="credit-offer__row">
+										<input class="input bg-gray wmax" type="text" placeholder="Ваше имя">
+									</div>
+									<div class="credit-offer__row">
+										<input class="input bg-gray wmax" type="tel" placeholder="Ваш телефон">
+									</div>
+									<div class="credit-offer__row">
+										<button class="button wmax" type="button">Получить предложение</button>
+									</div>
 								</div>
 								<div class="credit-offer__notice">
 									Нажимая кнопку “Получить скидку” Вы даете согласие на обработку своих персональных данных
@@ -2344,7 +2372,7 @@
 							<div class="review-card__text">
 								<p class="review-card__text-short"></p>
 								<p class="review-card__text-full">
-									«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA, и нас встретил менеджер, Андрей его зовут, очень приятный молодой человек, вникся во все наши проблемы.... Профессионально давал рекомендации всякие, объяснения, нам это очень понравилось, и, в конце концов, с его усилиями совместно с нашими претензиями мы выбрали автомобиль.»
+									«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100% точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA, и нас встретил менеджер, Андрей его зовут, очень приятный молодой человек, вникся во все наши проблемы.... Профессионально давал рекомендации всякие, объяснения, нам это очень понравилось, и, в конце концов, с его усилиями совместно с нашими претензиями мы выбрали автомобиль.»
 								</p>
 							</div>
 							<button class="review-card__readmore" type="button">
@@ -2370,7 +2398,7 @@
 							<div class="review-card__text">
 								<p class="review-card__text-short"></p>
 								<p class="review-card__text-full">
-									«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA, и нас встретил менеджер, Андрей его зовут, очень приятный молодой человек, вникся во все наши проблемы.... Профессионально давал рекомендации всякие, объяснения, нам это очень понравилось, и, в конце концов, с его усилиями совместно с нашими претензиями мы выбрали автомобиль.»
+									«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100% точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA, и нас встретил менеджер, Андрей его зовут, очень приятный молодой человек, вникся во все наши проблемы.... Профессионально давал рекомендации всякие, объяснения, нам это очень понравилось, и, в конце концов, с его усилиями совместно с нашими претензиями мы выбрали автомобиль.»
 								</p>
 							</div>
 							<button class="review-card__readmore" type="button">
@@ -2396,7 +2424,7 @@
 							<div class="review-card__text">
 								<p class="review-card__text-short"></p>
 								<p class="review-card__text-full">
-									«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA, и нас встретил менеджер, Андрей его зовут, очень приятный молодой человек, вникся во все наши проблемы.... Профессионально давал рекомендации всякие, объяснения, нам это очень понравилось, и, в конце концов, с его усилиями совместно с нашими претензиями мы выбрали автомобиль.»
+									«Я нахожусь в салоне ALTERA, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам гарантия 100% точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA, и нас встретил менеджер, Андрей его зовут, очень приятный молодой человек, вникся во все наши проблемы.... Профессионально давал рекомендации всякие, объяснения, нам это очень понравилось, и, в конце концов, с его усилиями совместно с нашими претензиями мы выбрали автомобиль.»
 								</p>
 							</div>
 							<button class="review-card__readmore" type="button">
@@ -2869,8 +2897,8 @@
 					<div class="container">
 						<div class="footer-bottom__row">
 							<div class="footer-bottom__copyright">
-								<span>© 2021 Автосалон "ABC AUTO". Официальный дилер</span>
-								<div class="footer-bottom__links">
+								<div class="footer-bottom__copyright-text">© 2021 Автосалон "ABC AUTO". Официальный дилер</div>
+								<div class="footer-bottom__copyright-links">
 									<a href="#!">Политика конфиденциальности</a>
 									<a href="#!">Пользовательское соглашение</a>
 								</div>

@@ -293,21 +293,15 @@ function sectionCollectionsCarousel() {
 			loop: true,
 			nav: false,
 			dots: false,
-			// items: 3,
-			autoWidth: true,
-
 			responsiveClass: true,
 			responsive: {
-				// от 0 и больше
 				0: {
 					items: 1,
 				},
-				// от 768 и больше
 				768: {
 					items: 2,
 					margin: 14,
 				},
-				// от 1430 и больше
 				1430: {
 					items: 2,
 					margin: 30,
@@ -330,9 +324,20 @@ function sectionOffersCarousel() {
 			loop: true,
 			nav: false,
 			dots: false,
-			items: 3,
-			autoWidth: true,
-			margin: 30,
+			responsiveClass: true,
+			responsive: {
+				0: {
+					items: 1,
+				},
+				768: {
+					items: 2,
+					margin: 14,
+				},
+				1430: {
+					items: 2,
+					margin: 30,
+				}
+			}
 		}
 	);
 
@@ -350,9 +355,20 @@ function sectionBanksCarousel() {
 			loop: true,
 			nav: false,
 			dots: false,
-			items: 4,
-			autoWidth: true,
-			margin: 30,
+			responsiveClass: true,
+			responsive: {
+				0: {
+					items: 2,
+				},
+				768: {
+					items: 3,
+					margin: 14,
+				},
+				1430: {
+					items: 4,
+					margin: 30,
+				}
+			}
 		}
 	);
 
@@ -370,9 +386,20 @@ function sectionRatingsCarousel() {
 			loop: true,
 			nav: false,
 			dots: false,
-			items: 4,
-			autoWidth: true,
-			margin: 30,
+			responsiveClass: true,
+			responsive: {
+				0: {
+					items: 1,
+				},
+				768: {
+					items: 2,
+					margin: 30,
+				},
+				1430: {
+					items: 4,
+					margin: 30,
+				}
+			}
 		}
 	);
 
@@ -390,9 +417,20 @@ function sectionBlogCarousel() {
 			loop: true,
 			nav: false,
 			dots: false,
-			items: 4,
-			autoWidth: true,
-			margin: 30,
+			responsiveClass: true,
+			responsive: {
+				0: {
+					items: 1,
+				},
+				768: {
+					items: 2,
+					margin: 30,
+				},
+				1430: {
+					items: 4,
+					margin: 30,
+				}
+			}
 		}
 	);
 

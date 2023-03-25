@@ -1,9 +1,15 @@
 .bank-card {
 	padding: 30px 62px;
-	width: 327px;
+	width: calc((1400px - 3 * 30px) / 4);
 	height: 133px;
 	border-radius: 10px;
 	background-color: #EFF0F0;
+
+	@media (max-width: 1429px) {
+		padding: 15px;
+		width: calc((708px - 2 * 14px) / 3);
+		height: 92px;
+	}
 
 	img {
 		width: 100%;
@@ -11,3 +17,6 @@
 		object-fit: contain;
 	}
 }
+
+
+

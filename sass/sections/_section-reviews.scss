@@ -10,4 +10,12 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+
+	&>*:not(:first-child):not(:nth-child(2)) {
+
+		/* Tablet */
+		@media (max-width: 1429px) {
+			display: none;
+		}
+	}
 }

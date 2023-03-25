@@ -7,10 +7,21 @@
 	padding-bottom: 135px;
 	background: rgba(239, 240, 240, 0.432);
 	border-radius: 25px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
 }
 
 .section-credit__title {
 	margin-bottom: 37px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		margin-bottom: 28px;
+	}
 }
 
 .section-credit__row {
@@ -18,4 +29,9 @@
 	justify-content: space-between;
 	align-items: stretch;
 	column-gap: 30px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		flex-direction: column;
+	}
 }
