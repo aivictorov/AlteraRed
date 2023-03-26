@@ -303,7 +303,7 @@ function sectionCollectionsCarousel() {
 					margin: 14,
 				},
 				1430: {
-					items: 2,
+					items: 3,
 					margin: 30,
 				}
 			}
@@ -334,7 +334,7 @@ function sectionOffersCarousel() {
 					margin: 14,
 				},
 				1430: {
-					items: 2,
+					items: 3,
 					margin: 30,
 				}
 			}

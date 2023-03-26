@@ -8,13 +8,18 @@
 }
 
 .section-select__bg {
-	padding: 20px 30px;
+	padding: 23px 30px;
 	border-radius: 10px;
 	background-color: rgba(239, 240, 240, 0.5);
 
 	/* Tablet */
 	@media (max-width: 1429px) {
 		padding: 35px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		padding: 20px;
 	}
 }
 

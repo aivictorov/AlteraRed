@@ -1,6 +1,6 @@
 .header-bottom {
-	padding-top: 13px;
-	padding-bottom: 29px;
+	padding-top: 10px;
+	padding-bottom: 25px;
 
 	/* Tablet */
 	@media (max-width: 1429px) {
@@ -52,7 +52,7 @@
 .header-bottom__icons {
 	display: flex;
 	align-items: center;
-	column-gap: 42px;
+	column-gap: 39px;
 
 	li {
 		position: relative;	

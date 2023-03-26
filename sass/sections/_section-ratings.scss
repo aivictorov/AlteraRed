@@ -24,7 +24,11 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
 	flex-wrap: wrap;
 	row-gap: 10px;
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		flex-direction: column;
+	}
 }

@@ -1,5 +1,10 @@
 .blog-card {
 	width: 328px;
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		width: 100%;
+	}
 }
 
 .blog-card__image {
@@ -22,6 +27,7 @@
 }
 
 .blog-card__title {
+	max-width: 90%;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.19;

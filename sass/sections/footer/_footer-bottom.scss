@@ -25,11 +25,15 @@
 	@media (max-width: 1429px) {
 		width: 380px;
 	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		width: 100%;
+	}
 }
 
 .footer-bottom__copyright-text {
 	margin-bottom: 22px;
-	max-width: 250px;
 	font-size: 18px;
 	line-height: 1.4;
 	color: #FFF;
@@ -62,6 +66,11 @@
 	font-size: 14px;
 	line-height: 1.4;
 	color: rgba(115, 115, 115, 0.5);
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		width: 100%;
+	}
 }
 
 .footer-bottom__image {

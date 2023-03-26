@@ -1,9 +1,9 @@
 .section-stock {
-	padding-top: 64px;
+	padding-top: 55px;
 }
 
 .section-stock__title {
-	margin-bottom: 64px;
+	margin-bottom: 52px;
 	text-align: center;
 
 	/* Tablet */
@@ -29,4 +29,9 @@
 .section-stock__button {
 	width: 312px;
 	margin: 0 auto;
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		display: none;
+	}
 }

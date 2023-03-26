@@ -6,10 +6,35 @@
 		display: block;
 		padding-top: 28px;
 
+
+	}
+}
+
+.section-select-mobile__brands-list {
+
+	/* Tablet */
+	@media (max-width: 1429px) {
 		.brands-list {
 			column-gap: 4px;
 		}
 	}
-}
 
-.section-select-mobile__brands-list {}
+	/* Mobile */
+	@media (max-width: 767px) {
+		.brands-list {
+			column-gap: 10px;
+			row-gap: 0;
+			font-size: 14px;
+			line-height: 220%;
+			text-decoration-line: underline;
+			
+			li {
+				width: calc((100% - 2 * 10px) / 3);
+			}
+
+			li a span {
+				display: none;
+			}
+		}
+	}
+}

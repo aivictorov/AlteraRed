@@ -12,6 +12,11 @@
 		width: calc((708px - 14px) / 2);
 		height: 130px;
 	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		width: 100%;
+	}
 }
 
 .offer-card__background {

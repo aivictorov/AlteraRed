@@ -2,21 +2,24 @@
 	display: flex;
 	flex-direction: column;
 	row-gap: 29px;
-	padding: 23px 22px 27px;
+	padding: 22px;
 	width: calc((1400px - 3 * 30px) / 4);
-	height: 145px;
 	border-radius: 10px;
-	background: #FFFFFF;
+	background: #FFF;
 	box-shadow: 0px 0px 15px rgba(38, 38, 38, 0.15);
 
 	@media (max-width: 1429px) {
-		width: calc((708px - 30px) / 2);
-		height: 150px;
+		width: calc((100% - 30px) / 2);
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		width: 100%;
 	}
 }
 
 .rating-site-card__title {
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 	font-weight: 900;
 	font-size: 20px;
 	line-height: 1.15;
@@ -34,6 +37,7 @@ a.rating-map-card__link {
 
 .rating-site-card__rating {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	column-gap: 7px;
 }
@@ -41,13 +45,14 @@ a.rating-map-card__link {
 .rating-site-card__stars {
 	display: flex;
 	align-items: center;
-	column-gap: 20px;
+	column-gap: 25px;
 }
 
 .rating-map-card {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	column-gap: 30px;
 	width: calc((100% - 30px) / 2);
 	background: rgba(239, 240, 240, 0.5);
 	border-radius: 10px;
@@ -61,9 +66,15 @@ a.rating-map-card__link {
 		padding: 20px;
 		width: calc((100% - 14px) / 2);
 	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		width: 100%;
+	}
 }
 
 .rating-map-card__header {
+	width: calc((100% - 30px) / 2 - 9px);
 
 	/* Tablet */
 	@media (max-width: 1429px) {
@@ -83,9 +94,10 @@ a.rating-map-card__link {
 
 .rating-map-card__rating {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	column-gap: 46px;
-	width: 100%;
+	width: calc((100% - 30px) / 2 + 9px);
 
 	/* Tablet */
 	@media (max-width: 1429px) {
@@ -110,12 +122,12 @@ a.rating-map-card__link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	column-gap: 1px;
+	column-gap: 3px;
 }
 
 .rating-badge {
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 32px;
+	padding-right: 32px;
 	height: 73px;
 	border-radius: 10px;
 	background-color: #55BC6B;
@@ -133,8 +145,8 @@ a.rating-map-card__link {
 	}
 
 	&--small {
-		padding-left: 5px;
-		padding-right: 5px;
+		padding-left: 7px;
+		padding-right: 7px;
 		height: 24px;
 		border-radius: 4px;
 		font-size: 20px;

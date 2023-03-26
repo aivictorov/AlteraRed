@@ -5,10 +5,17 @@
 	border-radius: 10px;
 	background-color: #EFF0F0;
 
+	/* Tablet */
 	@media (max-width: 1429px) {
 		padding: 15px;
 		width: calc((708px - 2 * 14px) / 3);
 		height: 92px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		width: calc(100% - 10px);
+		height: 57px;
 	}
 
 	img {

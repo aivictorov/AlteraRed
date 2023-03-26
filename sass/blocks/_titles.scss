@@ -7,6 +7,11 @@
 	@media (max-width: 1429px) {
 		font-size: 36px;
 	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		font-size: 30px;
+	}
 }
 
 .h2 {
@@ -25,6 +30,11 @@
 	font-weight: 900;
 	font-size: 24px;
 	line-height: 1.17;
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		font-size: 20px;
+	}
 }
 
 .popup-title {

@@ -6,7 +6,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
-	margin-bottom: 10px;
+	margin-bottom: 12px;
 
 	.single-range-input__dimension {
 		font-size: 16px;
@@ -90,8 +90,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 9px;
-
+	// margin-top: 9px;
 	font-weight: 700;
 	font-size: 11px;
 	line-height: 1.18;
@@ -101,23 +100,23 @@
 		position: relative;
 		padding-top: 13px;
 
-		&::after {
-			content: "";
-			position: absolute;
-			top: 0;
-			left: 50%;
-			height: 8px;
-			width: 1px;
-			background-color: #E1E1E1;
-		}
+		// &::after {
+		// 	content: "";
+		// 	position: absolute;
+		// 	top: 0;
+		// 	left: 50%;
+		// 	height: 8px;
+		// 	width: 1px;
+		// 	background-color: #E1E1E1;
+		// }
 
-		&:first-child::after {
-			left: 0;
-		}
+		// &:first-child::after {
+		// 	left: 0;
+		// }
 
-		&:last-child::after {
-			left: 100%;
-		}
+		// &:last-child::after {
+		// 	left: 100%;
+		// }
 	}
 }
 

@@ -103,11 +103,13 @@ body>* {
 	/* Mobile */
 	@media (max-width: 767px) {
 		max-width: 320px;
+		padding-left: 15px;
+		padding-right: 15px;
 
 		.container {
 			width: 290px;
-			padding-left: 15px;
-			padding-right: 15px;
+			padding-left: 20px;
+			padding-right: 20px;
 		}
 	}
 }
