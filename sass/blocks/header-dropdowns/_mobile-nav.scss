@@ -9,6 +9,11 @@
 	transform: translateY(-10000px);
 	transition: opacity .3s ease-in;
 
+	/* Tablet */
+	@media (max-width: 1429px) {
+		display: none;
+	}
+
 	&--visible {
 		transform: unset;
 		opacity: 1;

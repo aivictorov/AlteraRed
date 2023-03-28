@@ -6,13 +6,6 @@
 	@media (max-width: 1429px) {
 		display: none;
 	}
-
-	/* Mobile */
-	@media (max-width: 767px) {
-		display: block;
-		margin-bottom: 0;
-		padding-bottom: 30px;
-	}
 }
 
 .map {
@@ -21,7 +14,7 @@
 
 .map__frame {
 	position: relative;
-	margin-bottom: -20px;
+	// margin-bottom: -20px;
 	width: 100%;
 	height: 100%;
 	border-radius: 25px;
@@ -30,6 +23,11 @@
 	/* Tablet */
 	@media (max-width: 1429px) {
 		margin-bottom: 0;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		margin-bottom: -25px;
 	}
 
 	iframe {
@@ -115,6 +113,6 @@
 
 	/* Mobile */
 	@media (max-width: 767px) {
-		display: none;
+		padding-bottom: 30px;
 	}
 }

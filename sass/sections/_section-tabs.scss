@@ -6,6 +6,12 @@
 		padding-top: 36px;
 		padding-bottom: 41px;
 	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		padding-top: 16px;
+		padding-bottom: 56px;
+	}
 }
 
 .section-tabs__list {

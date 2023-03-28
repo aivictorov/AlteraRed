@@ -16,13 +16,15 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 function headerDropdownSearch() {
-	const searchButton = document.querySelector('#search-button');
+	const searchButtons = document.querySelectorAll('.search-button');
 	const searchInput = document.querySelector('#search-input');
 
-	searchButton.addEventListener('click', (event) => {
-		event.stopPropagation();
-		displayDropdown();
-		searchInput.focus();
+	searchButtons.forEach((searchButton) => {
+		searchButton.addEventListener('click', (event) => {
+			event.stopPropagation();
+			displayDropdown();
+			searchInput.focus();
+		});
 	});
 
 	function displayDropdown() {
