@@ -149,7 +149,10 @@
 }
 
 .header-middle__button {
-	width: 210px;
+
+	.button {
+		width: 210px;
+	}
 
 	/* Tablet */
 	@media (max-width: 1429px) {

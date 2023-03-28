@@ -12,7 +12,8 @@
 @import "./blocks/double-range";
 @import "./blocks/dropdowns";
 @import "./blocks/inputs";
-@import "./blocks/nav-icon";
+@import "./blocks/links";
+
 @import "./blocks/play-icon";
 @import "./blocks/single-range";
 @import "./blocks/slider";
@@ -30,8 +31,9 @@
 @import "./blocks/forms/credit-calc";
 @import "./blocks/forms/credit-offer";
 
-@import "./blocks/header-dropdowns/search";
-@import "./blocks/header-dropdowns/mobile-nav"; 
+@import "./blocks/nav/nav-icon";
+@import "./blocks/nav/desktop-nav"; 
+@import "./blocks/nav/desktop-search";
 
 @import "./blocks/popups/order-popup";
 

@@ -98,11 +98,16 @@
 	}
 }
 
+.map-info__phone-links {
+	display: flex;
+	flex-direction: column;
+}
+
 .map-info__button {
 	width: 100%;
 }
 
-.section-map-tablet {
+.section-map-mobile {
 	display: none;
 
 	/* Tablet */

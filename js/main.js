@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
-	headerDropdownSearch();
-	headerDropdownMobileNav();
+	desktopSearch();
+	desktopNav();
 	popups();
 	dropdowns();
 	singleRangeInput();
@@ -15,21 +15,21 @@ window.addEventListener('DOMContentLoaded', () => {
 	sectionBlogCarousel();
 });
 
-function headerDropdownSearch() {
+function desktopSearch() {
 	const searchButtons = document.querySelectorAll('.search-button');
 	const searchInput = document.querySelector('#search-input');
 
 	searchButtons.forEach((searchButton) => {
 		searchButton.addEventListener('click', (event) => {
 			event.stopPropagation();
-			displayDropdown();
+			displayDropdown(searchButton);
 			searchInput.focus();
 		});
 	});
 
-	function displayDropdown() {
-		const dropdown = document.querySelector('.header-dropdown-search');
-		dropdown.classList.toggle('header-dropdown-search--visible');
+	function displayDropdown(searchButton) {
+		const dropdown = document.querySelector('.desktop-search');
+		dropdown.classList.toggle('desktop-search--visible');
 
 		dropdown.addEventListener('click', (event) => {
 			event.stopPropagation();
@@ -37,19 +37,19 @@ function headerDropdownSearch() {
 
 		document.addEventListener('click', (event) => {
 			if (event.target !== searchButton) {
-				dropdown.classList.remove('header-dropdown-search--visible');
+				dropdown.classList.remove('desktop-search--visible');
 			}
 		})
 
 		document.addEventListener('keydown', (event) => {
 			if (event.key === 'Escape') {
-				dropdown.classList.remove('header-dropdown-search--visible');
+				dropdown.classList.remove('desktop-search--visible');
 			};
 		});
 	};
 };
 
-function headerDropdownMobileNav() {
+function desktopNav() {
 	const navIcon = document.querySelector('.nav-icon');
 
 	navIcon.addEventListener('click', (event) => {
@@ -59,8 +59,8 @@ function headerDropdownMobileNav() {
 	});
 
 	function displayDropdown() {
-		const dropdown = document.querySelector('.header-dropdown-mobile-nav');
-		dropdown.classList.toggle('header-dropdown-mobile-nav--visible');
+		const dropdown = document.querySelector('.desktop-nav');
+		dropdown.classList.toggle('desktop-nav--visible');
 
 		dropdown.addEventListener('click', (event) => {
 			event.stopPropagation();
@@ -68,14 +68,14 @@ function headerDropdownMobileNav() {
 
 		document.addEventListener('click', (event) => {
 			if (event.target !== navIcon) {
-				dropdown.classList.remove('header-dropdown-mobile-nav--visible');
+				dropdown.classList.remove('desktop-nav--visible');
 				navIcon.classList.remove('active');
 			}
 		})
 
 		document.addEventListener('keydown', (event) => {
 			if (event.key === 'Escape') {
-				dropdown.classList.remove('header-dropdown-mobile-nav--visible');
+				dropdown.classList.remove('desktop-nav--visible');
 				navIcon.classList.remove('active');
 			};
 		});
@@ -240,7 +240,6 @@ function readmore() {
 		longTextBlock.classList.add('none');
 
 		button.addEventListener('click', () => {
-			console.log(button.innerText);
 			if (button.innerText == 'Подробнее') {
 				button.innerText = 'Свернуть';
 			} else if (button.innerText == 'Свернуть') {
@@ -274,9 +273,13 @@ function playIcon() {
 		const video = play.parentElement.querySelector('video');
 
 		play.addEventListener('click', (event) => {
-			console.log(play);
 			event.stopPropagation();
-			video.paused ? video.play() : video.pause();
+			if (video.paused) {
+				document.querySelectorAll('video').forEach(item => item.pause());
+				video.play();
+			} else {
+				video.pause();
+			};
 		});
 
 		video.addEventListener('play', () => play.classList.add('none'))
@@ -295,6 +298,7 @@ function sectionCollectionsCarousel() {
 			loop: true,
 			nav: false,
 			dots: false,
+			smartSpeed: 500,
 			responsiveClass: true,
 			responsive: {
 				0: {
@@ -326,6 +330,7 @@ function sectionOffersCarousel() {
 			loop: true,
 			nav: false,
 			dots: false,
+			smartSpeed: 500,
 			responsiveClass: true,
 			responsive: {
 				0: {
@@ -357,6 +362,7 @@ function sectionBanksCarousel() {
 			loop: true,
 			nav: false,
 			dots: false,
+			smartSpeed: 500,
 			responsiveClass: true,
 			responsive: {
 				0: {
@@ -389,6 +395,7 @@ function sectionRatingsCarousel() {
 			loop: true,
 			nav: false,
 			dots: false,
+			smartSpeed: 500,
 			responsiveClass: true,
 			responsive: {
 				0: {
@@ -420,6 +427,7 @@ function sectionBlogCarousel() {
 			loop: true,
 			nav: false,
 			dots: false,
+			smartSpeed: 500,
 			responsiveClass: true,
 			responsive: {
 				0: {

@@ -3,15 +3,15 @@
 
 <head>
 	<!-- encoding -->
-	<meta charset="UTF-8" />
+	<meta charset="UTF-8">
 
 	<!-- Mobile support -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Title and SEO -->
 	<title>Автосалон ABC - официальный дилер</title>
-	<meta name="description" content="Описание страницы" />
-	<meta name="keywords" content="ключевые слова, фразы" />
+	<meta name="description" content="Описание страницы">
+	<meta name="keywords" content="ключевые слова, фразы">
 
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,14 +20,14 @@
 
 	<!-- Styles -->
 	<link rel="stylesheet" href="./libs/owl-carousel2/owl.carousel.min.css">
-	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./css/main.css">
 
 	<!-- Open Graph -->
-	<!-- <meta property="og:url" content="https://webcademy.ru/" /> -->
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Автосалон ABC - официальный дилер" />
-	<meta property="og:description" content="Турпоходы по дикой природе" />
-	<meta property="og:image" content="./img/opengraph.jpg" />
+	<!-- <meta property="og:url" content="https://webcademy.ru/" > -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Автосалон ABC - официальный дилер">
+	<meta property="og:description" content="Турпоходы по дикой природе">
+	<meta property="og:image" content="./img/opengraph.jpg">
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
@@ -164,7 +164,7 @@
 							Время работы: c 08:00 до 21:00
 						</div>
 						<div class="header-top__phone">
-							+7 (800) 551-94-31
+							<a class="phone-link" href="tel:+78005519431">+7 (800) 551-94-31</a>
 						</div>
 					</div>
 					<div class="header-top__right">
@@ -174,7 +174,7 @@
 									<use href="#icon-header-whatsapp"></use>
 								</svg>
 							</span>
-							Whatsapp
+							<a href="https://wa.me/79200000000" target="_blank">Whatsapp</a>
 						</div>
 						<div class="header-top__callback">
 							<span>
@@ -196,11 +196,11 @@
 						<div class="nav-icon">
 							<div class="nav-icon__stripe"></div>
 						</div>
-						<div class="header-middle__logo">
+						<a href="#!" class="header-middle__logo">
 							<svg width="198" height="58">
 								<use href="#logo"></use>
 							</svg>
-						</div>
+						</a>
 						<div class="header-middle__slogan">
 							<span class="badge-round middle">10 лет</span>
 							превосходим ваши ожидания
@@ -221,10 +221,10 @@
 										<use href="#icon-header-phone"></use>
 									</svg>
 								</span>
-								+7 (800) 551-94-31
+								<a class="phone-link" href="tel:+78005519431">+7 (800) 551-94-31</a>
 							</div>
 							<div class="header-middle__phone-add">
-								+7 (495) 292-18-67
+								<a class="phone-link" href="tel:+74952921867">+7 (495) 292-18-67</a>
 							</div>
 						</div>
 						<div class="header-middle__button">
@@ -291,7 +291,7 @@
 			</div>
 		</div>
 
-		<div class="header-dropdown-search">
+		<div class="desktop-search">
 			<div class="container">
 				<form class="search-form">
 					<div class="search-form__group">
@@ -307,7 +307,7 @@
 			</div>
 		</div>
 
-		<div class="header-dropdown-mobile-nav">
+		<div class="desktop-nav">
 			<div class="container">
 				<div class="mobile-menu">
 					<div class="mobile-menu__left-column">
@@ -1350,8 +1350,8 @@
 									</div>
 									<div class="double-range-input__track-wrapper">
 										<div data-name="track" class="double-range-input__track"></div>
-										<input data-name="range-1" type="range" min="0" max="3000000" value="0" step="10000" />
-										<input data-name="range-2" type="range" min="0" max="3000000" value="3000000" step="10000" />
+										<input data-name="range-1" type="range" min="0" max="3000000" value="0" step="10000">
+										<input data-name="range-2" type="range" min="0" max="3000000" value="3000000" step="10000">
 									</div>
 									<ul class="double-range-input__scale">
 										<li>0</li>
@@ -1411,14 +1411,24 @@
 								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
 								<ul class="auto-card__icons">
 									<li>
-										<svg class="icon-favourite" width="26" height="23">
-											<use href="#icon-favourite"></use>
-										</svg>
+										<label>
+											<input class="visually-hidden" type="checkbox">
+											<span>
+												<svg class="icon-favourite" width="26" height="23">
+													<use href="#icon-favourite"></use>
+												</svg>
+											</span>
+										</label>
 									</li>
 									<li>
-										<svg class="icon-compare" width="19" height="23">
-											<use href="#icon-compare"></use>
-										</svg>
+										<label>
+											<input class="visually-hidden" type="checkbox">
+											<span>
+												<svg class="icon-compare" width="19" height="23">
+													<use href="#icon-compare"></use>
+												</svg>
+											</span>
+										</label>
 									</li>
 								</ul>
 							</div>
@@ -1488,92 +1498,24 @@
 								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
 								<ul class="auto-card__icons">
 									<li>
-										<svg class="icon-favourite" width="26" height="23">
-											<use href="#icon-favourite"></use>
-										</svg>
+										<label>
+											<input class="visually-hidden" type="checkbox">
+											<span>
+												<svg class="icon-favourite" width="26" height="23">
+													<use href="#icon-favourite"></use>
+												</svg>
+											</span>
+										</label>
 									</li>
 									<li>
-										<svg class="icon-compare" width="19" height="23">
-											<use href="#icon-compare"></use>
-										</svg>
-									</li>
-								</ul>
-							</div>
-							<div class="auto-card__badge-row">
-								<div class="auto-card__badge">
-									<svg width="10" height="28">
-										<use href="#auto-card-btn-arrow"></use>
-									</svg>
-									<span>Предложение дня</span>
-								</div>
-								<div class="auto-card__badge-notice">Выгода до&nbsp;300 000 ₽</div>
-							</div>
-						</div>
-						<ul class="auto-card__bonus-list">
-							<li>Оборудование <span>в подарок</span> </li>
-							<li>КАСКО <span>в подарок</span> </li>
-							<li>Комплект резины <span>в подарок</span> </li>
-						</ul>
-						<div class="auto-card__price-row">
-							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <b>от&nbsp;115&nbsp;000&nbsp;₽/мес.</b></div>
-						</div>
-
-						<ul class="auto-card__params">
-							<li>
-								<img src="./img/section-stock/power.svg" alt="power-icon">
-								115 л.с.
-							</li>
-							<li>
-								<img src="./img/section-stock/fuel.svg" alt="power-icon">
-								5.3 л/км
-							</li>
-							<li>
-								<img src="./img/section-stock/speed.svg" alt="power-icon">
-								189 км/ч
-							</li>
-							<li>
-								<img src="./img/section-stock/acceleration.svg" alt="power-icon">
-								10,3 c.
-							</li>
-						</ul>
-						<div class="auto-card__buttons-row">
-							<button class="auto-card__button red" type="button">
-								<svg class="auto-card-btn-red" width="18" height="50">
-									<use href="#auto-card-btn-arrow"></use>
-								</svg>
-								<span>Резерв онлайн</span>
-							</button>
-							<button class="auto-card__button black" type="button">
-								<svg class="auto-card-btn-black" width="18" height="50">
-									<use href="#auto-card-btn-arrow"></use>
-								</svg>
-								<span>Купить</span>
-							</button>
-							<button class="auto-card__button gray" type="button">
-								<svg class="auto-card-btn-gray" width="18" height="50">
-									<use href="#auto-card-btn-arrow"></use>
-								</svg>
-								<span>Подробнее</span>
-							</button>
-						</div>
-					</div>
-					<!-- //auto-card -->
-					<!-- auto-card -->
-					<div class="auto-card">
-						<div class="auto-card__content">
-							<div class="auto-card__title-row">
-								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
-								<ul class="auto-card__icons">
-									<li>
-										<svg class="icon-favourite" width="26" height="23">
-											<use href="#icon-favourite"></use>
-										</svg>
-									</li>
-									<li>
-										<svg class="icon-compare" width="19" height="23">
-											<use href="#icon-compare"></use>
-										</svg>
+										<label>
+											<input class="visually-hidden" type="checkbox">
+											<span>
+												<svg class="icon-compare" width="19" height="23">
+													<use href="#icon-compare"></use>
+												</svg>
+											</span>
+										</label>
 									</li>
 								</ul>
 							</div>
@@ -1644,92 +1586,24 @@
 								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
 								<ul class="auto-card__icons">
 									<li>
-										<svg class="icon-favourite" width="26" height="23">
-											<use href="#icon-favourite"></use>
-										</svg>
+										<label>
+											<input class="visually-hidden" type="checkbox">
+											<span>
+												<svg class="icon-favourite" width="26" height="23">
+													<use href="#icon-favourite"></use>
+												</svg>
+											</span>
+										</label>
 									</li>
 									<li>
-										<svg class="icon-compare" width="19" height="23">
-											<use href="#icon-compare"></use>
-										</svg>
-									</li>
-								</ul>
-							</div>
-							<div class="auto-card__badge-row">
-								<div class="auto-card__badge">
-									<svg width="10" height="28">
-										<use href="#auto-card-btn-arrow"></use>
-									</svg>
-									<span>Предложение дня</span>
-								</div>
-								<div class="auto-card__badge-notice">Выгода до&nbsp;300 000 ₽</div>
-							</div>
-						</div>
-						<ul class="auto-card__bonus-list">
-							<li>Оборудование <span>в подарок</span> </li>
-							<li>КАСКО <span>в подарок</span> </li>
-							<li>Комплект резины <span>в подарок</span> </li>
-						</ul>
-						<div class="auto-card__price-row">
-							<div class="auto-card__price">от 1 615 000 ₽</div>
-							<div class="auto-card__loan">Кредит <b>от&nbsp;115&nbsp;000&nbsp;₽/мес.</b></div>
-						</div>
-
-						<ul class="auto-card__params">
-							<li>
-								<img src="./img/section-stock/power.svg" alt="power-icon">
-								115 л.с.
-							</li>
-							<li>
-								<img src="./img/section-stock/fuel.svg" alt="power-icon">
-								5.3 л/км
-							</li>
-							<li>
-								<img src="./img/section-stock/speed.svg" alt="power-icon">
-								189 км/ч
-							</li>
-							<li>
-								<img src="./img/section-stock/acceleration.svg" alt="power-icon">
-								10,3 c.
-							</li>
-						</ul>
-						<div class="auto-card__buttons-row">
-							<button class="auto-card__button red" type="button">
-								<svg class="auto-card-btn-red" width="18" height="50">
-									<use href="#auto-card-btn-arrow"></use>
-								</svg>
-								<span>Резерв онлайн</span>
-							</button>
-							<button class="auto-card__button black" type="button">
-								<svg class="auto-card-btn-black" width="18" height="50">
-									<use href="#auto-card-btn-arrow"></use>
-								</svg>
-								<span>Купить</span>
-							</button>
-							<button class="auto-card__button gray" type="button">
-								<svg class="auto-card-btn-gray" width="18" height="50">
-									<use href="#auto-card-btn-arrow"></use>
-								</svg>
-								<span>Подробнее</span>
-							</button>
-						</div>
-					</div>
-					<!-- //auto-card -->
-					<!-- auto-card -->
-					<div class="auto-card">
-						<div class="auto-card__content">
-							<div class="auto-card__title-row">
-								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
-								<ul class="auto-card__icons">
-									<li>
-										<svg class="icon-favourite" width="26" height="23">
-											<use href="#icon-favourite"></use>
-										</svg>
-									</li>
-									<li>
-										<svg class="icon-compare" width="19" height="23">
-											<use href="#icon-compare"></use>
-										</svg>
+										<label>
+											<input class="visually-hidden" type="checkbox">
+											<span>
+												<svg class="icon-compare" width="19" height="23">
+													<use href="#icon-compare"></use>
+												</svg>
+											</span>
+										</label>
 									</li>
 								</ul>
 							</div>
@@ -1800,14 +1674,200 @@
 								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
 								<ul class="auto-card__icons">
 									<li>
-										<svg class="icon-favourite" width="26" height="23">
-											<use href="#icon-favourite"></use>
-										</svg>
+										<label>
+											<input class="visually-hidden" type="checkbox">
+											<span>
+												<svg class="icon-favourite" width="26" height="23">
+													<use href="#icon-favourite"></use>
+												</svg>
+											</span>
+										</label>
 									</li>
 									<li>
-										<svg class="icon-compare" width="19" height="23">
-											<use href="#icon-compare"></use>
-										</svg>
+										<label>
+											<input class="visually-hidden" type="checkbox">
+											<span>
+												<svg class="icon-compare" width="19" height="23">
+													<use href="#icon-compare"></use>
+												</svg>
+											</span>
+										</label>
+									</li>
+								</ul>
+							</div>
+							<div class="auto-card__badge-row">
+								<div class="auto-card__badge">
+									<svg width="10" height="28">
+										<use href="#auto-card-btn-arrow"></use>
+									</svg>
+									<span>Предложение дня</span>
+								</div>
+								<div class="auto-card__badge-notice">Выгода до&nbsp;300 000 ₽</div>
+							</div>
+						</div>
+						<ul class="auto-card__bonus-list">
+							<li>Оборудование <span>в подарок</span> </li>
+							<li>КАСКО <span>в подарок</span> </li>
+							<li>Комплект резины <span>в подарок</span> </li>
+						</ul>
+						<div class="auto-card__price-row">
+							<div class="auto-card__price">от 1 615 000 ₽</div>
+							<div class="auto-card__loan">Кредит <b>от&nbsp;115&nbsp;000&nbsp;₽/мес.</b></div>
+						</div>
+
+						<ul class="auto-card__params">
+							<li>
+								<img src="./img/section-stock/power.svg" alt="power-icon">
+								115 л.с.
+							</li>
+							<li>
+								<img src="./img/section-stock/fuel.svg" alt="power-icon">
+								5.3 л/км
+							</li>
+							<li>
+								<img src="./img/section-stock/speed.svg" alt="power-icon">
+								189 км/ч
+							</li>
+							<li>
+								<img src="./img/section-stock/acceleration.svg" alt="power-icon">
+								10,3 c.
+							</li>
+						</ul>
+						<div class="auto-card__buttons-row">
+							<button class="auto-card__button red" type="button">
+								<svg class="auto-card-btn-red" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
+								</svg>
+								<span>Резерв онлайн</span>
+							</button>
+							<button class="auto-card__button black" type="button">
+								<svg class="auto-card-btn-black" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
+								</svg>
+								<span>Купить</span>
+							</button>
+							<button class="auto-card__button gray" type="button">
+								<svg class="auto-card-btn-gray" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
+								</svg>
+								<span>Подробнее</span>
+							</button>
+						</div>
+					</div>
+					<!-- //auto-card -->
+					<!-- auto-card -->
+					<div class="auto-card">
+						<div class="auto-card__content">
+							<div class="auto-card__title-row">
+								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
+								<ul class="auto-card__icons">
+									<li>
+										<label>
+											<input class="visually-hidden" type="checkbox">
+											<span>
+												<svg class="icon-favourite" width="26" height="23">
+													<use href="#icon-favourite"></use>
+												</svg>
+											</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input class="visually-hidden" type="checkbox">
+											<span>
+												<svg class="icon-compare" width="19" height="23">
+													<use href="#icon-compare"></use>
+												</svg>
+											</span>
+										</label>
+									</li>
+								</ul>
+							</div>
+							<div class="auto-card__badge-row">
+								<div class="auto-card__badge">
+									<svg width="10" height="28">
+										<use href="#auto-card-btn-arrow"></use>
+									</svg>
+									<span>Предложение дня</span>
+								</div>
+								<div class="auto-card__badge-notice">Выгода до&nbsp;300 000 ₽</div>
+							</div>
+						</div>
+						<ul class="auto-card__bonus-list">
+							<li>Оборудование <span>в подарок</span> </li>
+							<li>КАСКО <span>в подарок</span> </li>
+							<li>Комплект резины <span>в подарок</span> </li>
+						</ul>
+						<div class="auto-card__price-row">
+							<div class="auto-card__price">от 1 615 000 ₽</div>
+							<div class="auto-card__loan">Кредит <b>от&nbsp;115&nbsp;000&nbsp;₽/мес.</b></div>
+						</div>
+
+						<ul class="auto-card__params">
+							<li>
+								<img src="./img/section-stock/power.svg" alt="power-icon">
+								115 л.с.
+							</li>
+							<li>
+								<img src="./img/section-stock/fuel.svg" alt="power-icon">
+								5.3 л/км
+							</li>
+							<li>
+								<img src="./img/section-stock/speed.svg" alt="power-icon">
+								189 км/ч
+							</li>
+							<li>
+								<img src="./img/section-stock/acceleration.svg" alt="power-icon">
+								10,3 c.
+							</li>
+						</ul>
+						<div class="auto-card__buttons-row">
+							<button class="auto-card__button red" type="button">
+								<svg class="auto-card-btn-red" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
+								</svg>
+								<span>Резерв онлайн</span>
+							</button>
+							<button class="auto-card__button black" type="button">
+								<svg class="auto-card-btn-black" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
+								</svg>
+								<span>Купить</span>
+							</button>
+							<button class="auto-card__button gray" type="button">
+								<svg class="auto-card-btn-gray" width="18" height="50">
+									<use href="#auto-card-btn-arrow"></use>
+								</svg>
+								<span>Подробнее</span>
+							</button>
+						</div>
+					</div>
+					<!-- //auto-card -->
+					<!-- auto-card -->
+					<div class="auto-card">
+						<div class="auto-card__content">
+							<div class="auto-card__title-row">
+								<div class="auto-card__title">Skoda Octavia <span>1.6 MPI MT Active</span></div>
+								<ul class="auto-card__icons">
+									<li>
+										<label>
+											<input class="visually-hidden" type="checkbox">
+											<span>
+												<svg class="icon-favourite" width="26" height="23">
+													<use href="#icon-favourite"></use>
+												</svg>
+											</span>
+										</label>
+									</li>
+									<li>
+										<label>
+											<input class="visually-hidden" type="checkbox">
+											<span>
+												<svg class="icon-compare" width="19" height="23">
+													<use href="#icon-compare"></use>
+												</svg>
+											</span>
+										</label>
 									</li>
 								</ul>
 							</div>
@@ -2107,7 +2167,7 @@
 												</div>
 												<div class="single-range-input__track-wrapper">
 													<div data-name="track" class="single-range-input__track"></div>
-													<input data-name="range" type="range" min="0" max="3000000" value="0" step="10000" />
+													<input data-name="range" type="range" min="0" max="3000000" value="0" step="10000">
 												</div>
 												<ul class="single-range-input__scale">
 													<li>0</li>
@@ -2127,11 +2187,14 @@
 											<div class="single-range-input">
 												<div class="single-range-input__value-wrapper">
 													<span class="single-range-input__dimension">Срок кредита, мес.</span>
-													<span class="single-range-input__value" data-name="value">6</span>
+													<span>
+														<span class="single-range-input__value" data-name="value">6</span>
+														<span class="single-range-input__value-text">мес.</span>
+													</span>
 												</div>
 												<div class="single-range-input__track-wrapper">
 													<div data-name="track" class="single-range-input__track"></div>
-													<input data-name="range" type="range" min="6" max="84" value="6" step="1" />
+													<input data-name="range" type="range" min="6" max="84" value="6" step="1">
 												</div>
 												<ul class="single-range-input__scale">
 													<li>6</li>
@@ -2603,7 +2666,7 @@
 			</div>
 		</section>
 
-		<section class="section-map-tablet">
+		<section class="section-map-mobile">
 			<div class="container">
 				<div class="map">
 					<div class="map__frame">
@@ -2617,7 +2680,10 @@
 										<use href="#icon-phone"></use>
 									</svg>
 								</div>
-								+7 (800) 551-94-31<br>+7 (495) 292-18-67
+								<div class="map-info__phone-links">
+									<a class="phone-link" href="tel:+78005519431">+7 (800) 551-94-31</a>
+									<a class="phone-link" href="tel:+74952921867">+7 (495) 292-18-67</a>
+								</div>
 							</li>
 							<li>
 								<div class="icon-round-red-wrapper">
@@ -2708,7 +2774,10 @@
 										<use href="#icon-phone"></use>
 									</svg>
 								</div>
-								+7 (800) 551-94-31<br>+7 (495) 292-18-67
+								<div class="map-info__phone-links">
+									<a class="phone-link" href="tel:+78005519431">+7 (800) 551-94-31</a>
+									<a class="phone-link" href="tel:+74952921867">+7 (495) 292-18-67</a>
+								</div>
 							</li>
 							<li>
 								<div class="icon-round-red-wrapper">
@@ -2975,7 +3044,10 @@
 												<use href="#icon-phone"></use>
 											</svg>
 										</div>
-										+7 (800) 551-94-31<br>+7 (495) 292-18-67
+										<div class="footer-middle__phone-links">
+											<a class="phone-link" href="tel:+78005519431">+7 (800) 551-94-31</a>
+											<a class="phone-link" href="tel:+74952921867">+7 (495) 292-18-67</a>
+										</div>
 									</li>
 									<li>
 										<div class="icon-round-red-wrapper">

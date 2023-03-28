@@ -2,6 +2,7 @@
 .icon-compare {
 	fill: #FFF;
 	stroke: $gray-color;
+	stroke-width: 2;
 	cursor: pointer;
 	transition: fill .2s ease-in, stroke .2s ease-in;
 
@@ -19,6 +20,7 @@
 .icon-search {
 	fill: #FFF;
 	stroke: $gray-color;
+	stroke-width: 2;
 	transition: stroke .2s ease-in;
 
 	&:hover {

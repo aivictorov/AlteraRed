@@ -23,7 +23,8 @@
 		}
 	}
 
-	.single-range-input__value {
+	.single-range-input__value,
+	.single-range-input__value-text {
 		font-size: 36px;
 		line-height: 1.17;
 		text-align: right;
@@ -76,7 +77,7 @@
 		}
 
 		// thumb 
-		
+
 		&::-webkit-slider-thumb {
 			-webkit-appearance: none;
 			height: 14px;
