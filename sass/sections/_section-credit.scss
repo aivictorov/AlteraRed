@@ -1,5 +1,15 @@
 .section-credit {
 	padding-top: 53px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding-top: 50px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		padding-top: 40px;
+	}
 }
 
 .section-credit__bg {
@@ -10,8 +20,14 @@
 
 	/* Tablet */
 	@media (max-width: 1429px) {
-		padding-top: 35px;
+		padding-top: 38px;
 		padding-bottom: 35px;
+		border-radius: 11px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		padding-bottom: 15px;
 	}
 }
 
@@ -20,7 +36,19 @@
 
 	/* Tablet */
 	@media (max-width: 1429px) {
-		margin-bottom: 28px;
+		margin-bottom: 31px;
+
+		& .h2 {
+			font-family: 'Roboto';
+			font-weight: 900;
+			font-size: 20px;
+			line-height: 1.15;
+		}
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		margin-bottom: 23px;
 	}
 }
 

@@ -5,6 +5,11 @@
 	@media (max-width: 1429px) {
 		padding-top: 38px;
 	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		padding-top: 40px;
+	}
 }
 
 .section-collections__title {
@@ -17,7 +22,7 @@
 	/* Tablet */
 	@media (max-width: 1429px) {
 		justify-content: space-between;
-		margin-bottom: 25px;
+		margin-bottom: 24px;
 	}
 
 	/* Mobile */
@@ -26,5 +31,19 @@
 		align-items: flex-start;
 		justify-content: unset;
 		row-gap: 10px;
+		margin-bottom: 19px;
+	}
+}
+
+.section-collections__cards {
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		transform: translateX(-20px);
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		transform: translateX(-10px);
 	}
 }

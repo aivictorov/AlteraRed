@@ -36,6 +36,11 @@
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.15;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		font-size: 14px;
+	}
 }
 
 .offer-card__description {
@@ -43,10 +48,22 @@
 	font-size: 14px;
 	line-height: 1.14;
 	color: $gray-color;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		font-size: 10px;
+	}
 }
 
 .offer-card__button {
 	position: absolute;
 	left: 0;
 	bottom: 0;
+	
+	& .button.h40 {
+		/* Tablet */
+		@media (max-width: 1429px) {
+			font-size: 10px;
+		}
+	}
 }

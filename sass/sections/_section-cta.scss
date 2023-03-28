@@ -1,5 +1,15 @@
 .section-cta {
 	padding-top: 90px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding-top: 50px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		padding-top: 30px;
+	}
 }
 
 .section-cta__bg {
@@ -92,7 +102,13 @@
 
 	/* Tablet */
 	@media (max-width: 1429px) {
+		margin-bottom: 10px;
 		font-size: 24px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		margin-bottom: 20px;
 	}
 }
 
@@ -103,8 +119,14 @@
 
 	/* Tablet */
 	@media (max-width: 1429px) {
+		margin-bottom: 28px;
 		font-size: 16px;
 		line-height: 1.19;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		margin-bottom: 25px;
 	}
 
 	span {

@@ -25,6 +25,11 @@
 		height: 221px;
 	}
 
+	/* Mobile */
+	@media (max-width: 767px) {
+		height: 185px;
+	}
+
 	&::after {
 		content: "";
 		position: absolute;
@@ -57,7 +62,12 @@
 
 	/* Tablet */
 	@media (max-width: 1429px) {
-		padding: 25px 20px 20px;
+		padding: 27px 20px 20px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		padding: 22px 20px 20px;
 	}
 
 	&.active {
@@ -77,7 +87,7 @@
 
 	/* Tablet */
 	@media (max-width: 1429px) {
-		margin-bottom: 10px;
+		margin-bottom: 8px;
 		font-size: 18px;
 	}
 }
@@ -90,6 +100,7 @@
 
 	/* Tablet */
 	@media (max-width: 1429px) {
+		margin-bottom: 19px;
 		font-size: 14px;
 	}
 }

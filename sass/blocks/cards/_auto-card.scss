@@ -10,7 +10,7 @@
 
 	/* Tablet */
 	@media (max-width: 1429px) {
-		padding: 20px;
+		padding: 18px 20px 21px;
 		width: calc((708px - 14px) / 2);
 		background-size: 290px 171px;
 		background-position: top 61px right 0;
@@ -64,7 +64,7 @@
 
 	/* Tablet */
 	@media (max-width: 1429px) {
-		margin-bottom: 14px;
+		margin-bottom: 8px;
 	}
 }
 
@@ -173,7 +173,7 @@
 
 	/* Tablet */
 	@media (max-width: 1429px) {
-		max-width: 60px;
+		max-width: 65px;
 		font-size: 10px;
 		line-height: 1.2;
 	}
@@ -184,7 +184,7 @@
 
 	/* Tablet */
 	@media (max-width: 1429px) {
-		margin-bottom: 15px;
+		margin-bottom: 7px;
 	}
 
 	li {
@@ -224,6 +224,11 @@
 
 		&:not(:last-child) {
 			margin-bottom: 10px;
+
+			/* Tablet */
+			@media (max-width: 1429px) {
+				margin-bottom: 9px;
+			}
 		}
 
 		span {
@@ -238,6 +243,11 @@
 	justify-content: space-between;
 	align-items: flex-end;
 	margin-bottom: 10px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		margin-bottom: 15px;
+	}
 
 	.auto-card__price {
 		font-weight: 700;

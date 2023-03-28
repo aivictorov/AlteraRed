@@ -57,6 +57,12 @@
 	&.p20 {
 		padding-left: 22px;
 		padding-right: 22px;
+
+		/* Tablet */
+		@media (max-width: 1429px) {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
 	}
 
 	&.bg-gray {
@@ -87,6 +93,13 @@
 	color: #FFF;
 	text-align: center;
 	transition: background-color .2s ease-in;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		height: 28px;
+		font-size: 14px;
+		line-height: 28px;
+	}
 
 	&.p15 {
 		padding-left: 15px;

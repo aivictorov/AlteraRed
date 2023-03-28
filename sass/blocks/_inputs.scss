@@ -7,6 +7,11 @@
 	font-size: 16px;
 	line-height: 1.19;
 
+	/* Tablet */
+	@media (max-width: 1429px) {
+		font-size: 14px;
+	}
+
 	&:focus {
 		outline: none;
 		border: 1px solid #C2C2C4;

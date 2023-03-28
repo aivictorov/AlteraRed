@@ -2,6 +2,12 @@
 	padding-top: 33px;
 	padding-bottom: 33px;
 	background-color: #1B1B1B;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding-top: 20px;
+		padding-bottom: 28px;
+	}
 }
 
 .footer-bottom__row {
@@ -14,7 +20,7 @@
 		position: relative;
 		flex-direction: column;
 		align-items: flex-start;
-		row-gap: 20px;
+		row-gap: 25px;
 	}
 }
 
@@ -41,6 +47,7 @@
 	/* Tablet */
 	@media (max-width: 1429px) {
 		margin-bottom: 11px;
+		max-width: 270px;
 		font-size: 16px;
 		line-height: 1.5;
 	}
@@ -66,6 +73,11 @@
 	font-size: 14px;
 	line-height: 1.4;
 	color: rgba(115, 115, 115, 0.5);
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		font-size: 12px;
+	}
 
 	/* Mobile */
 	@media (max-width: 767px) {

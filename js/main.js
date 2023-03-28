@@ -231,7 +231,7 @@ function readmore() {
 		const longText = longTextBlock.innerText;
 		const shortTextBlock = card.querySelector('.review-card__text-short');
 
-		let shortText = longText.slice(0, 220);
+		let shortText = longText.slice(0, 220).trim();
 		if (shortText.length < longText.length) shortText += '...';
 		shortTextBlock.innerText = shortText;
 
@@ -359,9 +359,10 @@ function sectionBanksCarousel() {
 			responsive: {
 				0: {
 					items: 2,
+					margin: 10,
 				},
 				768: {
-					items: 3,
+					items: 4,
 					margin: 14,
 				},
 				1430: {
@@ -424,7 +425,7 @@ function sectionBlogCarousel() {
 				},
 				768: {
 					items: 2,
-					margin: 30,
+					margin: 14,
 				},
 				1430: {
 					items: 4,

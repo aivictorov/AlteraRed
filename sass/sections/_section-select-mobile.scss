@@ -4,9 +4,12 @@
 	/* Tablet */
 	@media (max-width: 1429px) {
 		display: block;
-		padding-top: 28px;
+		padding-top: 30px;
+	}
 
-
+	/* Mobile */
+	@media (max-width: 767px) {
+		padding-top: 61px;
 	}
 }
 

@@ -39,5 +39,14 @@
 		border-radius: 10px;
 		font-size: 12px;
 		outline: 3px solid #FFF;
+
+		/* Tablet */
+		@media (max-width: 1429px) {
+			top: -7px;
+			height: 11px;
+			font-size: 9px;
+			line-height: 11px;
+			outline: 2px solid #FFF;
+		}
 	}
 }

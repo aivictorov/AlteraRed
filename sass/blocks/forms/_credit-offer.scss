@@ -14,6 +14,11 @@
 		width: 100%;
 		background-color: transparent;
 	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		padding-top: 31px;
+	}
 }
 
 .credit-offer__title {
@@ -21,6 +26,17 @@
 	font-weight: 700;
 	font-size: 30px;
 	line-height: 1.13;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		margin-bottom: 17px;
+		font-size: 20px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		margin-bottom: 23px;
+	}
 
 	span {
 		display: block;
@@ -46,6 +62,10 @@
 		column-gap: 10px;
 		margin-bottom: 10px;
 
+		.credit-offer__row {
+			width: calc((100% - 20px) / 3);
+		}
+
 		.input {
 			background-color: #FFF;
 		}
@@ -60,7 +80,7 @@
 	@media (max-width: 767px) {
 		flex-direction: column;
 
-		&>.credit-offer__row{
+		&>.credit-offer__row {
 			width: 100%;
 		}
 	}
@@ -75,5 +95,6 @@
 	/* Tablet */
 	@media (max-width: 1429px) {
 		text-align: left;
+		font-size: 10px;
 	}
 }

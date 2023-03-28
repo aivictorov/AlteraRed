@@ -11,12 +11,24 @@
 	.double-range-input__dimension {
 		font-size: 16px;
 		line-height: 1.19;
+
+		/* Tablet */
+		@media (max-width: 1429px) {
+			font-size: 14px;
+			line-height: 1.14;
+		}
 	}
 
 	.double-range-input__values {
 		font-weight: 700;
 		font-size: 16px;
 		line-height: 1.19;
+
+		/* Tablet */
+		@media (max-width: 1429px) {
+			font-size: 14px;
+			line-height: 1.14;
+		}
 	}
 }
 
@@ -62,7 +74,7 @@
 		}
 
 		// thumb 
-		
+
 		&::-webkit-slider-thumb {
 			-webkit-appearance: none;
 			height: 14px;
@@ -93,11 +105,17 @@
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 9px;
-
 	font-weight: 700;
 	font-size: 11px;
 	line-height: 1.18;
 	color: #ADADB0;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		margin-top: 6px;
+		font-size: 9px;
+		line-height: 1.22;
+	}
 
 	li {
 		position: relative;
