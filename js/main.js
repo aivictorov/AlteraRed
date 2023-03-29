@@ -255,9 +255,9 @@ function readmore() {
 		longTextBlock.classList.add('none');
 
 		button.addEventListener('click', () => {
-			if (button.innerText == 'Подробнее') {
+			if (button.innerText === 'Подробнее') {
 				button.innerText = 'Свернуть';
-			} else if (button.innerText == 'Свернуть') {
+			} else if (button.innerText === 'Свернуть') {
 				button.innerText = 'Подробнее';
 			}
 			button.classList.toggle('active');
