@@ -1,3 +1,11 @@
+.link-underline {
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 .phone-link {
 	pointer-events: none;
 	cursor: default;

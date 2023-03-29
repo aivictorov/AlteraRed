@@ -1,9 +1,12 @@
+.section-slider .owl-carousel .owl-stage-outer {
+	border-radius: 25px;
+	overflow: hidden;
+}
+
 .section-slider__bg {
 	position: relative;
 	min-height: 600px;
-	background: #EFF0F0;
-	border-radius: 25px;
-	overflow: hidden;
+	background-color: #EFF0F0;
 
 	/* Tablet */
 	@media (max-width: 1429px) {
@@ -84,7 +87,7 @@
 	flex-direction: column;
 	padding-top: 81px;
 	max-width: 730px;
-	z-index: 9;
+	z-index: 99;
 
 	/* Tablet */
 	@media (max-width: 1429px) {

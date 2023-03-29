@@ -6,14 +6,15 @@
 
 // Blocks
 @import "./blocks/badges";
-@import "./blocks/icons";
+@import "./blocks/big-slider";
 @import "./blocks/brands-list";
 @import "./blocks/buttons";
 @import "./blocks/double-range";
 @import "./blocks/dropdowns";
+@import "./blocks/icons";
 @import "./blocks/inputs";
 @import "./blocks/links";
-
+@import "./blocks/owl-theme";
 @import "./blocks/play-icon";
 @import "./blocks/single-range";
 @import "./blocks/slider";
@@ -31,9 +32,9 @@
 @import "./blocks/forms/credit-calc";
 @import "./blocks/forms/credit-offer";
 
-@import "./blocks/nav/nav-icon";
-@import "./blocks/nav/desktop-nav"; 
-@import "./blocks/nav/desktop-search";
+@import "./blocks/navigation/nav-icon";
+@import "./blocks/navigation/main-menu"; 
+@import "./blocks/navigation/search-menu";
 
 @import "./blocks/popups/order-popup";
 

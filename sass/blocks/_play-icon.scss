@@ -7,4 +7,9 @@
 	height: 67px;
 	border-radius: 50%;
 	z-index: 9;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		display: none;
+	}
 }

@@ -41,10 +41,11 @@
 			height: 12px;
 			background-image: url('./../img/general/arrow-down.svg');
 			transform: translate(calc(100% + 10px), -50%);
+			transition: transform .2s ease-in;
 		}
 
 		&:hover a::after {
-			transform: translate(calc(100% + 10px), -50%) rotate(180deg);
+			transform: translate(calc(100% + 10px), -50%) scaleY(-1);
 		}
 	}
 }

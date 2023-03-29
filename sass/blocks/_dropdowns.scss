@@ -24,6 +24,7 @@
 		height: 12px;
 		background-image: url('./../img/general/arrow-down.svg');
 		transform: translate(-15px, -50%);
+		transition: transform .2s ease-in;
 	}
 
 	&--medium {
@@ -62,7 +63,8 @@
 		border: 1px solid #C2C2C4;
 
 		&::after {
-			transform: translate(-20px, -50%) rotate(180deg);
+			transform: translate(-15px, -50%) scaleY(-1);
+			transition: transform .2s ease-in;
 		}
 	}
 }

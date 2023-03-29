@@ -35,20 +35,4 @@
 	@media (max-width: 767px) {
 		transform: translateX(-10px);
 	}
-
-	&>*:not(:first-child):not(:nth-child(2)) {
-
-		/* Tablet */
-		@media (max-width: 1429px) {
-			display: none;
-		}
-	}
-
-	&>*:not(:first-child) {
-
-		/* Mobile */
-		@media (max-width: 767px) {
-			display: none;
-		}
-	}
 }

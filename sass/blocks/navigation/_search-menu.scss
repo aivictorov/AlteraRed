@@ -1,4 +1,4 @@
-.desktop-search {
+.search-menu {
 	position: absolute;
 	padding-top: 28px;
 	padding-bottom: 28px;
@@ -30,11 +30,25 @@
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		left: 14px;
+		height: 16px;
+		width: 16px;
+	}
 }
 
 .search-form__input input {
 	padding-left: 70px;
 	padding-right: 110px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding-left: 40px;
+		padding-right: 85px;
+		height: 50px;
+	}
 }
 
 .search-form__button {

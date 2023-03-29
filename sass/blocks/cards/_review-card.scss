@@ -3,7 +3,8 @@
 
 	/* Tablet */
 	@media (max-width: 1429px) {
-		width: calc((100% - 14px) / 2);
+		// width: calc((100% - 14px) / 2);
+		width: 100%;
 	}
 
 	/* Mobile */
@@ -44,6 +45,12 @@
 		background-size: contain;
 		opacity: 0.2;
 		pointer-events: none;
+
+		/* Tablet */
+		@media (max-width: 1429px) {
+			width: 82px;
+			height: 82px;
+		}
 	}
 
 	video {
