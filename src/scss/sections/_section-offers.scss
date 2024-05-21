@@ -1,0 +1,30 @@
+.section-offers {
+	padding-top: 79px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding-top: 40px;
+	}
+}
+
+.section-offers__title {
+	margin-bottom: 46px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		margin-bottom: 25px;
+	}
+}
+
+.section-offers__cards {
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		transform: translateX(-20px);
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		transform: translateX(-10px);
+	}
+}

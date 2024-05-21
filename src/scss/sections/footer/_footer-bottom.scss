@@ -1,0 +1,129 @@
+.footer-bottom__bg {
+	padding-top: 33px;
+	padding-bottom: 33px;
+	background-color: #1B1B1B;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding-top: 20px;
+		padding-bottom: 28px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		padding-bottom: 38px;
+	}
+}
+
+.footer-bottom__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		position: relative;
+		flex-direction: column;
+		align-items: flex-start;
+		row-gap: 25px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		row-gap: 20px;
+
+	}
+}
+
+.footer-bottom__copyright {
+	width: 460px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		width: 380px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		width: 100%;
+	}
+}
+
+.footer-bottom__copyright-text {
+	margin-bottom: 22px;
+	font-size: 18px;
+	line-height: 1.4;
+	color: #FFF;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		margin-bottom: 11px;
+		max-width: 270px;
+		font-size: 16px;
+		line-height: 1.5;
+	}
+}
+
+.footer-bottom__copyright-links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+	line-height: 1.4;
+	text-decoration-line: underline;
+	color: rgba(115, 115, 115, 0.5);
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		font-size: 12px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: unset;
+	}
+}
+
+.footer-bottom__notice {
+	width: 590px;
+	font-size: 14px;
+	line-height: 1.4;
+	color: rgba(115, 115, 115, 0.5);
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		font-size: 12px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		width: 100%;
+	}
+}
+
+.footer-bottom__image {
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		position: static;
+		right: unset;
+		top: unset;
+		order: -1;
+		padding-bottom: 5px;
+	}
+
+	img {
+		width: 218px;
+		height: 73px;
+		object-fit: cover;
+	}
+}

@@ -1,0 +1,62 @@
+// Base
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/mixins";
+@import "./base/base";
+
+// Blocks
+@import "./blocks/badges";
+@import "./blocks/big-slider";
+@import "./blocks/brands-list";
+@import "./blocks/buttons";
+@import "./blocks/double-range";
+@import "./blocks/dropdowns";
+@import "./blocks/icons";
+@import "./blocks/inputs";
+@import "./blocks/links";
+@import "./blocks/owl-theme";
+@import "./blocks/play-icon";
+@import "./blocks/single-range";
+@import "./blocks/slider";
+@import "./blocks/titles";
+
+@import "./blocks/cards/auto-card";
+@import "./blocks/cards/collection-card";
+@import "./blocks/cards/offer-card";
+@import "./blocks/cards/bank-card";
+@import "./blocks/cards/rating-cards";
+@import "./blocks/cards/review-card";
+@import "./blocks/cards/blog-card";
+
+@import "./blocks/forms/select-form";
+@import "./blocks/forms/credit-calc";
+@import "./blocks/forms/credit-offer";
+
+@import "./blocks/navigation/nav-icon";
+@import "./blocks/navigation/main-menu"; 
+@import "./blocks/navigation/search-menu";
+
+@import "./blocks/popups/order-popup";
+
+// Sections
+@import "./sections/header/header-top";
+@import "./sections/header/header-middle";
+@import "./sections/header/header-bottom";
+@import "./sections/section-slider";
+@import "./sections/section-select";
+@import "./sections/section-select-mobile";
+@import "./sections/section-stock";
+@import "./sections/section-collections";
+@import "./sections/section-cta";
+@import "./sections/section-offers";
+@import "./sections/section-credit";
+@import "./sections/section-banks";
+@import "./sections/section-ratings";
+@import "./sections/section-reviews";
+@import "./sections/section-about";
+@import "./sections/section-blog";
+@import "./sections/section-tabs";
+@import "./sections/section-map";
+@import "./sections/footer/footer-top";
+@import "./sections/footer/footer-middle";
+@import "./sections/footer/footer-bottom";

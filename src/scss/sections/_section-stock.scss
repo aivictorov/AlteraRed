@@ -1,0 +1,50 @@
+.section-stock {
+	padding-top: 55px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding-top: 40px;
+	}
+}
+
+.section-stock__title {
+	margin-bottom: 52px;
+	text-align: center;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		margin-bottom: 25px;
+		text-align: left;
+	}
+}
+
+.section-stock__cards {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 30px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		column-gap: 14px;
+		row-gap: 14px;
+		transform: translateX(-20px);
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		transform: translateX(-10px);
+	}
+}
+
+.section-stock__button {
+	width: 312px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		display: none;	
+	}
+}

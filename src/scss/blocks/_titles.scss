@@ -1,0 +1,45 @@
+.h1 {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 1.17;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		font-size: 36px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		font-size: 30px;
+	}
+}
+
+.h2 {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.18;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		font-size: 30px;
+		line-height: 1.17;
+	}
+}
+
+.h3 {
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 1.17;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		font-size: 20px;
+		line-height: 1.15;
+	}
+}
+
+.popup-title {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.15;
+}

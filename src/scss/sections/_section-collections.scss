@@ -1,0 +1,49 @@
+.section-collections {
+	padding-top: 72px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding-top: 38px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		padding-top: 40px;
+	}
+}
+
+.section-collections__title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	column-gap: 24px;
+	margin-bottom: 47px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		justify-content: space-between;
+		margin-bottom: 24px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: unset;
+		row-gap: 10px;
+		margin-bottom: 19px;
+	}
+}
+
+.section-collections__cards {
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		transform: translateX(-20px);
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		transform: translateX(-10px);
+	}
+}

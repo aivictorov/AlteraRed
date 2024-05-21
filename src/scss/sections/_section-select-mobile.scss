@@ -1,0 +1,43 @@
+.section-select-mobile {
+	display: none;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		display: block;
+		padding-top: 30px;
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		padding-top: 25px;
+	}
+}
+
+.section-select-mobile__brands-list {
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		.brands-list {
+			column-gap: 4px;
+		}
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		.brands-list {
+			column-gap: 10px;
+			row-gap: 0;
+			font-size: 14px;
+			line-height: 220%;
+			text-decoration-line: underline;
+			
+			li {
+				width: calc((100% - 2 * 10px) / 3);
+			}
+
+			li a span {
+				display: none;
+			}
+		}
+	}
+}

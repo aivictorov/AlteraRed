@@ -1,0 +1,38 @@
+.input {
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 65px;
+	border: 1px solid #EFF0F0;
+	background-color: #FFF;
+	border-radius: 6px;
+	font-size: 16px;
+	line-height: 1.19;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		font-size: 14px;
+	}
+
+	&:focus {
+		outline: none;
+		border: 1px solid #C2C2C4;
+	}
+
+	&.h50 {
+		height: 50px;
+		border-radius: 5px;
+	}
+
+	&.bg-gray {
+		border: 1px solid #E1E1E1;
+		background-color: #EFF0F0;
+
+		&:focus {
+			border: 1px solid #CA0100;
+		}
+	}
+
+	&.wmax {
+		width: 100%;
+	}
+}

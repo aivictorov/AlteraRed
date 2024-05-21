@@ -1,0 +1,30 @@
+.section-banks {
+	padding-top: 72px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		padding-top: 40px;
+	}
+}
+
+.section-banks__title {
+	margin-bottom: 45px;
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		margin-bottom: 24px;
+	}
+}
+
+.section-banks__slider {
+
+	/* Tablet */
+	@media (max-width: 1429px) {
+		transform: translateX(-20px);
+	}
+
+	/* Mobile */
+	@media (max-width: 767px) {
+		transform: translateX(-10px);
+	}
+}
