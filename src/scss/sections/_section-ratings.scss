@@ -19,6 +19,16 @@
 .section-ratings__site-cards {
 	margin-bottom: 54px;
 
+	& .owl-stage-outer {
+		& .owl-item {
+			opacity: 0;
+		}
+
+		& .owl-item.active {
+			opacity: 1;
+		}
+	}
+
 	/* Tablet */
 	@media (max-width: 1429px) {
 		margin-bottom: 20px;
